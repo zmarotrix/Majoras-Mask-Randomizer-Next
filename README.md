@@ -11,6 +11,9 @@ never uploaded anywhere: in the browser version too, it stays on your device.
 
 <img width="1182" height="932" alt="image" src="https://github.com/user-attachments/assets/57587755-1348-433f-a225-d6c784517611" />
 
+<img width="1182" height="932" alt="image" src="https://github.com/user-attachments/assets/63e714d1-af21-480c-800a-1688a5dfa1dc" />
+
+
 ## What you get with each seed
 
 - **The randomized ROM**, or a small **patch** (`.mmrn`) others can apply to
