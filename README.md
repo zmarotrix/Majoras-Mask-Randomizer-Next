@@ -13,6 +13,7 @@ never uploaded anywhere: in the browser version too, it stays on your device.
 
 <img width="1182" height="932" alt="image" src="https://github.com/user-attachments/assets/63e714d1-af21-480c-800a-1688a5dfa1dc" />
 
+This project was assisted by Claude Code. 
 
 ## What you get with each seed
 
