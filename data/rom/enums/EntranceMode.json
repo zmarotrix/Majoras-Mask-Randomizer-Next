@@ -1,0 +1,7 @@
+[
+{"name":"Default","value":0,"attributes":[]},
+{"name":"DungeonEntrances","value":1,"attributes":[{"type":"Description","args":["Enable randomization of dungeon entrances. \n\nStone Tower Temple is always vanilla, but Inverted Stone Tower Temple is randomized."],"values":{"Description":"Enable randomization of dungeon entrances. \n\nStone Tower Temple is always vanilla, but Inverted Stone Tower Temple is randomized."}}]},
+{"name":"BossRooms","value":2,"attributes":[{"type":"Description","args":["Enable randomization of boss rooms. The boss door texture will match the boss behind the door."],"values":{"Description":"Enable randomization of boss rooms. The boss door texture will match the boss behind the door."}}]},
+{"name":"Grottos","value":4,"attributes":[{"type":"EntranceType","args":["Grotto",[]],"values":{"AdditionalTypes":[],"Type":"Grotto"}},{"type":"Description","args":["Enable randomization of grottos. North Clock Town grotto and Deku Palace grotto will never be generic grottos or cow grottos."],"values":{"Description":"Enable randomization of grottos. North Clock Town grotto and Deku Palace grotto will never be generic grottos or cow grottos."}}]},
+{"name":"SimpleInteriors","value":8,"attributes":[{"type":"EntranceType","args":["Interior",[]],"values":{"AdditionalTypes":[],"Type":"Interior"}},{"type":"Description","args":["Enable randomization of simple interiors."],"values":{"Description":"Enable randomization of simple interiors."}}]}
+]

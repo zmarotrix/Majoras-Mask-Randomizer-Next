@@ -1,0 +1,10 @@
+[package]
+name = "mmr-data"
+description = "Static game data for the Majora's Mask Randomizer (items, regions, categories, bundled logic)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true

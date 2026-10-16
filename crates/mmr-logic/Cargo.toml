@@ -1,0 +1,16 @@
+[package]
+name = "mmr-logic"
+description = "Logic files for the Majora's Mask Randomizer: format, legacy conversion, validation and evaluation."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+mmr-data.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+indexmap.workspace = true
+
+[dev-dependencies]
+mmr-settings.workspace = true

@@ -1,0 +1,8 @@
+[
+{"name":"None","value":0,"attributes":[]},
+{"name":"Purchases","value":1,"attributes":[{"type":"Description","args":["Prices for item purchases will be randomized."],"values":{"Description":"Prices for item purchases will be randomized."}}]},
+{"name":"Minigames","value":2,"attributes":[{"type":"Description","args":["Prices for minigames will be randomized."],"values":{"Description":"Prices for minigames will be randomized."}}]},
+{"name":"Misc","value":4,"attributes":[{"type":"Description","args":["Prices for other miscellaneous spending will be randomized."],"values":{"Description":"Prices for other miscellaneous spending will be randomized."}}]},
+{"name":"AccountForRoyalWallet","value":8,"attributes":[{"type":"Description","args":["Price randomization will range from 1-999 instead of 1-500. Any shuffled or non-randomized price will double."],"values":{"Description":"Price randomization will range from 1-999 instead of 1-500. Any shuffled or non-randomized price will double."}}]},
+{"name":"ShuffleOnly","value":16,"attributes":[{"type":"Description","args":["Prices will only be shuffled among each other. Must enable Puchases, Minigames or Misc for this setting to have any effect."],"values":{"Description":"Prices will only be shuffled among each other. Must enable Puchases, Minigames or Misc for this setting to have any effect."}}]}
+]

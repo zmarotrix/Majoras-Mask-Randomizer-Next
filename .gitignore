@@ -1,0 +1,13 @@
+/target
+node_modules/
+/app/dist
+/app/src-tauri/target
+/app/src-tauri/gen
+*.z64
+*.n64
+*.v64
+/app/public/preview-data.json
+tools/legacy-harness/bin/
+tools/legacy-harness/obj/
+/app/public/mmr.wasm
+/releases

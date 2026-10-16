@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+members = ["crates/*", "app/src-tauri"]
+default-members = ["crates/*"]
+
+[workspace.package]
+version = "3.0.0-alpha.1"
+edition = "2021"
+license = "GPL-3.0-only"
+repository = "https://github.com/zmarotrix/Majoras-Mask-Randomizer-Next"
+
+[workspace.dependencies]
+mmr-data = { path = "crates/mmr-data" }
+mmr-logic = { path = "crates/mmr-logic" }
+mmr-settings = { path = "crates/mmr-settings" }
+mmr-rom = { path = "crates/mmr-rom" }
+mmr-build = { path = "crates/mmr-build" }
+mmr-randomizer = { path = "crates/mmr-randomizer" }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+thiserror = "2"
+indexmap = { version = "2", features = ["serde"] }

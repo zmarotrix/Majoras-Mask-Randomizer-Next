@@ -1,0 +1,7 @@
+[
+{"name":"Human","value":0,"attributes":[{"type":"Id","args":[4],"values":{"Id":4}},{"type":"DefaultInstrument","args":["Ocarina"],"values":{"Default":"Ocarina"}}]},
+{"name":"Deku","value":1,"attributes":[{"type":"DefaultInstrument","args":["DekuPipes"],"values":{"Default":"DekuPipes"}},{"type":"Id","args":[3],"values":{"Id":3}}]},
+{"name":"Goron","value":2,"attributes":[{"type":"DefaultInstrument","args":["Drums"],"values":{"Default":"Drums"}},{"type":"Id","args":[1],"values":{"Id":1}}]},
+{"name":"Zora","value":3,"attributes":[{"type":"DefaultInstrument","args":["Guitar"],"values":{"Default":"Guitar"}},{"type":"Id","args":[2],"values":{"Id":2}}]},
+{"name":"FierceDeity","value":4,"attributes":[{"type":"Id","args":[0],"values":{"Id":0}}]}
+]

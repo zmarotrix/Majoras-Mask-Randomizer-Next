@@ -1,0 +1,17 @@
+[
+{"name":"Default","value":0,"attributes":[]},
+{"name":"Disabled","value":1,"attributes":[]},
+{"name":"Random","value":2,"attributes":[]},
+{"name":"CuccoChicks","value":3,"attributes":[{"type":"Value","args":["LittleChickChirp"],"values":{"Value":"LittleChickChirp"}}]},
+{"name":"CuccoClucking","value":4,"attributes":[{"type":"Value","args":["CuccoClucking"],"values":{"Value":"CuccoClucking"}}]},
+{"name":"LinkPanting","value":5,"attributes":[{"type":"Value","args":["ChildLinkPantLowHealth"],"values":{"Value":"ChildLinkPantLowHealth"}}]},
+{"name":"DogBark","value":6,"attributes":[{"type":"Value","args":["DogBark"],"values":{"Value":"DogBark"}}]},
+{"name":"SilverRupee","value":7,"attributes":[{"type":"Value","args":["SilverRupeeGet"],"values":{"Value":"SilverRupeeGet"}}]},
+{"name":"TatlDash","value":8,"attributes":[{"type":"Value","args":["TatlDashNormal"],"values":{"Value":"TatlDashNormal"}}]},
+{"name":"TatlMessage","value":9,"attributes":[{"type":"Value","args":["TatlMessage"],"values":{"Value":"TatlMessage"}}]},
+{"name":"MikauBaby","value":10,"attributes":[{"type":"Value","args":["MikauBaybee"],"values":{"Value":"MikauBaybee"}}]},
+{"name":"CowMooing","value":11,"attributes":[{"type":"Value","args":["CowMoo"],"values":{"Value":"CowMoo"}}]},
+{"name":"LadderWarp","value":12,"attributes":[{"type":"Value","args":["SecretLadderAppears"],"values":{"Value":"SecretLadderAppears"}}]},
+{"name":"AmusedFather","value":13,"attributes":[{"type":"Value","args":["SwampTouristProprietorHehHeh"],"values":{"Value":"SwampTouristProprietorHehHeh"}}]},
+{"name":"TingleChuckle","value":14,"attributes":[{"type":"Value","args":["TingleChuckle"],"values":{"Value":"TingleChuckle"}}]}
+]

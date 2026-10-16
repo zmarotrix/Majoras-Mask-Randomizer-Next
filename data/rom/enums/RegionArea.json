@@ -1,0 +1,9 @@
+[
+{"name":"None","value":0,"attributes":[]},
+{"name":"Town","value":1,"attributes":[{"type":"RegionName","args":["town","in"],"values":{"Name":"town","Prepositsion":"in"}}]},
+{"name":"Swamp","value":2,"attributes":[{"type":"RegionName","args":["the swamp","in"],"values":{"Name":"the swamp","Prepositsion":"in"}}]},
+{"name":"Mountain","value":3,"attributes":[{"type":"RegionName","args":["the mountains","in"],"values":{"Name":"the mountains","Prepositsion":"in"}}]},
+{"name":"Ranch","value":4,"attributes":[{"type":"RegionName","args":["the ranch","in"],"values":{"Name":"the ranch","Prepositsion":"in"}}]},
+{"name":"Ocean","value":5,"attributes":[{"type":"RegionName","args":["the ocean","in"],"values":{"Name":"the ocean","Prepositsion":"in"}}]},
+{"name":"Canyon","value":6,"attributes":[{"type":"RegionName","args":["the canyon","in"],"values":{"Name":"the canyon","Prepositsion":"in"}}]}
+]

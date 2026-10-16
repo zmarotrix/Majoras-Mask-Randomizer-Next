@@ -1,0 +1,23 @@
+[package]
+name = "mmr-build"
+description = "Builds the randomized Majora's Mask ROM from a placement and settings."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+mmr-rom.workspace = true
+mmr-data.workspace = true
+mmr-logic.workspace = true
+mmr-settings.workspace = true
+mmr-randomizer.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+indexmap.workspace = true
+# The asm payload is gzipped; pure Rust, so it works in the browser too.
+sha2 = "0.10"
+md-5 = "0.10"
+flate2 = { version = "1", default-features = false, features = ["rust_backend"] }
+
+[dev-dependencies]

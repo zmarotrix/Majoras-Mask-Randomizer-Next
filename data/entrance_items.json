@@ -1,0 +1,757 @@
+[
+ {
+  "id": "AreaWoodFallTempleAccess",
+  "type": "Dungeon",
+  "additional_types": [],
+  "entrance": "EntranceWoodfallTempleFromWoodfall",
+  "pair": "EntranceWoodfallFromWoodfallTempleEntrance",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "AreaWoodFallTempleClear",
+  "type": "DungeonExit",
+  "additional_types": [],
+  "entrance": "EntranceWoodfallTemplePrisonFromOdolwasLair",
+  "pair": null,
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "AreaSnowheadTempleAccess",
+  "type": "Dungeon",
+  "additional_types": [],
+  "entrance": "EntranceSnowheadTempleFromSnowhead",
+  "pair": "EntranceSnowheadFromSnowheadTemple",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "AreaSnowheadTempleClear",
+  "type": "DungeonExit",
+  "additional_types": [],
+  "entrance": "EntranceMountainVillageFromSnowheadClear",
+  "pair": null,
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "AreaGreatBayTempleAccess",
+  "type": "Dungeon",
+  "additional_types": [],
+  "entrance": "EntranceGreatBayTempleFromZoraCape",
+  "pair": "EntranceZoraCapeFromGreatBayTemple",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "AreaGreatBayTempleClear",
+  "type": "DungeonExit",
+  "additional_types": [],
+  "entrance": "EntranceZoraCapeFromGreatBayTempleClear",
+  "pair": null,
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "AreaInvertedStoneTowerTempleAccess",
+  "type": "Dungeon",
+  "additional_types": [],
+  "entrance": "EntranceStoneTowerTempleInvertedFromStoneTowerInverted",
+  "pair": "EntranceStoneTowerInvertedFromStoneTowerTempleInverted",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "AreaStoneTowerClear",
+  "type": "DungeonExit",
+  "additional_types": [],
+  "entrance": "EntranceIkanaCanyonFromIkanaClear",
+  "pair": null,
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "AreaOdolwasLair",
+  "type": "Boss",
+  "additional_types": [],
+  "entrance": "EntranceOdolwasLairFromWoodfallTemple",
+  "pair": null,
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "AreaGohtsLair",
+  "type": "Boss",
+  "additional_types": [],
+  "entrance": "EntranceGohtsLairFromSnowheadTemple",
+  "pair": null,
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "AreaGyorgsLair",
+  "type": "Boss",
+  "additional_types": [],
+  "entrance": "EntranceGyorgsLairFromGreatBayTemple",
+  "pair": null,
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "AreaTwinmoldsLair",
+  "type": "Boss",
+  "additional_types": [],
+  "entrance": "EntranceTwinmoldsLairFromStoneTowerTempleInverted",
+  "pair": null,
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "GrottoGossipOcean",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGossipOcean",
+  "pair": "EntranceTerminaFieldFromGrottoGossipOcean",
+  "has_spawn": true,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGossipSwamp",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGossipSwamp",
+  "pair": "EntranceTerminaFieldFromGrottoGossipSwamp",
+  "has_spawn": true,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGossipCanyon",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGossipCanyon",
+  "pair": "EntranceTerminaFieldFromGrottoGossipCanyon",
+  "has_spawn": true,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGossipMountain",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGossipMountain",
+  "pair": "EntranceTerminaFieldFromGrottoGossipMountain",
+  "has_spawn": true,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGenericGreatBayCoast",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGenericGreatBayCoast",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGenericMountainVillageSpring",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGenericMountainVillageSpring",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGenericSouthernSwamp",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGenericSouthernSwamp",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGenericRoadToSwamp",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGenericRoadToSwamp",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGenericTerminaFieldGrass",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGenericTerminaFieldGrass",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGenericIkanaCanyon",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGenericIkanaCanyon",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGenericWoodsOfMystery",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGenericWoodsOfMystery",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGenericZoraCape",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGenericZoraCape",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGenericRoadToIkana",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGenericRoadToIkana",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGenericTerminaFieldPillar",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGenericTerminaFieldPillar",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGenericIkanaGraveyard",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGenericIkanaGraveyard",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGenericPathToSnowhead",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGenericPathToSnowhead",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoGenericTwinIslands",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoGenericTwinIslands",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoHotSpring",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoHotSpring",
+  "pair": "EntranceTwinIslandsFromGrottoHotSpring",
+  "has_spawn": true,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoDodongo",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoDodongo",
+  "pair": "EntranceTerminaFieldFromGrottoDodongo",
+  "has_spawn": true,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoDekuMerchant",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoDekuMerchant",
+  "pair": "EntranceTerminaFieldFromGrottoDekuMerchant",
+  "has_spawn": true,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoCowGreatBayCoast",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoCowGreatBayCoast",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoCowTerminaField",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoCowTerminaField",
+  "pair": "EntranceGrottoReturn",
+  "has_spawn": false,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoBioBaba",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoBioBaba",
+  "pair": "EntranceTerminaFieldFromGrottoBioBaba",
+  "has_spawn": true,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoBeanSeller",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoBeanSeller",
+  "pair": "EntranceDekuPalaceFromBeanSellerGrotto",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "GrottoPeahat",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoPeahat",
+  "pair": "EntranceTerminaFieldFromGrottoPeahat",
+  "has_spawn": true,
+  "has_exit_actor": true
+ },
+ {
+  "id": "GrottoDekuPlayground",
+  "type": "Grotto",
+  "additional_types": [],
+  "entrance": "EntranceGrottoDekuPlayground",
+  "pair": "EntranceNorthClockTownFromDekuPlayground",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorMayorsResidence",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceMayorsResidenceFromEastClockTown",
+  "pair": "EntranceEastClockTownFromMayorsResidence",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorPotionShop",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceMagicHagsPotionShopFromSouthernSwamp",
+  "pair": "EntranceSouthernSwampFromMagicHagsPotionShop",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorRanchBarn",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceRanchBarnFromRomaniRanch",
+  "pair": "EntranceRomaniRanchFromBarn",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorRanchHouse",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceRanchHouseFromRomaniRanch",
+  "pair": "EntranceRomaniRanchFromRanchHouse",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorHoneyAndDarling",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceHoneyDarlingsShopFromEastClockTown",
+  "pair": "EntranceEastClockTownFromHoneyDarlingsShop",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorCuriosityShop",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceCuriosityShopFromWestClockTown",
+  "pair": "EntranceWestClockTownFromCuriosityShop",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorMilkBar",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceMilkBarFromEastClockTown",
+  "pair": "EntranceEastClockTownFromMilkBar",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorTreasureChestShop",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceTreasureChestShopFromEastClockTown",
+  "pair": "EntranceEastClockTownFromTreasureChestShop",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorTownShootingGallery",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceTownShootingGalleryFromEastClockTown",
+  "pair": "EntranceEastClockTownFromShootingGalleryClockTown",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorSwampShootingGallery",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceSwampShootingGalleryFromRoadtoSouthernSwamp",
+  "pair": "EntranceRoadtoSouthernSwampFromSwampShootingGallery",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorMountainSmithy",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceMountainSmithyFromMountainVillage",
+  "pair": "EntranceMountainVillageFromMountainSmithy",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorPostOffice",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntrancePostOfficeFromWestClockTown",
+  "pair": "EntranceWestClockTownFromPostOffice",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorMarineResearchLab",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceMarineResearchLabFromGreatBayCoast",
+  "pair": "EntranceGreatBayCoastFromMarineResearchLab",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorTradingPost",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceTradingPostFromWestClockTown",
+  "pair": "EntranceWestClockTownFromTradingPost",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorLotteryShop",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceLotteryShopFromWestClockTown",
+  "pair": "EntranceWestClockTownFromLotteryShop",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorDoggyRacetrack",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceDoggyRacetrackFromRomaniRanch",
+  "pair": "EntranceRomaniRanchFromDoggyRacetrack",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorCuccoShack",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceCuccoShackFromRomaniRanch",
+  "pair": "EntranceRomaniRanchFromCuccoShack",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorMikauTijoRoom",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceZoraHallRoomsMikauTijosRoomFromZoraHall",
+  "pair": "EntranceZoraHallFromMikauTijosRoom",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorJapasRoom",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceZoraHallRoomsJapasRoomFromZoraHall",
+  "pair": "EntranceZoraHallFromJapasRoom",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorLuluRoom",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceZoraHallRoomsLulusRoomFromZoraHall",
+  "pair": "EntranceZoraHallFromLulusRoom",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorEvanRoom",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceZoraHallRoomsEvansRoomFromZoraHall",
+  "pair": "EntranceZoraHallFromEvansRoom",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorZoraShop",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceZoraHallRoomsZoraShopFromZoraHall",
+  "pair": "EntranceZoraHallFromZoraShop",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorSwordsmanSchool",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceSwordsmansSchoolFromWestClockTown",
+  "pair": "EntranceWestClockTownFromSwordsmansSchool",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorMusicBoxHouse",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceMusicBoxHouseFromIkanaCanyon",
+  "pair": "EntranceIkanaCanyonFromMusicBoxHouse",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorBombShop",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceBombShopFromWestClockTown",
+  "pair": "EntranceWestClockTownFromBombShop",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorLensCave",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceGrottoLensCaveFromGoronVillage",
+  "pair": "EntranceGoronVillageFromLensCave",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorIkanaPoolCave",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceSpringWaterCaveFromIkanaCanyon",
+  "pair": "EntranceIkanaCanyonFromSpringWaterCave",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorPinnacleRock",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntrancePinnacleRockFromGreatBayCoast",
+  "pair": "EntranceGreatBayCoastFromPinnacleRock",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorFairyFountainTown",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceFairysFountainFromNorthClockTown",
+  "pair": "EntranceNorthClockTownFromFairysFountain",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorFairyFountainWoodfall",
+  "type": "Interior",
+  "additional_types": [
+   "FairyFountain"
+  ],
+  "entrance": "EntranceFairysFountainFromWoodfall",
+  "pair": "EntranceWoodfallFromFairysFountain",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorFairyFountainSnowhead",
+  "type": "Interior",
+  "additional_types": [
+   "FairyFountain"
+  ],
+  "entrance": "EntranceFairysFountainFromSnowhead",
+  "pair": "EntranceSnowheadFromFairysFountain",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorFairyFountainZoraCape",
+  "type": "Interior",
+  "additional_types": [
+   "FairyFountain"
+  ],
+  "entrance": "EntranceFairysFountainFromZoraCape",
+  "pair": "EntranceZoraCapeFromFairysFountain",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorFairyFountainIkanaCanyon",
+  "type": "Interior",
+  "additional_types": [
+   "FairyFountain"
+  ],
+  "entrance": "EntranceFairysFountainFromIkanaCanyon",
+  "pair": "EntranceIkanaCanyonFromFairysFountain",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorFishermanHut",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceFishermansHutFromGreatBayCoast",
+  "pair": "EntranceGreatBayCoastFromFishermansHut",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorGoronShop",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceGoronShopFromGoronVillage",
+  "pair": "EntranceGoronShrineFromGoronShop",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorWaterfallRapids",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceWaterfallRapidsFromZoraCape",
+  "pair": "EntranceZoraCapeFromWaterfallRapids",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorGoronGraveyard",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceGoronGraveyardFromMountainVillage",
+  "pair": "EntranceMountainVillageFromGoronGraveyard",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorPoeHut",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntrancePoeHutFromIkanaCanyon",
+  "pair": "EntranceIkanaCanyonFromPoeHut",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorDekuShrine",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceDekuShrineFromDekuPalace",
+  "pair": "EntranceDekuPalaceFromDekuShrine",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorSecretShrine",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceSecretShrineFromIkanaCanyon",
+  "pair": "EntranceIkanaCanyonFromSecretShrine",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorWoodsOfMystery",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceWoodsofMysteryFromSouthernSwamp",
+  "pair": "EntranceSouthernSwampFromWoodsofMystery",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorGoronRacetrack",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceGoronRacetrackFromPathtoGoronVillage",
+  "pair": "EntrancePathtoGoronVillageFromGoronRacetrack",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorStoneTowerTemple",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceStoneTowerTempleFromStoneTower",
+  "pair": "EntranceStoneTowerFromStoneTowerTemple",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorSwampSpiderHouse",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceSwampSpiderHouseFromSouthernSwamp",
+  "pair": "EntranceSouthernSwampFromSwampSpiderHouse",
+  "has_spawn": true,
+  "has_exit_actor": false
+ },
+ {
+  "id": "InteriorOceanSpiderHouse",
+  "type": "Interior",
+  "additional_types": [],
+  "entrance": "EntranceOceansideSpiderHouseFromGreatBayCoast",
+  "pair": "EntranceGreatBayCoastFromOceansideSpiderHouse",
+  "has_spawn": true,
+  "has_exit_actor": false
+ }
+]

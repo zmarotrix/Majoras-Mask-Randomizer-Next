@@ -1,0 +1,8 @@
+[
+{"name":"Default","value":0,"attributes":[]},
+{"name":"Fire","value":1,"attributes":[]},
+{"name":"Ice","value":2,"attributes":[]},
+{"name":"Shock","value":3,"attributes":[]},
+{"name":"Knockdown","value":4,"attributes":[]},
+{"name":"Random","value":5,"attributes":[]}
+]

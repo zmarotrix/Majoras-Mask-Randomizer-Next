@@ -1,0 +1,8 @@
+[
+{"name":"Default","value":0,"attributes":[]},
+{"name":"VerySlow","value":1,"attributes":[]},
+{"name":"Slow","value":2,"attributes":[]},
+{"name":"Fast","value":3,"attributes":[]},
+{"name":"VeryFast","value":4,"attributes":[]},
+{"name":"SuperFast","value":5,"attributes":[]}
+]

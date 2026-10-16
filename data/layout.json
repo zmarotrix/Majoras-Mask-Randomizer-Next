@@ -1,0 +1,720 @@
+{
+ "sections": [
+  {
+   "id": "quick",
+   "label": "Quick setup",
+   "icon": "star",
+   "description": "A few questions to get you playing. Everything can be fine-tuned later.",
+   "groups": []
+  },
+  {
+   "id": "logic",
+   "label": "Logic and tricks",
+   "icon": "branch",
+   "description": "What the randomizer assumes you can do, and how it places items.",
+   "groups": [
+    {
+     "id": "logic",
+     "title": "Logic",
+     "icon": "branch",
+     "description": "Rules that guarantee every seed can be finished.",
+     "settings": [
+      "LogicMode",
+      "EnabledTricks",
+      "UserLogicFileName"
+     ]
+    },
+    {
+     "id": "placement",
+     "title": "Placement",
+     "icon": "dice",
+     "description": "How items are spread around the world.",
+     "settings": [
+      "ItemPlacement"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "items",
+   "label": "Item pool",
+   "icon": "chest",
+   "description": "Which checks are shuffled, which can only hold junk, and what you start with.",
+   "groups": [
+    {
+     "id": "pool-rules",
+     "title": "Pool rules",
+     "icon": "sliders",
+     "description": "General rules for the shuffled items.",
+     "settings": [
+      "AddSongs",
+      "StartingItemMode",
+      "RandomStartingItemGroups"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dungeons",
+   "label": "Dungeons",
+   "icon": "crown",
+   "description": "Keys, stray fairies, boss remains, maps and compasses.",
+   "groups": [
+    {
+     "id": "keys",
+     "title": "Keys",
+     "icon": "chest",
+     "description": "Where small keys and boss keys can be, and whether you need them.",
+     "settings": [
+      "SmallKeyMode",
+      "BossKeyMode"
+     ]
+    },
+    {
+     "id": "fairies",
+     "title": "Stray fairies",
+     "icon": "sparkles",
+     "description": "The 15 fairies hidden in each temple.",
+     "settings": [
+      "StrayFairyMode"
+     ]
+    },
+    {
+     "id": "remains",
+     "title": "Boss remains",
+     "icon": "crown",
+     "description": "The masks you get from defeating temple bosses.",
+     "settings": [
+      "BossRemainsMode",
+      "RequiredBossRemains"
+     ]
+    },
+    {
+     "id": "navigation",
+     "title": "Maps and compasses",
+     "icon": "map",
+     "description": "Where they can be found and what they reveal.",
+     "settings": [
+      "DungeonNavigationMode"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "World",
+   "icon": "map",
+   "description": "Your goal, entrances, enemies, prices and requests.",
+   "groups": [
+    {
+     "id": "goal",
+     "title": "Goal",
+     "icon": "flag",
+     "description": "What you need to do to finish the game.",
+     "settings": [
+      "VictoryMode"
+     ]
+    },
+    {
+     "id": "entrances",
+     "title": "Entrances",
+     "icon": "arrow-right",
+     "description": "Shuffle where doors and entrances lead.",
+     "settings": [
+      "EntranceMode"
+     ]
+    },
+    {
+     "id": "enemies",
+     "title": "Enemies",
+     "icon": "sword",
+     "description": "Shuffle which enemies appear where.",
+     "settings": [
+      "EnemyMode"
+     ]
+    },
+    {
+     "id": "prices",
+     "title": "Prices",
+     "icon": "shop",
+     "description": "What shops, minigames and other services cost.",
+     "settings": [
+      "PriceMode"
+     ]
+    },
+    {
+     "id": "requests",
+     "title": "Requests",
+     "icon": "user",
+     "description": "What characters ask you to bring them.",
+     "settings": [
+      "RandomizeGibdoRequirements",
+      "RequiredZoraEggs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hints",
+   "label": "Hints",
+   "icon": "info",
+   "description": "Gossip stones, Garos and other in-game hints.",
+   "groups": [
+    {
+     "id": "gossip",
+     "title": "Gossip stones",
+     "icon": "info",
+     "description": "Stones that tell you about the seed.",
+     "settings": [
+      "GossipHintStyle",
+      "ClearHints",
+      "FreeHints",
+      "TolerantGossipStones",
+      "ImportanceCount"
+     ],
+     "more": {
+      "label": "Hint counts",
+      "settings": [
+       "OverrideNumberOfRequiredGossipHints",
+       "OverrideNumberOfNonRequiredGossipHints",
+       "OverrideMaxNumberOfClockTownGossipHints"
+      ]
+     }
+    },
+    {
+     "id": "garo",
+     "title": "Garos",
+     "icon": "sword",
+     "description": "Defeated Garos tell you about the seed.",
+     "settings": [
+      "GaroHintStyle",
+      "ClearGaroHints",
+      "FreeGaroHints",
+      "ImportanceCountGaro",
+      "MixGossipAndGaroHints"
+     ],
+     "more": {
+      "label": "Hint counts",
+      "settings": [
+       "OverrideNumberOfRequiredGaroHints",
+       "OverrideNumberOfNonRequiredGaroHints",
+       "OverrideMaxNumberOfClockTownGaroHints"
+      ]
+     }
+    },
+    {
+     "id": "other-hints",
+     "title": "Other hints",
+     "icon": "user",
+     "description": "Characters who point you in the right direction.",
+     "settings": [
+      "HintsIndicateImportance",
+      "OathHint",
+      "RemainsHint",
+      "FairyAndSkullHint",
+      "UpdateNPCText"
+     ]
+    },
+    {
+     "id": "hint-tuning",
+     "title": "Hint tuning",
+     "icon": "sliders",
+     "description": "Fine control over which locations get hinted.",
+     "settings": [
+      "OverrideHintPriorities",
+      "OverrideHintItemCaps",
+      "OverrideImportanceIndicatorTiers"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gameplay",
+   "label": "Gameplay changes",
+   "icon": "gamepad",
+   "description": "Changes that make the game harder or stranger.",
+   "groups": [
+    {
+     "id": "difficulty",
+     "title": "Difficulty",
+     "icon": "sword",
+     "description": "How punishing the game is.",
+     "settings": [
+      "DamageMode",
+      "DamageEffect",
+      "DeathMode",
+      "FewerHealthDrops"
+     ],
+     "more": {
+      "label": "More ways to get hurt",
+      "settings": [
+       "TakeDamageOnEpona",
+       "TakeDamageWhileShielding",
+       "TakeDamageFromVoid",
+       "TakeDamageFromDog",
+       "TakeDamageFromGorons",
+       "TakeDamageGettingCaught",
+       "TakeDamageFromGibdosFaster",
+       "TakeDamageFromDexihands"
+      ]
+     }
+    },
+    {
+     "id": "movement",
+     "title": "Movement",
+     "icon": "arrow-right",
+     "description": "How Link gets around.",
+     "settings": [
+      "MovementMode",
+      "FloorType",
+      "ClimbMostSurfaces",
+      "HookshotAnySurface",
+      "IronGoron",
+      "ContinuousDekuHopping",
+      "InstantTransform"
+     ]
+    },
+    {
+     "id": "time",
+     "title": "Time",
+     "icon": "moon",
+     "description": "The three-day clock.",
+     "settings": [
+      "ClockSpeed",
+      "AutoInvert",
+      "HideClock",
+      "EnableSunsSong",
+      "MoonCrashErasesFile"
+     ]
+    },
+    {
+     "id": "gear",
+     "title": "Items and masks",
+     "icon": "diamond",
+     "description": "New ways to use your gear.",
+     "settings": [
+      "Character",
+      "BlastMaskCooldown",
+      "BombArrows",
+      "GiantMaskAnywhere",
+      "AllowFierceDeityAnywhere",
+      "OcarinaUnderwater",
+      "FreeScarecrow",
+      "ByoAmmo",
+      "VanillaMoonTrialAccess"
+     ]
+    },
+    {
+     "id": "traps",
+     "title": "Traps and drops",
+     "icon": "snow",
+     "description": "Surprises hidden in the item pool.",
+     "settings": [
+      "TrapAmount",
+      "TrapAppearance",
+      "TrapWeights",
+      "NutandStickDrops"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "convenience",
+   "label": "Convenience",
+   "icon": "sparkles",
+   "description": "Things that make the game smoother without changing what's possible.",
+   "groups": [
+    {
+     "id": "inventory",
+     "title": "Items and inventory",
+     "icon": "chest",
+     "description": "How items behave once you have them.",
+     "settings": [
+      "ProgressiveUpgrades",
+      "PreventDowngrades",
+      "QuestItemStorage",
+      "KeepQuestTradeThroughTime",
+      "FillWallet",
+      "ArrowCycling",
+      "DoubleArcheryRewards",
+      "BombchuDrops",
+      "KegDrops"
+     ]
+    },
+    {
+     "id": "finding",
+     "title": "Finding things",
+     "icon": "eye",
+     "description": "Clues about what's where.",
+     "settings": [
+      "UpdateWorldModels",
+      "UpdateChests",
+      "UpdateShopAppearance",
+      "HiddenRupeesSparkle",
+      "MinorDropSparkle",
+      "FairyMaskShimmer",
+      "SkulltulaTokenSounds",
+      "TargetHealthBar",
+      "EnablePictoboxSubject",
+      "ChestGameMinimap"
+     ]
+    },
+    {
+     "id": "text",
+     "title": "Text and cutscenes",
+     "icon": "notebook",
+     "description": "Less waiting.",
+     "settings": [
+      "QuickTextEnabled",
+      "ShortenCutsceneSettings.General",
+      "ShortenCutsceneSettings.BossIntros"
+     ]
+    },
+    {
+     "id": "speedups",
+     "title": "Speedups",
+     "icon": "play",
+     "description": "Shorter minigames and tasks.",
+     "settings": [
+      "SpeedupBeavers",
+      "SpeedupDampe",
+      "SpeedupDogRace",
+      "SpeedupLabFish",
+      "SpeedupBank",
+      "SpeedupBabyCuccos"
+     ]
+    },
+    {
+     "id": "controls",
+     "title": "Controls",
+     "icon": "gamepad",
+     "description": "Smaller fixes to how things handle.",
+     "settings": [
+      "FastPush",
+      "CloseCows",
+      "FixEponaSword",
+      "LenientGoronSpikes",
+      "CritWiggleDisable",
+      "ElegySpeedup",
+      "DrawHash",
+      "EasyFrameByFrame",
+      "SaferGlitches",
+      "TrapQuirks"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cosmetics",
+   "label": "Look and sound",
+   "icon": "eye",
+   "description": "Colors, music and sound. These never change the seed.",
+   "groups": [
+    {
+     "id": "link",
+     "title": "Link",
+     "icon": "user",
+     "description": "Tunic colour, energy colours and instrument for each form.",
+     "settings": [
+      "Cosmetic.TunicColors",
+      "Cosmetic.UseTunicColors",
+      "Cosmetic.EnergyColors",
+      "Cosmetic.UseEnergyColors",
+      "Cosmetic.Instruments",
+      "Cosmetic.RainbowTunic",
+      "Cosmetic.BombTrapsRandomizeTunicColor"
+     ]
+    },
+    {
+     "id": "hud",
+     "title": "Tatl and HUD",
+     "icon": "sparkles",
+     "description": "Colors on screen.",
+     "settings": [
+      "Cosmetic.TatlColorSchema",
+      "Cosmetic.HeartsSelection",
+      "Cosmetic.MagicSelection",
+      "Cosmetic.HudColors",
+      "Cosmetic.ShiftHueMiscUI"
+     ]
+    },
+    {
+     "id": "music",
+     "title": "Music",
+     "icon": "notebook",
+     "description": "Background music and fanfares.",
+     "settings": [
+      "Cosmetic.Music",
+      "Cosmetic.ShowTrackName",
+      "Cosmetic.EnableNightBGM",
+      "Cosmetic.DisableCombatMusic",
+      "Cosmetic.RemoveMinorMusic",
+      "Cosmetic.DisableFanfares",
+      "Cosmetic.MusicLuckRollChance"
+     ]
+    },
+    {
+     "id": "sound",
+     "title": "Sound",
+     "icon": "notebook",
+     "description": "Sound effects and the low-health beep.",
+     "settings": [
+      "Cosmetic.RandomizeSounds",
+      "Cosmetic.LowHealthSFX"
+     ]
+    },
+    {
+     "id": "camera",
+     "title": "Camera and controls",
+     "icon": "gamepad",
+     "description": "How the game feels to control.",
+     "settings": [
+      "Cosmetic.CameraStyle",
+      "Cosmetic.EnableHoldZTargeting",
+      "Cosmetic.DPad",
+      "Cosmetic.KeepPictoboxAntialiasing"
+     ]
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "LogicMode": "Logic",
+  "UserLogicFileName": "Custom logic file",
+  "ItemPlacement": "Placement style",
+  "AddSongs": "Shuffle songs with items",
+  "StartingItemMode": "Random starting items",
+  "RandomStartingItemGroups": "Random starting item groups",
+  "SmallKeyMode": "Small keys",
+  "BossKeyMode": "Boss keys",
+  "StrayFairyMode": "Stray fairies",
+  "BossRemainsMode": "Boss remains",
+  "RequiredBossRemains": "Remains needed for the moon",
+  "DungeonNavigationMode": "Maps and compasses",
+  "VictoryMode": "Goal",
+  "EntranceMode": "Shuffle",
+  "EnemyMode": "Enemies",
+  "PriceMode": "Prices",
+  "RandomizeGibdoRequirements": "Shuffle what Gibdos ask for",
+  "RequiredZoraEggs": "Zora eggs needed",
+  "GossipHintStyle": "Hint style",
+  "ClearHints": "Clear names",
+  "FreeHints": "No Mask of Truth needed",
+  "TolerantGossipStones": "Easier to read",
+  "ImportanceCount": "Count important items",
+  "OverrideNumberOfRequiredGossipHints": "Way of the Hero hints",
+  "OverrideNumberOfNonRequiredGossipHints": "Foolish hints",
+  "OverrideMaxNumberOfClockTownGossipHints": "Most Clock Town hints",
+  "GaroHintStyle": "Hint style",
+  "ClearGaroHints": "Clear names",
+  "FreeGaroHints": "No Garo's Mask needed",
+  "ImportanceCountGaro": "Count important items",
+  "MixGossipAndGaroHints": "Mix with gossip stone hints",
+  "OverrideNumberOfRequiredGaroHints": "Way of the Hero hints",
+  "OverrideNumberOfNonRequiredGaroHints": "Foolish hints",
+  "OverrideMaxNumberOfClockTownGaroHints": "Most Clock Town hints",
+  "HintsIndicateImportance": "Hints say if an item matters",
+  "OathHint": "Oath to Order hint",
+  "RemainsHint": "Boss remains hint from Tatl",
+  "FairyAndSkullHint": "Fairy and Skulltula hints",
+  "UpdateNPCText": "Characters mention new items",
+  "OverrideHintPriorities": "Hint priorities",
+  "OverrideHintItemCaps": "Hints per tier",
+  "OverrideImportanceIndicatorTiers": "Tiers that show importance",
+  "DamageMode": "Damage taken",
+  "DamageEffect": "When Link is hurt",
+  "DeathMode": "When Link dies",
+  "FewerHealthDrops": "Fewer health drops",
+  "TakeDamageOnEpona": "Hurt on Epona",
+  "TakeDamageWhileShielding": "Hurt while shielding",
+  "TakeDamageFromVoid": "Hurt by voids",
+  "TakeDamageFromDog": "Dogs hurt Deku Link",
+  "TakeDamageFromGorons": "Gorons hurt in the race",
+  "TakeDamageGettingCaught": "Hurt when caught by guards",
+  "TakeDamageFromGibdosFaster": "Faster Gibdo damage",
+  "TakeDamageFromDexihands": "Dexihands hurt",
+  "MovementMode": "Movement",
+  "FloorType": "Every floor is",
+  "ClimbMostSurfaces": "Climb most surfaces",
+  "HookshotAnySurface": "Hookshot any surface",
+  "IronGoron": "Goron sinks in water",
+  "ContinuousDekuHopping": "Endless Deku hops",
+  "InstantTransform": "Instant transformations",
+  "ClockSpeed": "Clock speed",
+  "AutoInvert": "Slow time automatically",
+  "HideClock": "Hide the clock",
+  "EnableSunsSong": "Sun's Song",
+  "MoonCrashErasesFile": "Moon crash erases save",
+  "Character": "Play as",
+  "BlastMaskCooldown": "Blast Mask cooldown",
+  "BombArrows": "Bomb arrows",
+  "GiantMaskAnywhere": "Giant's Mask anywhere",
+  "AllowFierceDeityAnywhere": "Fierce Deity anywhere",
+  "OcarinaUnderwater": "Ocarina underwater",
+  "FreeScarecrow": "Scarecrow appears automatically",
+  "ByoAmmo": "Bring your own ammo",
+  "VanillaMoonTrialAccess": "Moon trials need masks",
+  "TrapAmount": "Ice traps",
+  "TrapAppearance": "Traps look like",
+  "TrapWeights": "Trap types",
+  "NutandStickDrops": "Nut and stick drops",
+  "ProgressiveUpgrades": "Progressive upgrades",
+  "PreventDowngrades": "Never downgrade items",
+  "QuestItemStorage": "Store several quest items",
+  "KeepQuestTradeThroughTime": "Keep quest items through time",
+  "FillWallet": "Full wallet on upgrade",
+  "ArrowCycling": "Switch arrows with R",
+  "DoubleArcheryRewards": "Both archery prizes at once",
+  "BombchuDrops": "Bombchu drops",
+  "KegDrops": "Powder Keg drops",
+  "UpdateWorldModels": "Items look like what they are",
+  "UpdateChests": "Chests match their contents",
+  "UpdateShopAppearance": "Shops show their real items",
+  "HiddenRupeesSparkle": "Hidden rupees sparkle",
+  "MinorDropSparkle": "Pots and grass with items sparkle",
+  "FairyMaskShimmer": "Great Fairy's Mask finds fairies",
+  "SkulltulaTokenSounds": "Hear nearby Skulltula tokens",
+  "TargetHealthBar": "Enemy health bars",
+  "EnablePictoboxSubject": "Pictograph subject text",
+  "ChestGameMinimap": "Treasure Chest Game map",
+  "QuickTextEnabled": "Quick text",
+  "ShortenCutsceneSettings.General": "Shorter cutscenes",
+  "ShortenCutsceneSettings.BossIntros": "Shorter boss intros",
+  "SpeedupBeavers": "Beaver race: one race",
+  "SpeedupDampe": "Dampé: easier flames",
+  "SpeedupDogRace": "Dog race: always win with Mask of Truth",
+  "SpeedupLabFish": "Lab fish: feed one fish",
+  "SpeedupBank": "Bank: lower thresholds",
+  "SpeedupBabyCuccos": "Show baby cuccos on map",
+  "FastPush": "Push blocks faster",
+  "CloseCows": "Nearest cow answers",
+  "FixEponaSword": "Keep your sword on Epona",
+  "LenientGoronSpikes": "Easier Goron spikes",
+  "CritWiggleDisable": "No low-health wobble",
+  "ElegySpeedup": "Faster Elegy of Emptiness",
+  "DrawHash": "Show seed icons on file select",
+  "EasyFrameByFrame": "Frame advance with Start",
+  "SaferGlitches": "Safer glitches",
+  "TrapQuirks": "Ice trap quirks",
+  "Cosmetic.UseTunicColors": "Custom tunic colors",
+  "Cosmetic.TunicColors": "Each form",
+  "Cosmetic.RainbowTunic": "Rainbow tunic",
+  "Cosmetic.BombTrapsRandomizeTunicColor": "Bomb traps change tunic color",
+  "Cosmetic.UseEnergyColors": "Custom energy colors",
+  "Cosmetic.EnergyColors": "Energy colors",
+  "Cosmetic.TatlColorSchema": "Tatl's color",
+  "Cosmetic.HeartsSelection": "Heart color",
+  "Cosmetic.MagicSelection": "Magic color",
+  "Cosmetic.HudColors": "HUD colors",
+  "Cosmetic.ShiftHueMiscUI": "Shift other HUD colors",
+  "Cosmetic.Music": "Music",
+  "Cosmetic.ShowTrackName": "Show song names",
+  "Cosmetic.EnableNightBGM": "Music at night",
+  "Cosmetic.DisableCombatMusic": "No combat music",
+  "Cosmetic.RemoveMinorMusic": "No indoor music",
+  "Cosmetic.DisableFanfares": "No item fanfares",
+  "Cosmetic.MusicLuckRollChance": "Off-theme song chance (%)",
+  "Cosmetic.RandomizeSounds": "Shuffle sound effects",
+  "Cosmetic.LowHealthSFX": "Low health sound",
+  "Cosmetic.Instruments": "Instruments",
+  "Cosmetic.CameraStyle": "Camera",
+  "Cosmetic.EnableHoldZTargeting": "Hold Z to target",
+  "Cosmetic.DPad": "D-Pad items",
+  "Cosmetic.KeepPictoboxAntialiasing": "Faster pictographs on emulators"
+ },
+ "optionLabels": {
+  "LogicMode": {
+   "Casual": "Casual",
+   "Glitched": "Glitched",
+   "Vanilla": "Vanilla (nothing shuffled)",
+   "UserLogic": "Custom logic file",
+   "NoLogic": "No logic (may be unbeatable)"
+  },
+  "ItemPlacement": {
+   "Random": "Random",
+   "Bespoke": "Bespoke (hand-tuned)",
+   "Classic": "Classic (oldest)"
+  },
+  "SmallKeyMode": {
+   "DoorsOpen": "No keys needed",
+   "KeepWithinTemples": "In any temple",
+   "KeepWithinArea": "In or near own temple",
+   "KeepWithinOverworld": "Outside temples",
+   "KeepThroughTime": "Keep after Song of Time"
+  },
+  "BossKeyMode": {
+   "DoorsOpen": "No keys needed",
+   "GreatFairyRewards": "Great Fairy rewards",
+   "KeepWithinTemples": "In any temple",
+   "KeepWithinArea": "In or near own temple",
+   "KeepWithinOverworld": "Outside temples",
+   "KeepThroughTime": "Keep after Song of Time"
+  },
+  "StrayFairyMode": {
+   "ChestsOnly": "Only fairies in chests",
+   "KeepWithinTemples": "In any temple",
+   "KeepWithinArea": "In or near own temple",
+   "KeepWithinOverworld": "Outside temples"
+  },
+  "BossRemainsMode": {
+   "GreatFairyRewards": "Great Fairy rewards",
+   "ShuffleOnly": "Only swap with each other",
+   "KeepWithinTemples": "In any temple",
+   "KeepWithinArea": "In or near own temple",
+   "KeepWithinOverworld": "Outside temples",
+   "Blitz1": "Start with 1",
+   "Blitz2": "Start with 2",
+   "Blitz3": "Start with 3",
+   "Blitz4": "Start with all 4"
+  },
+  "DungeonNavigationMode": {
+   "KeepWithinTemples": "In any temple",
+   "KeepWithinArea": "In or near own temple",
+   "KeepWithinOverworld": "Outside temples",
+   "MapRevealsLocation": "Map shows where the temple is",
+   "CompassRevealsBoss": "Compass shows the boss"
+  },
+  "VictoryMode": {
+   "DirectToCredits": "Skip straight to the credits",
+   "CantFightMajora": "Can't fight Majora early",
+   "Fairies": "All stray fairies",
+   "SkullTokens": "All Skulltula tokens",
+   "NonTransformationMasks": "All 20 regular masks",
+   "TransformationMasks": "All 4 transformation masks",
+   "Notebook": "Full Bombers' Notebook",
+   "Hearts": "All 20 hearts",
+   "OneBossRemains": "1 boss remains",
+   "TwoBossRemains": "2 boss remains",
+   "ThreeBossRemains": "3 boss remains",
+   "FourBossRemains": "All 4 boss remains"
+  },
+  "EntranceMode": {
+   "DungeonEntrances": "Temple entrances",
+   "BossRooms": "Boss rooms",
+   "Grottos": "Grottos",
+   "SimpleInteriors": "Simple interiors"
+  },
+  "PriceMode": {
+   "Purchases": "Shop prices",
+   "Minigames": "Minigame prices",
+   "Misc": "Other prices",
+   "AccountForRoyalWallet": "Allow prices up to 999",
+   "ShuffleOnly": "Only swap prices around"
+  },
+  "EnemyMode": {
+   "Randomized": "Shuffle enemies",
+   "Hyper": "Faster enemies"
+  },
+  "Character": {
+   "LinkMM": "Link (Majora's Mask)",
+   "LinkOOT": "Link (Ocarina of Time)",
+   "AdultLink": "Adult Link",
+   "Kafei": "Kafei"
+  },
+  "StartingItemMode": {
+   "None": "None",
+   "Random": "Some random items",
+   "AllowTemporaryItems": "Random, including temporary items"
+  }
+ }
+}

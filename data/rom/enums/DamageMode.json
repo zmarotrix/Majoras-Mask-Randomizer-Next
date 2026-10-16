@@ -1,0 +1,8 @@
+[
+{"name":"Default","value":0,"attributes":[]},
+{"name":"Double","value":1,"attributes":[]},
+{"name":"Quadruple","value":2,"attributes":[]},
+{"name":"Octuple","value":3,"attributes":[]},
+{"name":"OHKO","value":4,"attributes":[{"type":"SettingName","args":["One-Hit KO"],"values":{"Name":"One-Hit KO"}}]},
+{"name":"Doom","value":5,"attributes":[]}
+]

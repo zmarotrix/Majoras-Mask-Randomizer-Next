@@ -1,0 +1,1719 @@
+[
+  {
+    "Category": "Minigames",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "HeartPieceHoneyAndDarling",
+      "MundaneItemHoneyAndDarlingPurpleRupee"
+    ],
+    "MessageIds": [
+      [
+        10353,
+        0
+      ]
+    ],
+    "Name": "Honey and Darling",
+    "PriceAddresses": [
+      14504858
+    ],
+    "SubtractPriceAddresses": [
+      14504882
+    ]
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 20,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "UpgradeBigQuiver",
+      "HeartPieceTownArchery"
+    ],
+    "MessageIds": [
+      [
+        1014,
+        0
+      ]
+    ],
+    "Name": "Town Archery",
+    "PriceAddresses": [
+      14911866
+    ],
+    "SubtractPriceAddresses": [
+      14912038
+    ]
+  },
+  {
+    "Category": "Misc",
+    "Cost": 4,
+    "ItemsAffected": [],
+    "LocationsAffected": [],
+    "MessageIds": [
+      [
+        1143,
+        0
+      ]
+    ],
+    "Name": "Night Withdraw",
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 50,
+    "ItemsAffected": [
+      "ItemPowderKeg"
+    ],
+    "LocationsAffected": [],
+    "MessageIds": [
+      [
+        1647,
+        0
+      ],
+      [
+        1648,
+        0
+      ],
+      [
+        1656,
+        0
+      ],
+      [
+        1657,
+        0
+      ],
+      [
+        1658,
+        0
+      ]
+    ],
+    "Name": "Bomb Shop Keg",
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "MundaneItemTreasureChestGameDekuNuts"
+    ],
+    "MessageIds": [
+      [
+        1904,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 20,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "MundaneItemTreasureChestGamePurpleRupee"
+    ],
+    "MessageIds": [
+      [
+        1905,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 30,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "HeartPieceTreasureChestGame"
+    ],
+    "MessageIds": [
+      [
+        1906,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 5,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "MundaneItemTreasureChestGameRedRupee"
+    ],
+    "MessageIds": [
+      [
+        1907,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Misc",
+    "Cost": 50,
+    "ItemsAffected": [],
+    "LocationsAffected": [],
+    "MessageIds": [
+      [
+        2139,
+        0
+      ]
+    ],
+    "Name": "Boat Ride Adult",
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Misc",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [],
+    "MessageIds": [
+      [
+        2139,
+        1
+      ],
+      [
+        2142,
+        0
+      ]
+    ],
+    "Name": "Boat Ride Child",
+    "PriceAddresses": [
+      15445414
+    ],
+    "SubtractPriceAddresses": [
+      15445424
+    ]
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "HeartPieceBoatArchery"
+    ],
+    "MessageIds": [
+      [
+        2162,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [
+      15445550
+    ],
+    "SubtractPriceAddresses": [
+      15445562
+    ]
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "OtherLimitlessBeans"
+    ],
+    "MessageIds": [
+      [
+        2355,
+        0
+      ]
+    ],
+    "Name": "Bean Salesman",
+    "PriceAddresses": [
+      14440102
+    ],
+    "SubtractPriceAddresses": [
+      14440238
+    ]
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 20,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "UpgradeBiggestQuiver",
+      "HeartPieceSwampArchery"
+    ],
+    "MessageIds": [
+      [
+        2602,
+        0
+      ]
+    ],
+    "Name": "Swamp Archery",
+    "PriceAddresses": [
+      14909378
+    ],
+    "SubtractPriceAddresses": [
+      14909470
+    ]
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 100,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "UpgradeRazorSword"
+    ],
+    "MessageIds": [
+      [
+        3131,
+        0
+      ],
+      [
+        3131,
+        1
+      ],
+      [
+        3135,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 100,
+    "ItemsAffected": [],
+    "LocationsAffected": [],
+    "MessageIds": [
+      [
+        3212,
+        0
+      ]
+    ],
+    "Name": "Goron Village Powder Keg",
+    "PriceAddresses": [
+      15204537
+    ],
+    "SubtractPriceAddresses": [
+      15204549
+    ]
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 20,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "HeartPieceFishermanGame"
+    ],
+    "MessageIds": [
+      [
+        4246,
+        0
+      ],
+      [
+        4250,
+        0
+      ],
+      [
+        4251,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [
+      17274442
+    ],
+    "SubtractPriceAddresses": [
+      17274482
+    ]
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemBusinessScrubMagicBeanInSwamp",
+      "ShopItemBusinessScrubMagicBeanInTown"
+    ],
+    "MessageIds": [
+      [
+        5609,
+        0
+      ],
+      [
+        5619,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [
+      17113546
+    ],
+    "SubtractPriceAddresses": [
+      17113570
+    ]
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 200,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "UpgradeBiggestBombBagInMountain",
+      "UpgradeBiggestBombBagInSwamp"
+    ],
+    "MessageIds": [
+      [
+        5632,
+        0
+      ],
+      [
+        5638,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [
+      17113706
+    ],
+    "SubtractPriceAddresses": [
+      17113698
+    ]
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 40,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemBusinessScrubGreenPotionInMountain",
+      "ShopItemBusinessScrubGreenPotionInOcean"
+    ],
+    "MessageIds": [
+      [
+        5650,
+        0
+      ],
+      [
+        5655,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [
+      17113794
+    ],
+    "SubtractPriceAddresses": [
+      17113786
+    ]
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 100,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemBusinessScrubBluePotionInCanyon",
+      "ShopItemBusinessScrubBluePotionInOcean"
+    ],
+    "MessageIds": [
+      [
+        5670,
+        0
+      ],
+      [
+        5677,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [
+      17113890
+    ],
+    "SubtractPriceAddresses": [
+      17113882
+    ]
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 150,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "HeartPieceTerminaBusinessScrub"
+    ],
+    "MessageIds": [
+      [
+        5682,
+        0
+      ]
+    ],
+    "Name": "Business Scrub Purchase 1",
+    "PriceAddresses": [
+      16975954,
+      16979658,
+      16973558
+    ],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 100,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "HeartPieceTerminaBusinessScrub"
+    ],
+    "MessageIds": [
+      [
+        5684,
+        0
+      ]
+    ],
+    "Name": "Business Scrub Purchase 2",
+    "PriceAddresses": [
+      16973570
+    ],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 5,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ItemTingleMapTownInTown"
+    ],
+    "MessageIds": [
+      [
+        7441,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 40,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ItemTingleMapWoodfallInTown"
+    ],
+    "MessageIds": [
+      [
+        7441,
+        1
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 20,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ItemTingleMapWoodfallInSwamp"
+    ],
+    "MessageIds": [
+      [
+        7442,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 40,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ItemTingleMapSnowheadInSwamp"
+    ],
+    "MessageIds": [
+      [
+        7442,
+        1
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 20,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ItemTingleMapSnowheadInMountain"
+    ],
+    "MessageIds": [
+      [
+        7443,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 40,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ItemTingleMapRanchInMountain"
+    ],
+    "MessageIds": [
+      [
+        7443,
+        1
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 20,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ItemTingleMapRanchInRanch"
+    ],
+    "MessageIds": [
+      [
+        7444,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 40,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ItemTingleMapGreatBayInRanch"
+    ],
+    "MessageIds": [
+      [
+        7444,
+        1
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 20,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ItemTingleMapGreatBayInOcean"
+    ],
+    "MessageIds": [
+      [
+        7445,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 40,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ItemTingleMapStoneTowerInOcean"
+    ],
+    "MessageIds": [
+      [
+        7445,
+        1
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 20,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ItemTingleMapStoneTowerInCanyon"
+    ],
+    "MessageIds": [
+      [
+        7446,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 40,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ItemTingleMapTownInCanyon"
+    ],
+    "MessageIds": [
+      [
+        7446,
+        1
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 1,
+    "ItemsAffected": [],
+    "LocationsAffected": [],
+    "MessageIds": [
+      [
+        10006,
+        0
+      ]
+    ],
+    "Name": "Swordsman\u0027s School Novice",
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "HeartPieceSwordsmanSchool"
+    ],
+    "MessageIds": [
+      [
+        10006,
+        1
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 2,
+    "ItemsAffected": [],
+    "LocationsAffected": [],
+    "MessageIds": [
+      [
+        10126,
+        0
+      ],
+      [
+        10137,
+        0
+      ],
+      [
+        10138,
+        0
+      ],
+      [
+        10143,
+        0
+      ]
+    ],
+    "Name": "Postman Game Retry",
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "OtherPlayDekuPlayground"
+    ],
+    "MessageIds": [
+      [
+        10210,
+        0
+      ]
+    ],
+    "Name": "Deku Playground",
+    "PriceAddresses": [
+      16055182
+    ],
+    "SubtractPriceAddresses": [
+      16055230
+    ]
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 20,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemMilkBarMilk"
+    ],
+    "MessageIds": [
+      [
+        11019,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [
+      17066444,
+      17066336
+    ],
+    "SubtractPriceAddresses": [
+      17066489,
+      17066381
+    ]
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 200,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemMilkBarChateau"
+    ],
+    "MessageIds": [
+      [
+        11019,
+        1
+      ],
+      [
+        11002,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [
+      17066452,
+      17066344
+    ],
+    "SubtractPriceAddresses": [
+      17066474,
+      17066366
+    ]
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "MundaneItemLotteryPurpleRupee"
+    ],
+    "MessageIds": [
+      [
+        11100,
+        0
+      ],
+      [
+        11101,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [
+      16866474
+    ],
+    "SubtractPriceAddresses": [
+      16866534
+    ]
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 50,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemGormanBrosMilk"
+    ],
+    "MessageIds": [
+      [
+        13414,
+        0
+      ],
+      [
+        13456,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "MaskGaro"
+    ],
+    "MessageIds": [
+      [
+        13423,
+        0
+      ],
+      [
+        13425,
+        0
+      ],
+      [
+        13427,
+        0
+      ],
+      [
+        13432,
+        0
+      ],
+      [
+        13442,
+        0
+      ],
+      [
+        13463,
+        0
+      ],
+      [
+        13477,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 30,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemBombsBomb10"
+    ],
+    "MessageIds": [
+      [
+        1616,
+        0
+      ],
+      [
+        1617,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 40,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemBombsBombchu10"
+    ],
+    "MessageIds": [
+      [
+        1618,
+        0
+      ],
+      [
+        1619,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 50,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ItemBombBag"
+    ],
+    "MessageIds": [
+      [
+        1620,
+        0
+      ],
+      [
+        1621,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 90,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "UpgradeBigBombBagInBombShop"
+    ],
+    "MessageIds": [
+      [
+        1622,
+        0
+      ],
+      [
+        1623,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 30,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostRedPotion"
+    ],
+    "MessageIds": [
+      [
+        1708,
+        0
+      ],
+      [
+        1709,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 80,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostShield"
+    ],
+    "MessageIds": [
+      [
+        1710,
+        0
+      ],
+      [
+        1711,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 30,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostNut10"
+    ],
+    "MessageIds": [
+      [
+        1712,
+        0
+      ],
+      [
+        1713,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 30,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostGreenPotion"
+    ],
+    "MessageIds": [
+      [
+        1714,
+        0
+      ],
+      [
+        1715,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostStick"
+    ],
+    "MessageIds": [
+      [
+        1716,
+        0
+      ],
+      [
+        1717,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 50,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostFairy"
+    ],
+    "MessageIds": [
+      [
+        1718,
+        0
+      ],
+      [
+        1719,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 30,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostArrow30"
+    ],
+    "MessageIds": [
+      [
+        1720,
+        0
+      ],
+      [
+        1721,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 40,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostArrow50"
+    ],
+    "MessageIds": [
+      [
+        1722,
+        0
+      ],
+      [
+        1723,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 30,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostRedPotion"
+    ],
+    "MessageIds": [
+      [
+        1737,
+        0
+      ],
+      [
+        1738,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 80,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostShield"
+    ],
+    "MessageIds": [
+      [
+        1739,
+        0
+      ],
+      [
+        1740,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 30,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostNut10"
+    ],
+    "MessageIds": [
+      [
+        1741,
+        0
+      ],
+      [
+        1742,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 30,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostGreenPotion"
+    ],
+    "MessageIds": [
+      [
+        1743,
+        0
+      ],
+      [
+        1744,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostStick"
+    ],
+    "MessageIds": [
+      [
+        1745,
+        0
+      ],
+      [
+        1746,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 50,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostFairy"
+    ],
+    "MessageIds": [
+      [
+        1747,
+        0
+      ],
+      [
+        1748,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 30,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostArrow30"
+    ],
+    "MessageIds": [
+      [
+        1749,
+        0
+      ],
+      [
+        1750,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 40,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemTradingPostArrow50"
+    ],
+    "MessageIds": [
+      [
+        1751,
+        0
+      ],
+      [
+        1752,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 20,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemWitchRedPotion"
+    ],
+    "MessageIds": [
+      [
+        2111,
+        0
+      ],
+      [
+        2112,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemWitchGreenPotion"
+    ],
+    "MessageIds": [
+      [
+        2113,
+        0
+      ],
+      [
+        2114,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 60,
+    "ItemsAffected": [],
+    "LocationsAffected": [],
+    "MessageIds": [
+      [
+        2115,
+        0
+      ],
+      [
+        2116,
+        0
+      ],
+      [
+        2176,
+        0
+      ]
+    ],
+    "Name": "Witch Shop Blue Potion",
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 40,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemGoronBomb10InWinter"
+    ],
+    "MessageIds": [
+      [
+        3013,
+        0
+      ],
+      [
+        3014,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 40,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemGoronArrow10InWinter"
+    ],
+    "MessageIds": [
+      [
+        3015,
+        0
+      ],
+      [
+        3016,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 80,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemGoronRedPotionInWinter"
+    ],
+    "MessageIds": [
+      [
+        3017,
+        0
+      ],
+      [
+        3018,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemGoronBomb10InSpring"
+    ],
+    "MessageIds": [
+      [
+        3019,
+        0
+      ],
+      [
+        3020,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 20,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemGoronArrow10InSpring"
+    ],
+    "MessageIds": [
+      [
+        3021,
+        0
+      ],
+      [
+        3022,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 50,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemGoronRedPotionInSpring"
+    ],
+    "MessageIds": [
+      [
+        3023,
+        0
+      ],
+      [
+        3024,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 90,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemZoraShield"
+    ],
+    "MessageIds": [
+      [
+        4827,
+        0
+      ],
+      [
+        4828,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 20,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemZoraArrow10"
+    ],
+    "MessageIds": [
+      [
+        4829,
+        0
+      ],
+      [
+        4830,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 60,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "ShopItemZoraRedPotion"
+    ],
+    "MessageIds": [
+      [
+        4831,
+        0
+      ],
+      [
+        4832,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 500,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "MaskAllNight",
+      "NotebookPurchaseCuriosityShopItem"
+    ],
+    "MessageIds": [
+      [
+        10713,
+        0
+      ],
+      [
+        10714,
+        0
+      ]
+    ],
+    "Name": null,
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 100,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "UpgradeBigBombBagInCuriosityShop"
+    ],
+    "MessageIds": [
+      [
+        10715,
+        0
+      ],
+      [
+        10716,
+        0
+      ]
+    ],
+    "Name": "Curiosity Shop Big Bomb Bag",
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 100,
+    "ItemsAffected": [],
+    "LocationsAffected": [],
+    "MessageIds": [
+      [
+        10738,
+        0
+      ],
+      [
+        10739,
+        0
+      ]
+    ],
+    "Name": "Curiosity Shop Nice Sword",
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 50,
+    "ItemsAffected": [],
+    "LocationsAffected": [],
+    "MessageIds": [
+      [
+        10740,
+        0
+      ],
+      [
+        10741,
+        0
+      ]
+    ],
+    "Name": "Curiosity Shop Good Sword",
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Purchases",
+    "Cost": 20,
+    "ItemsAffected": [],
+    "LocationsAffected": [],
+    "MessageIds": [
+      [
+        10744,
+        0
+      ],
+      [
+        10745,
+        0
+      ]
+    ],
+    "Name": "Curiosity Shop Cool Bottle",
+    "PriceAddresses": [],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 30,
+    "ItemsAffected": [],
+    "LocationsAffected": [
+      "HeartPiecePoeHut"
+    ],
+    "MessageIds": [
+      [
+        5332,
+        0
+      ],
+      [
+        5349,
+        0
+      ]
+    ],
+    "Name": "Poe Hut",
+    "PriceAddresses": [
+      16206370,
+      16206462,
+      16208686
+    ],
+    "SubtractPriceAddresses": []
+  },
+  {
+    "Category": "Minigames",
+    "Cost": 10,
+    "ItemsAffected": [],
+    "LocationsAffected": [],
+    "MessageIds": [
+      [
+        5349,
+        1
+      ]
+    ],
+    "Name": "Healed Poe Hut",
+    "PriceAddresses": [
+      16206458,
+      16208422
+    ],
+    "SubtractPriceAddresses": []
+  }
+]

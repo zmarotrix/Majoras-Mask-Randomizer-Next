@@ -1,0 +1,3202 @@
+[
+ {
+  "key": "UserLogicFileName",
+  "label": "Custom logic file",
+  "category": "logic",
+  "description": "Path to a custom logic file.",
+  "type": "file",
+  "default": ""
+ },
+ {
+  "key": "CloseCows",
+  "label": "Close Cows",
+  "category": "quality_of_life",
+  "description": "When playing Epona's Song for a group of cows, the closest cow will respond, instead of the default behavior.",
+  "type": "bool",
+  "default": true,
+  "asm": true
+ },
+ {
+  "key": "ArrowCycling",
+  "label": "Arrow Cycling",
+  "category": "quality_of_life",
+  "description": "Cycle through arrow types when pressing R while an arrow is out when using the bow.",
+  "type": "bool",
+  "default": true,
+  "asm": true
+ },
+ {
+  "key": "CritWiggleDisable",
+  "label": "Disable Crit Wiggle",
+  "category": "quality_of_life",
+  "description": "Disable crit wiggle movement modification when 1 heart of health or less.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "DrawHash",
+  "label": "Hash Icons .png",
+  "category": "quality_of_life",
+  "description": "Draw hash icons on the File Select screen.",
+  "type": "bool",
+  "default": true,
+  "asm": true
+ },
+ {
+  "key": "ElegySpeedup",
+  "label": "Elegy Speedup",
+  "category": "quality_of_life",
+  "description": "Applies various Elegy of Emptiness speedups.",
+  "type": "bool",
+  "default": true,
+  "asm": true
+ },
+ {
+  "key": "FastPush",
+  "label": "Fast Push",
+  "category": "quality_of_life",
+  "description": "Increase the speed of pushing and pulling blocks and faucets.",
+  "type": "bool",
+  "default": true,
+  "asm": true
+ },
+ {
+  "key": "TrapQuirks",
+  "label": "Trap Quirks",
+  "category": "quality_of_life",
+  "description": "Ice traps will behave slightly differently from other items in certain situations.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "UpdateWorldModels",
+  "label": "Update World Models",
+  "category": "quality_of_life",
+  "description": "Show world models as their actual item instead of the original item. This includes Pieces of Heart, Heart Containers, Skulltula Tokens, Stray Fairies, Moon's Tear and the Seahorse.",
+  "type": "bool",
+  "default": true,
+  "asm": true
+ },
+ {
+  "key": "OcarinaUnderwater",
+  "label": "Ocarina Underwater",
+  "category": "gimmicks",
+  "description": "Enable using the ocarina underwater.",
+  "type": "bool",
+  "default": true,
+  "asm": true
+ },
+ {
+  "key": "QuestItemStorage",
+  "label": "Quest Item Storage",
+  "category": "quality_of_life",
+  "description": "Enable Quest Item Storage, which allows for storing multiple quest items in their dedicated inventory slot. Quest items will also always be consumed when used.",
+  "type": "bool",
+  "default": true,
+  "excludes": [
+   {
+    "when": false,
+    "disables": [
+     "KeepQuestTradeThroughTime"
+    ]
+   }
+  ],
+  "asm": true
+ },
+ {
+  "key": "ContinuousDekuHopping",
+  "label": "Continuous Deku Hopping",
+  "category": "gimmicks",
+  "description": "Press A while hopping across water to keep hopping.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "IronGoron",
+  "label": "Iron Goron",
+  "category": "gimmicks",
+  "description": "Goron Link will sink in water instead of drowning.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "UpdateShopAppearance",
+  "label": "Update Shop Appearance",
+  "category": "quality_of_life",
+  "description": "Shops models and text will be updated to match the item they give.",
+  "type": "bool",
+  "default": true,
+  "asm": true
+ },
+ {
+  "key": "ProgressiveUpgrades",
+  "label": "Progressive Upgrades",
+  "category": "quality_of_life",
+  "description": "Enable swords, wallets, magic, bomb bags, quivers and the Goron Lullaby to be found in the intended order.",
+  "type": "bool",
+  "default": true,
+  "asm": true
+ },
+ {
+  "key": "TargetHealthBar",
+  "label": "Target Health Bar",
+  "category": "quality_of_life",
+  "description": "Targeting an enemy shows their health bar.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "ClimbMostSurfaces",
+  "label": "Climb Most Surfaces",
+  "category": "gimmicks",
+  "description": "Link can climb most surfaces.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "FreeScarecrow",
+  "label": "Free Scarecrow",
+  "category": "gimmicks",
+  "description": "Spawn scarecrow automatically when using ocarina if within range.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "FillWallet",
+  "label": "Fill Wallet",
+  "category": "quality_of_life",
+  "description": "Fills wallet with max rupees upon finding a wallet upgrade.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "AutoInvert",
+  "label": "Auto Invert",
+  "category": "gimmicks",
+  "description": "Auto-invert time at the start of a cycle.",
+  "type": "enum",
+  "enum": "AutoInvertState",
+  "options": [
+   {
+    "value": "Never",
+    "label": "Never"
+   },
+   {
+    "value": "FirstCycle",
+    "label": "First Cycle"
+   },
+   {
+    "value": "Always",
+    "label": "Always"
+   }
+  ],
+  "default": "Never",
+  "asm": true
+ },
+ {
+  "key": "GiantMaskAnywhere",
+  "label": "Giant Mask Anywhere",
+  "category": "gimmicks",
+  "description": "Allows the Giant's Mask to be used anywhere with a high enough (or no) ceiling.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "DoubleArcheryRewards",
+  "label": "Double Archery Rewards",
+  "category": "quality_of_life",
+  "description": "Grant both archery rewards with a sufficient score.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "HiddenRupeesSparkle",
+  "label": "Hidden Rupees Sparkle",
+  "category": "quality_of_life",
+  "description": "Hit Tags and Invisible Rupees will emit a sparkle.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "ChestGameMinimap",
+  "label": "Chest Game Minimap",
+  "category": "quality_of_life",
+  "description": "Draws a minimap during the Treasure Chest Game if you have the Map of Clock Town:",
+  "type": "enum",
+  "enum": "ChestGameMinimapState",
+  "options": [
+   {
+    "value": "Off",
+    "label": "Off",
+    "description": "No minimap, default vanilla behaviour."
+   },
+   {
+    "value": "Minimal",
+    "label": "Minimal",
+    "description": "Minimap is displayed, blocks appear on minimap when triggered."
+   },
+   {
+    "value": "ConditionalSpoiler",
+    "label": "Conditional Spoiler",
+    "description": "Minimal behaviour, and if the Mask of Truth is aquired along with Map of Clock Town, spoil the maze layout."
+   },
+   {
+    "value": "Spoiler",
+    "label": "Spoiler",
+    "description": "Only Map of Clock Town needed to spoil the maze layout."
+   }
+  ],
+  "default": "Off",
+  "asm": true
+ },
+ {
+  "key": "SaferGlitches",
+  "label": "Safer Glitches",
+  "category": "quality_of_life",
+  "description": "Makes it safer to use glitches: - Prevents HESS crash - Prevents Weirdshot crash - Prevents Action Swap crash - Prevents Song of Double Time softlock during 0th or 4th day - Prevents Tatl text softlock on 0th of 4th day - Prevents 0th day file deletion - Prevents hookslide crash - Prevents softlocks when using Remote Hookshot - Prevents 0th day Goron Bow crash - Applies safety fixes for Fierce Deity even if Fierce Deity Anywhere is not enabled - Index warp no longer crashes or softlocks (but you won't be able to use it to access the Debug Menu) - Prevents softlocks when interrupting mask transformations - Mayor is removed on 4th day - Deku Playground Employees are removed on 4th day - Prevents Gossip Stone time from crashing on 4th day - Prevents Town Shooting Gallery from crashing on 0th day and 4th day",
+  "type": "bool",
+  "default": true,
+  "asm": true
+ },
+ {
+  "key": "BombchuDrops",
+  "label": "Bombchu Drops",
+  "category": "quality_of_life",
+  "description": "If you have found Bombchu, then any random Bomb drop or fixed non-randomized Bomb drop will have a chance to drop Bombchu instead. Where relevant, Bombchu packs of 1 and 5 will be in logic in addition to packs of 10.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "KegDrops",
+  "label": "Keg Drops",
+  "category": "quality_of_life",
+  "description": "If you have found the Powder Keg, then any random Bomb drop or fixed non-randomized Bomb drop will drop a Powder Keg instead if you have 0 Powder Kegs. Logic will no longer require the ability to purchase Powder Kegs from the bomb shop goron.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "InstantTransform",
+  "label": "Instant Transform",
+  "category": "gimmicks",
+  "description": "Transforming using Deku Mask, Goron Mask, Zora Mask and Fierce Deity's Mask will be almost instant. These items can no longer be used as \"cutscene items\".",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "BombArrows",
+  "label": "Bomb Arrows",
+  "category": "gimmicks",
+  "description": "Use a bomb while an arrow is out when using the bow to attach the bomb to the tip of the arrow.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "FewerHealthDrops",
+  "label": "Fewer Health Drops",
+  "category": "gimmicks",
+  "description": "Recovery Hearts will not drop, and re-acquiring random items will turn into Green Rupees instead. Fairies will not heal except on death.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "EasyFrameByFrame",
+  "label": "Easy Frame By Frame",
+  "category": "quality_of_life",
+  "description": "Hold Start while unpausing to pause again after one frame passes.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "FairyMaskShimmer",
+  "label": "Fairy Mask Shimmer",
+  "category": "quality_of_life",
+  "description": "Nearby stray fairies, even randomized ones, will cause the Great Fairy Mask to shimmer.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "SkulltulaTokenSounds",
+  "label": "Skulltula Token Sounds",
+  "category": "quality_of_life",
+  "description": "Nearby skulltula tokens, even randomized ones, will emit a spider crawling sound.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "MinorDropSparkle",
+  "label": "Minor Drop Sparkle",
+  "category": "quality_of_life",
+  "description": "Pots, Grass, Snowballs, Rocks, Crates, Barrels, Beehives, Flower Pots and Butterflies with randomized items will emit a sparkle.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "TakeDamageOnEpona",
+  "label": "Take Damage On Epona",
+  "category": "gimmicks",
+  "description": "Instead of being immune to damage while riding Epona, Link will take damage and be thrown off.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "TakeDamageWhileShielding",
+  "label": "Take Damage While Shielding",
+  "category": "gimmicks",
+  "description": "Link will take damage when being hit on his shield, and can't recoil off damage to the shield.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "TakeDamageFromVoid",
+  "label": "Take Damage From Void",
+  "category": "gimmicks",
+  "description": "Link will take damage when falling into voids or voiding out in water.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "TakeDamageFromDog",
+  "label": "Take Damage From Dog",
+  "category": "gimmicks",
+  "description": "Dogs will damage Deku Link.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "TakeDamageFromGorons",
+  "label": "Take Damage From Gorons",
+  "category": "gimmicks",
+  "description": "Link will take damage when being hit by Gorons during the Goron Race.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "TakeDamageGettingCaught",
+  "label": "Take Damage Getting Caught",
+  "category": "gimmicks",
+  "description": "Getting thrown out after being caught by guards will deal damage. Being thrown out after getting the reward from the Imprisoned Monkey will not deal damage.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "TakeDamageFromGibdosFaster",
+  "label": "Take Damage From Gibdos Faster",
+  "category": "gimmicks",
+  "description": "Gibdos will deal damage immediately after grabbing Link.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "TakeDamageFromDexihands",
+  "label": "Take Damage From Dexihands",
+  "category": "gimmicks",
+  "description": "Link will take damage from Dexihands.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "RequiredBossRemains",
+  "label": "Required Boss Remains",
+  "category": "quality_of_life",
+  "description": "Set the number of Boss Remains required to proceed through the final Giants cutscene.",
+  "type": "number",
+  "integer": true,
+  "min": 0,
+  "max": 4,
+  "default": 4,
+  "nullable": false,
+  "asm": true
+ },
+ {
+  "key": "LogicMode",
+  "label": "Logic Mode",
+  "category": "logic",
+  "description": "Select mode of logic:",
+  "type": "enum",
+  "enum": "LogicMode",
+  "options": [
+   {
+    "value": "Casual",
+    "label": "Casual",
+    "description": "The randomization logic ensures that the game can be beaten casually."
+   },
+   {
+    "value": "Glitched",
+    "label": "Glitched",
+    "description": "The randomization logic allows for placement of items that are only obtainable using known glitches."
+   },
+   {
+    "value": "Vanilla",
+    "label": "Vanilla"
+   },
+   {
+    "value": "UserLogic",
+    "label": "User Logic",
+    "description": "Upload your own custom logic to be used in the randomization."
+   },
+   {
+    "value": "NoLogic",
+    "label": "No Logic",
+    "description": "Completely random, no guarantee the game is beatable. Uses Glitched logic with all tricks enabled for HTML tracker and Blitz junk location calculation."
+   }
+  ],
+  "default": "Casual",
+  "excludes": [
+   {
+    "when": "Casual",
+    "disables": [
+     "UserLogicFileName"
+    ]
+   },
+   {
+    "when": "Glitched",
+    "disables": [
+     "UserLogicFileName"
+    ]
+   },
+   {
+    "when": "Vanilla",
+    "disables": [
+     "UserLogicFileName",
+     "AddSongs",
+     "ItemPlacement",
+     "ProgressiveUpgrades",
+     "CustomJunkLocationsString",
+     "CustomItemListString",
+     "EntranceMode",
+     "StartingItemMode",
+     "RequiredBossRemains",
+     "VictoryMode",
+     "PriceMode",
+     "BossRemainsMode",
+     "BossKeyMode",
+     "SmallKeyMode",
+     "StrayFairyMode",
+     "DungeonNavigationMode",
+     "TrapAmount",
+     "TrapAppearance",
+     "TrapQuirks",
+     "TrapWeights",
+     "GossipHintStyle",
+     "GaroHintStyle",
+     "ClearHints",
+     "ClearGaroHints",
+     "ImportanceCount",
+     "ImportanceCountGaro",
+     "OverrideMaxNumberOfClockTownGossipHints",
+     "OverrideMaxNumberOfClockTownGaroHints",
+     "OverrideNumberOfRequiredGossipHints",
+     "OverrideNumberOfRequiredGaroHints",
+     "OverrideNumberOfNonRequiredGossipHints",
+     "OverrideNumberOfNonRequiredGaroHints",
+     "HintsIndicateImportance",
+     "MixGossipAndGaroHints",
+     "RemainsHint",
+     "OathHint",
+     "FairyAndSkullHint",
+     "UpdateShopAppearance",
+     "UpdateChests",
+     "UpdateWorldModels",
+     "UpdateNPCText",
+     "PreventDowngrades",
+     "FairyMaskShimmer",
+     "SkulltulaTokenSounds",
+     "MinorDropSparkle",
+     "EnabledTricks"
+    ]
+   },
+   {
+    "when": "NoLogic",
+    "disables": [
+     "UserLogicFileName",
+     "EnabledTricks"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "ItemPlacement",
+  "label": "Item Placement",
+  "category": "randomization",
+  "description": "Select the order that items are placed. If you don't know what this does, just use Random.",
+  "type": "enum",
+  "enum": "ItemPlacement",
+  "options": [
+   {
+    "value": "Random",
+    "label": "Random"
+   },
+   {
+    "value": "Bespoke",
+    "label": "Bespoke"
+   },
+   {
+    "value": "Classic",
+    "label": "Classic"
+   }
+  ],
+  "default": "Bespoke"
+ },
+ {
+  "key": "EnabledTricks",
+  "label": "Enabled tricks",
+  "category": "logic",
+  "description": "Tricks the logic is allowed to expect from you.",
+  "type": "tricks",
+  "default": [
+   "Exit OSH Without Goron",
+   "Lensless Chests",
+   "Day 2 Grave Without Lens of Truth",
+   "SHT Lensless Walls/Ceilings",
+   "Pinnacle Rock without Seahorse",
+   "Run Through Poisoned Water",
+   "WFT 2nd Floor With Hookshot"
+  ]
+ },
+ {
+  "key": "AddSongs",
+  "label": "Add Songs",
+  "category": "randomization",
+  "description": "Enable songs being placed among items in the randomization pool.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "RandomizeGibdoRequirements",
+  "label": "Randomize Gibdo Requirements",
+  "category": "randomization",
+  "description": "Enable randomization of Gibdo requirements. They can request ammo, bottle contents, quest and trade items, photos and masks.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "StartingItemMode",
+  "label": "Starting Item Mode",
+  "category": "randomization",
+  "description": "Select a starting item mode: None - You will not start with any randomized starting items. Random - You will start with randomized starting items. Allow Temporary Items - You will start with randomized starting items including Keg, Magic Bean and Bottles with X.",
+  "type": "enum",
+  "enum": "StartingItemMode",
+  "options": [
+   {
+    "value": "None",
+    "label": "None"
+   },
+   {
+    "value": "Random",
+    "label": "Random"
+   },
+   {
+    "value": "AllowTemporaryItems",
+    "label": "Allow Temporary Items"
+   }
+  ],
+  "default": "None"
+ },
+ {
+  "key": "SmallKeyMode",
+  "label": "Small Key Mode",
+  "category": "randomization",
+  "description": "How dungeon small keys work: doors can start open, keys can be kept after the Song of Time, and keys can be limited to where they may be placed.",
+  "type": "flags",
+  "enum": "SmallKeyMode",
+  "options": [
+   {
+    "value": "DoorsOpen",
+    "label": "Doors Open",
+    "description": "Small Key doors will always be open. Small Keys in the item pool will be replaced with other items. Other item placement restrictions will apply to the replacements too."
+   },
+   {
+    "value": "KeepWithinTemples",
+    "label": "Keep Within Temples",
+    "description": "Randomization algorithm will place any randomized Small Keys into any temple."
+   },
+   {
+    "value": "KeepWithinArea",
+    "label": "Keep Within Area",
+    "description": "Randomization algorithm will place any randomized Small Keys into a location in or near the temple they're used in."
+   },
+   {
+    "value": "KeepWithinOverworld",
+    "label": "Keep Within Overworld",
+    "description": "Randomization algorithm will place any randomized Small Keys into an overworld location."
+   },
+   {
+    "value": "KeepThroughTime",
+    "label": "Keep Through Time",
+    "description": "Small Keys will go back in time with Link. Any used Small Keys will return to Link's inventory."
+   }
+  ],
+  "default": [
+   "DoorsOpen"
+  ]
+ },
+ {
+  "key": "BossKeyMode",
+  "label": "Boss Key Mode",
+  "category": "randomization",
+  "description": "How boss keys work: boss doors can start open, keys can be kept after the Song of Time, and keys can be limited to where they may be placed.",
+  "type": "flags",
+  "enum": "BossKeyMode",
+  "options": [
+   {
+    "value": "DoorsOpen",
+    "label": "Doors Open",
+    "description": "Boss doors will always be open. Boss Keys in the item pool will be replaced with other items. Other item placement restrictions will apply to the replacements too."
+   },
+   {
+    "value": "GreatFairyRewards",
+    "label": "Great Fairy Rewards",
+    "description": "Boss Keys will be placed on the reward for collecting 15 stray fairies of their dungeon. Great Fairy Rewards must be randomized for this to take effect."
+   },
+   {
+    "value": "KeepWithinTemples",
+    "label": "Keep Within Temples",
+    "description": "Randomization algorithm will place any randomized Boss Keys into any temple."
+   },
+   {
+    "value": "KeepWithinArea",
+    "label": "Keep Within Area",
+    "description": "Randomization algorithm will place any randomized Boss Keys into a location in or near the temple it's used in."
+   },
+   {
+    "value": "KeepWithinOverworld",
+    "label": "Keep Within Overworld",
+    "description": "Randomization algorithm will place any randomized Boss Keys into an overworld location."
+   },
+   {
+    "value": "KeepThroughTime",
+    "label": "Keep Through Time",
+    "description": "Boss Keys will go back in time with Link."
+   }
+  ],
+  "default": []
+ },
+ {
+  "key": "StrayFairyMode",
+  "label": "Stray Fairy Mode",
+  "category": "randomization",
+  "description": "How stray fairies are shuffled: only the ones in chests, or limited to where they may be placed.",
+  "type": "flags",
+  "enum": "StrayFairyMode",
+  "options": [
+   {
+    "value": "ChestsOnly",
+    "label": "Chests Only",
+    "description": "Stray Fairies in the item pool will be replaced with other items. Other item placement restrictions will apply to the replacements too. Non-chest fairies (roaming, bubbles, beehives, etc.) are removed. Chests that ordinarily have a Stray Fairy will behave like normal chests."
+   },
+   {
+    "value": "KeepWithinTemples",
+    "label": "Keep Within Temples",
+    "description": "Randomization algorithm will place any randomized Stray Fairies into any temple."
+   },
+   {
+    "value": "KeepWithinArea",
+    "label": "Keep Within Area",
+    "description": "Randomization algorithm will place any randomized Stray Fairies into a location in or near the fairy fountain they originate from."
+   },
+   {
+    "value": "KeepWithinOverworld",
+    "label": "Keep Within Overworld",
+    "description": "Randomization algorithm will place any randomized Stray Fairies into an overworld location."
+   }
+  ],
+  "default": []
+ },
+ {
+  "key": "BossRemainsMode",
+  "label": "Boss Remains Mode",
+  "category": "randomization",
+  "description": "Where boss remains can be placed, and Blitz options that give you some remains at the start.",
+  "type": "flags",
+  "enum": "BossRemainsMode",
+  "options": [
+   {
+    "value": "GreatFairyRewards",
+    "label": "Great Fairy Rewards",
+    "description": "Boss Remains will be placed on the reward for collecting 15 stray fairies of their dungeon. Great Fairy Rewards must be randomized for this to take effect."
+   },
+   {
+    "value": "ShuffleOnly",
+    "label": "Shuffle Only",
+    "description": "Boss Remains will be shuffled among each other. You still need to randomize them in the Item Randomization tab."
+   },
+   {
+    "value": "KeepWithinTemples",
+    "label": "Keep Within Temples",
+    "description": "Randomization algorithm will place any randomized Boss Remains into any temple."
+   },
+   {
+    "value": "KeepWithinArea",
+    "label": "Keep Within Area",
+    "description": "Randomization algorithm will place any randomized Boss Remains into a location in or near the temple its boss is in."
+   },
+   {
+    "value": "KeepWithinOverworld",
+    "label": "Keep Within Overworld",
+    "description": "Randomization algorithm will place any randomized Boss Remains into an overworld location."
+   },
+   {
+    "value": "Blitz1",
+    "label": "Blitz1",
+    "description": "Start with 1 random boss remains. Locations in and after the temple with that boss will be forced to be junk."
+   },
+   {
+    "value": "Blitz2",
+    "label": "Blitz2",
+    "description": "Start with 2 random boss remains. Locations in and after the temples with those bosses will be forced to be junk."
+   },
+   {
+    "value": "Blitz3",
+    "label": "Blitz3",
+    "description": "Start with 3 random boss remains. Locations in and after the temples with those bosses will be forced to be junk."
+   },
+   {
+    "value": "Blitz4",
+    "label": "Blitz4",
+    "description": "Start with all boss remains. Locations in and after temples will be forced to be junk."
+   }
+  ],
+  "default": []
+ },
+ {
+  "key": "PriceMode",
+  "label": "Price Mode",
+  "category": "randomization",
+  "description": "Which prices are randomized: shop purchases, minigames, and other paid things.",
+  "type": "flags",
+  "enum": "PriceMode",
+  "options": [
+   {
+    "value": "Purchases",
+    "label": "Purchases",
+    "description": "Prices for item purchases will be randomized."
+   },
+   {
+    "value": "Minigames",
+    "label": "Minigames",
+    "description": "Prices for minigames will be randomized."
+   },
+   {
+    "value": "Misc",
+    "label": "Misc",
+    "description": "Prices for other miscellaneous spending will be randomized."
+   },
+   {
+    "value": "AccountForRoyalWallet",
+    "label": "Account For Royal Wallet",
+    "description": "Price randomization will range from 1-999 instead of 1-500. Any shuffled or non-randomized price will double."
+   },
+   {
+    "value": "ShuffleOnly",
+    "label": "Shuffle Only",
+    "description": "Prices will only be shuffled among each other. Must enable Puchases, Minigames or Misc for this setting to have any effect."
+   }
+  ],
+  "default": []
+ },
+ {
+  "key": "DungeonNavigationMode",
+  "label": "Dungeon Navigation Mode",
+  "category": "randomization",
+  "description": "Where dungeon maps and compasses can be placed, and what they show.",
+  "type": "flags",
+  "enum": "DungeonNavigationMode",
+  "options": [
+   {
+    "value": "KeepWithinTemples",
+    "label": "Keep Within Temples",
+    "description": "Randomization algorithm will place any randomized Dungeon Maps and Compasses into any temple."
+   },
+   {
+    "value": "KeepWithinArea",
+    "label": "Keep Within Area",
+    "description": "Randomization algorithm will place any randomized Dungeon Maps and Compasses into a location in or near the temple they're for."
+   },
+   {
+    "value": "KeepWithinOverworld",
+    "label": "Keep Within Overworld",
+    "description": "Randomization algorithm will place any randomized Dungeon Maps and Compasses into an overworld location."
+   },
+   {
+    "value": "MapRevealsLocation",
+    "label": "Map Reveals Location",
+    "description": "Finding a Dungeon Map will tell you the location of the dungeon."
+   },
+   {
+    "value": "CompassRevealsBoss",
+    "label": "Compass Reveals Boss",
+    "description": "Finding a Compass will tell you which boss is in the dungeon."
+   }
+  ],
+  "default": []
+ },
+ {
+  "key": "VictoryMode",
+  "label": "Victory Mode",
+  "category": "randomization",
+  "description": "What you need to do to finish the game. Pick any combination; with none, you beat Majora as usual.",
+  "type": "flags",
+  "enum": "VictoryMode",
+  "options": [
+   {
+    "value": "DirectToCredits",
+    "label": "Direct To Credits",
+    "description": "Once the custom victory condition(s) is/are fulfilled, begin the credits as soon as possible. Otherwise, you must fulfill the condition(s) and then defeat Majora."
+   },
+   {
+    "value": "CantFightMajora",
+    "label": "Cant Fight Majora",
+    "description": "When enabled, speaking to the Moon Child who is wearing Majora's Mask will send you back in time if you haven't fufilled the victory condition(s). When disabled, defeating Majora will send you back in time if you haven't fulfilled the victory condition(s)."
+   },
+   {
+    "value": "Fairies",
+    "label": "Fairies",
+    "description": "Have 15 of each dungeon stray fairy."
+   },
+   {
+    "value": "SkullTokens",
+    "label": "Skull Tokens",
+    "description": "Have 30 of each type of skulltula token."
+   },
+   {
+    "value": "NonTransformationMasks",
+    "label": "Non Transformation Masks",
+    "description": "Have all 20 non-transformation masks."
+   },
+   {
+    "value": "TransformationMasks",
+    "label": "Transformation Masks",
+    "description": "Have all 4 transformation masks."
+   },
+   {
+    "value": "Notebook",
+    "label": "Notebook",
+    "description": "Have all the notebook entries."
+   },
+   {
+    "value": "Hearts",
+    "label": "Hearts",
+    "description": "Have all 20 hearts."
+   },
+   {
+    "value": "OneBossRemains",
+    "label": "One Boss Remains",
+    "description": "Have one of the boss remains. Only the highest boss remain victory condition enabled will be used."
+   },
+   {
+    "value": "TwoBossRemains",
+    "label": "Two Boss Remains",
+    "description": "Have two of the boss remains. Only the highest boss remain victory condition enabled will be used."
+   },
+   {
+    "value": "ThreeBossRemains",
+    "label": "Three Boss Remains",
+    "description": "Have three of the boss remains. Only the highest boss remain victory condition enabled will be used."
+   },
+   {
+    "value": "FourBossRemains",
+    "label": "Four Boss Remains",
+    "description": "Have all the boss remains. Only the highest boss remain victory condition enabled will be used."
+   }
+  ],
+  "default": []
+ },
+ {
+  "key": "EntranceMode",
+  "label": "Entrance Mode",
+  "category": "randomization",
+  "description": "Which entrances are shuffled, so a door can lead somewhere unexpected.",
+  "type": "flags",
+  "enum": "EntranceMode",
+  "options": [
+   {
+    "value": "DungeonEntrances",
+    "label": "Dungeon Entrances",
+    "description": "Enable randomization of dungeon entrances. \n\nStone Tower Temple is always vanilla, but Inverted Stone Tower Temple is randomized."
+   },
+   {
+    "value": "BossRooms",
+    "label": "Boss Rooms",
+    "description": "Enable randomization of boss rooms. The boss door texture will match the boss behind the door."
+   },
+   {
+    "value": "Grottos",
+    "label": "Grottos",
+    "description": "Enable randomization of grottos. North Clock Town grotto and Deku Palace grotto will never be generic grottos or cow grottos."
+   },
+   {
+    "value": "SimpleInteriors",
+    "label": "Simple Interiors",
+    "description": "Enable randomization of simple interiors."
+   }
+  ],
+  "default": []
+ },
+ {
+  "key": "EnemyMode",
+  "label": "Enemy Mode",
+  "category": "randomization",
+  "description": "Randomize which enemies and other actors appear.",
+  "type": "flags",
+  "enum": "EnemyMode",
+  "options": [
+   {
+    "value": "Randomized",
+    "label": "Randomized",
+    "description": "Enable randomization of enemies. May cause softlocks in some circumstances, use at your own risk."
+   },
+   {
+    "value": "Hyper",
+    "label": "Hyper",
+    "description": "Double the rate at which enemies are updated, making them more difficult."
+   }
+  ],
+  "default": []
+ },
+ {
+  "key": "CustomItemList",
+  "label": "Randomized locations",
+  "category": "items",
+  "description": "Locations whose contents are shuffled. Everything else keeps its vanilla item.",
+  "type": "item_list",
+  "pool": "locations",
+  "default": [
+   "MaskDeku",
+   "ItemBow",
+   "ItemFireArrow",
+   "ItemIceArrow",
+   "ItemLightArrow",
+   "ItemBombBag",
+   "ItemMagicBean",
+   "ItemPowderKeg",
+   "ItemPictobox",
+   "ItemLens",
+   "ItemHookshot",
+   "FairyMagic",
+   "FairySpinAttack",
+   "FairyDoubleMagic",
+   "FairyDoubleDefense",
+   "ItemFairySword",
+   "ItemBottleWitch",
+   "ItemBottleAliens",
+   "ItemBottleGoronRace",
+   "ItemBottleBeavers",
+   "ItemBottleDampe",
+   "ItemBottleMadameAroma",
+   "ItemNotebook",
+   "UpgradeRazorSword",
+   "UpgradeGildedSword",
+   "UpgradeMirrorShield",
+   "UpgradeBigQuiver",
+   "UpgradeBiggestQuiver",
+   "UpgradeBigBombBag",
+   "UpgradeBiggestBombBag",
+   "UpgradeAdultWallet",
+   "UpgradeGiantWallet",
+   "TradeItemMoonTear",
+   "TradeItemLandDeed",
+   "TradeItemSwampDeed",
+   "TradeItemMountainDeed",
+   "TradeItemOceanDeed",
+   "TradeItemRoomKey",
+   "TradeItemKafeiLetter",
+   "TradeItemPendant",
+   "TradeItemMamaLetter",
+   "HeartPieceNotebookMayor",
+   "HeartPieceNotebookPostman",
+   "HeartPieceNotebookRosa",
+   "HeartPieceNotebookHand",
+   "HeartPieceNotebookGran1",
+   "HeartPieceNotebookGran2",
+   "HeartPieceKeatonQuiz",
+   "HeartPieceSwordsmanSchool",
+   "HeartPiecePostBox",
+   "HeartPieceTerminaGossipStones",
+   "HeartPieceTerminaBusinessScrub",
+   "HeartPiecePictobox",
+   "HeartPieceBoatArchery",
+   "HeartPieceSeaHorse",
+   "HeartPieceFishermanGame",
+   "HeartPieceEvan",
+   "HeartPieceDogRace",
+   "HeartPiecePoeHut",
+   "HeartPieceTreasureChestGame",
+   "HeartPiecePeahat",
+   "HeartPieceDodong",
+   "HeartPieceWoodFallChest",
+   "HeartPieceTwinIslandsChest",
+   "HeartPieceOceanSpiderHouse",
+   "HeartPieceKnuckle",
+   "MaskPostmanHat",
+   "MaskAllNight",
+   "MaskBlast",
+   "MaskStone",
+   "MaskGreatFairy",
+   "MaskKeaton",
+   "MaskBremen",
+   "MaskBunnyHood",
+   "MaskDonGero",
+   "MaskScents",
+   "MaskRomani",
+   "MaskCircusLeader",
+   "MaskKafei",
+   "MaskCouple",
+   "MaskTruth",
+   "MaskKamaro",
+   "MaskGibdo",
+   "MaskGaro",
+   "MaskCaptainHat",
+   "MaskGiant",
+   "MaskGoron",
+   "MaskZora",
+   "SongHealing",
+   "SongEpona",
+   "SongStorms",
+   "SongSonata",
+   "SongLullaby",
+   "SongNewWaveBossaNova",
+   "SongElegy",
+   "SongOath",
+   "ItemWoodfallMap",
+   "ItemWoodfallCompass",
+   "ItemWoodfallKey1",
+   "ItemSnowheadMap",
+   "ItemSnowheadCompass",
+   "ItemSnowheadKey1",
+   "ItemSnowheadKey2",
+   "ItemSnowheadKey3",
+   "ItemGreatBayMap",
+   "ItemGreatBayCompass",
+   "ItemGreatBayKey1",
+   "ItemStoneTowerMap",
+   "ItemStoneTowerCompass",
+   "ItemStoneTowerKey1",
+   "ItemStoneTowerKey2",
+   "ItemStoneTowerKey3",
+   "ItemStoneTowerKey4",
+   "ChestLensCaveRedRupee",
+   "ChestLensCavePurpleRupee",
+   "ChestBeanGrottoRedRupee",
+   "ChestHotSpringGrottoRedRupee",
+   "ChestBadBatsGrottoPurpleRupee",
+   "ChestIkanaSecretShrineGrotto",
+   "ChestPiratesFortressRedRupee1",
+   "ChestPiratesFortressRedRupee2",
+   "ChestInsidePiratesFortressTankRedRupee",
+   "ChestInsidePiratesFortressGuardSilverRupee",
+   "ChestInsidePiratesFortressHeartPieceRoomRedRupee",
+   "ChestInsidePiratesFortressHeartPieceRoomBlueRupee",
+   "ChestInsidePiratesFortressMazeRedRupee",
+   "ChestPinacleRockRedRupee1",
+   "ChestPinacleRockRedRupee2",
+   "ChestBomberHideoutSilverRupee",
+   "ChestTerminaGrottoBombchu",
+   "ChestTerminaGrottoRedRupee",
+   "ChestTerminaUnderwaterRedRupee",
+   "ChestTerminaGrassRedRupee",
+   "ChestTerminaStumpRedRupee",
+   "ChestGreatBayCoastGrotto",
+   "ChestGreatBayCapeLedge1",
+   "ChestGreatBayCapeLedge2",
+   "ChestGreatBayCapeGrotto",
+   "ChestGreatBayCapeUnderwater",
+   "ChestPiratesFortressEntranceRedRupee1",
+   "ChestPiratesFortressEntranceRedRupee2",
+   "ChestPiratesFortressEntranceRedRupee3",
+   "ChestToSwampGrotto",
+   "ChestDogRacePurpleRupee",
+   "ChestGraveyardGrotto",
+   "ChestSwampGrotto",
+   "ChestWoodfallBlueRupee",
+   "ChestWoodfallRedRupee",
+   "ChestWellRightPurpleRupee",
+   "ChestWellLeftPurpleRupee",
+   "ChestMountainVillage",
+   "ChestMountainVillageGrottoRedRupee",
+   "ChestToIkanaRedRupee",
+   "ChestToIkanaGrotto",
+   "ChestInvertedStoneTowerSilverRupee",
+   "ChestInvertedStoneTowerBombchu10",
+   "ChestInvertedStoneTowerBean",
+   "ChestToSnowheadGrotto",
+   "ChestToGoronVillageRedRupee",
+   "ChestSecretShrineHeartPiece",
+   "ChestSecretShrineDinoGrotto",
+   "ChestSecretShrineWizzGrotto",
+   "ChestSecretShrineWartGrotto",
+   "ChestSecretShrineGaroGrotto",
+   "ChestInnStaffRoom",
+   "ChestInnGuestRoom",
+   "ChestWoodsGrotto",
+   "ChestEastClockTownSilverRupee",
+   "ChestSouthClockTownRedRupee",
+   "ChestSouthClockTownPurpleRupee",
+   "HeartPieceBank",
+   "HeartPieceSouthClockTown",
+   "HeartPieceNorthClockTown",
+   "HeartPieceToSwamp",
+   "HeartPieceSwampScrub",
+   "HeartPieceDekuPalace",
+   "HeartPieceGoronVillageScrub",
+   "HeartPieceZoraGrotto",
+   "HeartPieceLabFish",
+   "HeartPieceGreatBayCapeLikeLike",
+   "HeartPiecePiratesFortress",
+   "HeartPieceZoraHallScrub",
+   "HeartPieceToSnowhead",
+   "HeartPieceGreatBayCoast",
+   "HeartPieceIkana",
+   "HeartPieceCastle",
+   "HeartContainerWoodfall",
+   "HeartContainerSnowhead",
+   "HeartContainerGreatBay",
+   "HeartContainerStoneTower",
+   "ItemTingleMapTown",
+   "ItemTingleMapWoodfall",
+   "ItemTingleMapSnowhead",
+   "ItemTingleMapRanch",
+   "ItemTingleMapGreatBay",
+   "ItemTingleMapStoneTower",
+   "ChestToGoronRaceGrotto",
+   "IkanaScrubGoldRupee",
+   "MaskFierceDeity",
+   "MundaneItemBankBlueRupee",
+   "MundaneItemDekuPlaygroundPurpleRupee",
+   "MundaneItemHoneyAndDarlingPurpleRupee",
+   "MundaneItemZoraStageLightsBlueRupee"
+  ]
+ },
+ {
+  "key": "CustomStartingItemList",
+  "label": "Starting items",
+  "category": "items",
+  "description": "Items you start the game with.",
+  "type": "item_list",
+  "pool": "starting_items",
+  "default": [
+   "ItemOcarina",
+   "SongTime",
+   "SongSoaring",
+   "ItemWoodfallMap",
+   "ItemWoodfallCompass",
+   "ItemSnowheadMap",
+   "ItemSnowheadCompass",
+   "ItemGreatBayMap",
+   "ItemGreatBayCompass",
+   "ItemStoneTowerMap",
+   "ItemStoneTowerCompass",
+   "ItemTingleMapTown",
+   "ItemTingleMapWoodfall",
+   "ItemTingleMapSnowhead",
+   "ItemTingleMapRanch",
+   "ItemTingleMapGreatBay",
+   "ItemTingleMapStoneTower"
+  ]
+ },
+ {
+  "key": "RandomStartingItemGroups",
+  "label": "Random Starting Item Groups",
+  "category": "randomization",
+  "description": "Lists of items you'll start with a few of, chosen at random each seed.",
+  "type": "custom",
+  "default": [],
+  "editor": "starting-groups"
+ },
+ {
+  "key": "CustomJunkLocations",
+  "label": "Junk locations",
+  "category": "items",
+  "description": "Locations that will never contain an important item.",
+  "type": "item_list",
+  "pool": "locations",
+  "default": [
+   "FairySpinAttack",
+   "FairyDoubleMagic",
+   "FairyDoubleDefense",
+   "ItemFairySword",
+   "MaskCouple",
+   "MaskFierceDeity"
+  ]
+ },
+ {
+  "key": "TrapAmount",
+  "label": "Trap Amount",
+  "category": "gimmicks",
+  "description": "Amount of ice traps to be added to pool by replacing junk items.",
+  "type": "enum",
+  "enum": "TrapAmount",
+  "options": [
+   {
+    "value": "None",
+    "label": "None"
+   },
+   {
+    "value": "Normal",
+    "label": "Normal"
+   },
+   {
+    "value": "Extra",
+    "label": "Extra"
+   },
+   {
+    "value": "Mayhem",
+    "label": "Mayhem"
+   },
+   {
+    "value": "Onslaught",
+    "label": "Onslaught"
+   }
+  ],
+  "default": "None"
+ },
+ {
+  "key": "TrapWeights",
+  "label": "Trap Weights",
+  "category": "gimmicks",
+  "description": "How likely each kind of trap is, compared to the others. 0 means that trap never appears.",
+  "type": "custom",
+  "default": {},
+  "editor": "trap-weights",
+  "options": [
+   {
+    "value": "Ice",
+    "label": "Ice"
+   },
+   {
+    "value": "Bomb",
+    "label": "Bomb"
+   },
+   {
+    "value": "Rupoor",
+    "label": "Rupoor"
+   },
+   {
+    "value": "Nothing",
+    "label": "Nothing"
+   }
+  ]
+ },
+ {
+  "key": "TrapAppearance",
+  "label": "Trap Appearance",
+  "category": "gimmicks",
+  "description": "Appearance of ice traps in pool for world models.",
+  "type": "enum",
+  "enum": "TrapAppearance",
+  "options": [
+   {
+    "value": "MajorItems",
+    "label": "Major Items"
+   },
+   {
+    "value": "JunkItems",
+    "label": "Junk Items"
+   },
+   {
+    "value": "Anything",
+    "label": "Anything"
+   }
+  ],
+  "default": "MajorItems"
+ },
+ {
+  "key": "DamageMode",
+  "label": "Damage Mode",
+  "category": "gimmicks",
+  "description": "Select a damage mode, affecting how much damage Link takes:",
+  "type": "enum",
+  "enum": "DamageMode",
+  "options": [
+   {
+    "value": "Default",
+    "label": "Default",
+    "description": "Link takes normal damage."
+   },
+   {
+    "value": "Double",
+    "label": "Double"
+   },
+   {
+    "value": "Quadruple",
+    "label": "Quadruple"
+   },
+   {
+    "value": "Octuple",
+    "label": "Octuple"
+   },
+   {
+    "value": "OHKO",
+    "label": "One-Hit KO"
+   },
+   {
+    "value": "Doom",
+    "label": "Doom",
+    "description": "Hardcore mode. Link's hearts are slowly being drained continuously."
+   }
+  ],
+  "default": "Default"
+ },
+ {
+  "key": "DeathMode",
+  "label": "Death Mode",
+  "category": "gimmicks",
+  "description": "Select a death mode, affecting what happens when Link dies:",
+  "type": "enum",
+  "enum": "DeathMode",
+  "options": [
+   {
+    "value": "Default",
+    "label": "Default",
+    "description": "Nothing out of the ordinary."
+   },
+   {
+    "value": "MoonCrash",
+    "label": "Moon Crash",
+    "description": "The moon will crash."
+   },
+   {
+    "value": "ReduceMaxHearts",
+    "label": "Reduce Max Hearts",
+    "description": "Reduces the maximum number of hearts by one (or by half if you have Double Defense) and current health is restored to full. If you run out of hearts, the moon crashes."
+   }
+  ],
+  "default": "Default"
+ },
+ {
+  "key": "DamageEffect",
+  "label": "Damage Effect",
+  "category": "gimmicks",
+  "description": "Select an effect to occur whenever Link is being damaged:",
+  "type": "enum",
+  "enum": "DamageEffect",
+  "options": [
+   {
+    "value": "Default",
+    "label": "Default",
+    "description": "Vanilla effects occur."
+   },
+   {
+    "value": "Fire",
+    "label": "Fire",
+    "description": "All damage burns Link."
+   },
+   {
+    "value": "Ice",
+    "label": "Ice",
+    "description": "All damage freezes Link."
+   },
+   {
+    "value": "Shock",
+    "label": "Shock",
+    "description": "All damage shocks link."
+   },
+   {
+    "value": "Knockdown",
+    "label": "Knockdown",
+    "description": "All damage knocks Link down."
+   },
+   {
+    "value": "Random",
+    "label": "Random",
+    "description": "Any random effect of the above."
+   }
+  ],
+  "default": "Default"
+ },
+ {
+  "key": "MovementMode",
+  "label": "Movement Mode",
+  "category": "gimmicks",
+  "description": "Select a movement modifier:",
+  "type": "enum",
+  "enum": "MovementMode",
+  "options": [
+   {
+    "value": "Default",
+    "label": "Default",
+    "description": "No movement modifier."
+   },
+   {
+    "value": "HighSpeed",
+    "label": "High Speed",
+    "description": "Link moves at a much higher velocity."
+   },
+   {
+    "value": "SuperLowGravity",
+    "label": "Super Low Gravity",
+    "description": "Link can jump very high."
+   },
+   {
+    "value": "LowGravity",
+    "label": "Low Gravity",
+    "description": "Link can jump high."
+   },
+   {
+    "value": "HighGravity",
+    "label": "High Gravity",
+    "description": "Link can barely jump."
+   }
+  ],
+  "default": "Default"
+ },
+ {
+  "key": "FloorType",
+  "label": "Floor Type",
+  "category": "gimmicks",
+  "description": "Select a floortype for every floor ingame:",
+  "type": "enum",
+  "enum": "FloorType",
+  "options": [
+   {
+    "value": "Default",
+    "label": "Default",
+    "description": "Vanilla floortypes."
+   },
+   {
+    "value": "Sand",
+    "label": "Sand",
+    "description": "Link sinks slowly into every floor, affecting movement speed."
+   },
+   {
+    "value": "Ice",
+    "label": "Ice",
+    "description": "Every floor is slippery."
+   },
+   {
+    "value": "Snow",
+    "label": "Snow",
+    "description": "Similar to sand."
+   },
+   {
+    "value": "Random",
+    "label": "Random",
+    "description": "Any random floortypes of the above."
+   }
+  ],
+  "default": "Default"
+ },
+ {
+  "key": "NutandStickDrops",
+  "label": "Nut and Stick Drops",
+  "category": "gimmicks",
+  "description": "Adds Deku nuts and Deku sticks to drop tables in the field:",
+  "type": "enum",
+  "enum": "NutAndStickDrops",
+  "options": [
+   {
+    "value": "Default",
+    "label": "Default",
+    "description": "No change, vanilla behavior."
+   },
+   {
+    "value": "Light",
+    "label": "Light",
+    "description": "one stick and nut 1/16 chance termina bush."
+   },
+   {
+    "value": "Medium",
+    "label": "Medium",
+    "description": "More nuts, twice the chance"
+   },
+   {
+    "value": "Extra",
+    "label": "Extra",
+    "description": "More sticks, more nuts, more drop locations."
+   },
+   {
+    "value": "Mayhem",
+    "label": "Mayhem",
+    "description": "You're crazy in the coconut!"
+   }
+  ],
+  "default": "Default"
+ },
+ {
+  "key": "ClockSpeed",
+  "label": "Clock Speed",
+  "category": "gimmicks",
+  "description": "Modify the speed of time.",
+  "type": "enum",
+  "enum": "ClockSpeed",
+  "options": [
+   {
+    "value": "Default",
+    "label": "Default"
+   },
+   {
+    "value": "VerySlow",
+    "label": "Very Slow"
+   },
+   {
+    "value": "Slow",
+    "label": "Slow"
+   },
+   {
+    "value": "Fast",
+    "label": "Fast"
+   },
+   {
+    "value": "VeryFast",
+    "label": "Very Fast"
+   },
+   {
+    "value": "SuperFast",
+    "label": "Super Fast"
+   }
+  ],
+  "default": "Default"
+ },
+ {
+  "key": "HideClock",
+  "label": "Hide Clock",
+  "category": "gimmicks",
+  "description": "Clock UI will be hidden.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "BlastMaskCooldown",
+  "label": "Blast Mask Cooldown",
+  "category": "gimmicks",
+  "description": "Adjust the cooldown timer after using the Blast Mask.",
+  "type": "enum",
+  "enum": "BlastMaskCooldown",
+  "options": [
+   {
+    "value": "Default",
+    "label": "Default"
+   },
+   {
+    "value": "Instant",
+    "label": "Instant"
+   },
+   {
+    "value": "VeryShort",
+    "label": "Very Short"
+   },
+   {
+    "value": "Short",
+    "label": "Short"
+   },
+   {
+    "value": "Long",
+    "label": "Long"
+   },
+   {
+    "value": "VeryLong",
+    "label": "Very Long"
+   }
+  ],
+  "default": "Default"
+ },
+ {
+  "key": "EnableSunsSong",
+  "label": "Enable Suns Song",
+  "category": "gimmicks",
+  "description": "Enable using the Sun's Song, which speeds up time to 400 units per frame (normal time speed is 3 units per frame) until dawn or dusk or a loading zone.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "AllowFierceDeityAnywhere",
+  "label": "Allow Fierce Deity Anywhere",
+  "category": "gimmicks",
+  "description": "Allow the Fierce Deity's Mask to be used anywhere. Also addresses some softlocks caused by Fierce Deity.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "ByoAmmo",
+  "label": "Byo Ammo",
+  "category": "gimmicks",
+  "description": "Arrows, Bombs, and Bombchu will not be provided for minigames. You must bring your own. Logic Modes other than No Logic will account for this.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "MoonCrashErasesFile",
+  "label": "Moon Crash Erases File",
+  "category": "gimmicks",
+  "description": "If the moon crashes, your save files will be erased.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "HookshotAnySurface",
+  "label": "Hookshot Any Surface",
+  "category": "gimmicks",
+  "description": "Hookshot can hook to any surface.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "VanillaMoonTrialAccess",
+  "label": "Vanilla Moon Trial Access",
+  "category": "gimmicks",
+  "description": "Entering the trials on the Moon will require masks, as per the vanilla behavior, but this is not considered by logic. Without this enabled, the trials will not require any masks to enter.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "ShortenCutsceneSettings.General",
+  "label": "General cutscenes",
+  "category": "cutscenes",
+  "description": "Shorten or skip these cutscenes and waits.",
+  "type": "flags",
+  "enum": "ShortenCutsceneGeneral",
+  "options": [
+   {
+    "value": "BlastMaskThief",
+    "label": "Blast Mask Thief",
+    "description": "You don't have to wait for Sakon to leave."
+   },
+   {
+    "value": "BoatArchery",
+    "label": "Boat Archery",
+    "description": "The minigame will end as soon as you have the required 20 points."
+   },
+   {
+    "value": "FishermanGame",
+    "label": "Fisherman Game",
+    "description": "The minigame will end as soon as you have the required 20 points."
+   },
+   {
+    "value": "MilkBarPerformance",
+    "label": "Milk Bar Performance",
+    "description": "Replaying of the music is shortened."
+   },
+   {
+    "value": "HungryGoron",
+    "label": "Hungry Goron",
+    "description": "The Hungry Goron doesn't interrupt you when you approach, and you don't have to watch him roll away."
+   },
+   {
+    "value": "TatlInterrupts",
+    "label": "Tatl Interrupts",
+    "description": "Remove most instances of Tatl interrupting your gameplay."
+   },
+   {
+    "value": "FasterBankText",
+    "label": "Faster Bank Text",
+    "description": "Skips the irrelevant bank text. Allows using Z/R to set deposit/withdraw amount to min/max."
+   },
+   {
+    "value": "GoronVillageOwl",
+    "label": "Goron Village Owl",
+    "description": "The owl in Goron Village will no longer trigger dialog when you approach. You must target it and talk to it if you want it to reveal the path."
+   },
+   {
+    "value": "AutomaticCredits",
+    "label": "Automatic Credits",
+    "description": "The dialog of the credits will proceed automatically."
+   },
+   {
+    "value": "PrincessDelivery",
+    "label": "Princess Delivery",
+    "description": "The cutscene when delivering the Deku Princess will be skipped."
+   },
+   {
+    "value": "ShortChestOpening",
+    "label": "Short Chest Opening",
+    "description": "All chests will open using the short animation."
+   },
+   {
+    "value": "SunMask",
+    "label": "Sun Mask",
+    "description": "Shorten various aspects of recovering the Sun Mask."
+   },
+   {
+    "value": "Tingle",
+    "label": "Tingle",
+    "description": "You don't have to watch Tingle fall, and his text is shortened."
+   },
+   {
+    "value": "JimRunning",
+    "label": "Jim Running",
+    "description": "You don't have to watch Jim run away after using the Bombers' code."
+   },
+   {
+    "value": "Kotake",
+    "label": "Kotake",
+    "description": "You don't have to watch Kotake fly into the woods, and don't have to watch her fly away after giving you an item."
+   },
+   {
+    "value": "HoldAText",
+    "label": "Hold A Text",
+    "description": "Hold A to automatically advance text."
+   },
+   {
+    "value": "EverythingElse",
+    "label": "Everything Else",
+    "description": "Various cutscenes are skipped or otherwise shortened."
+   }
+  ],
+  "default": [
+   "BlastMaskThief",
+   "BoatArchery",
+   "FishermanGame",
+   "MilkBarPerformance",
+   "HungryGoron",
+   "TatlInterrupts",
+   "FasterBankText",
+   "GoronVillageOwl",
+   "AutomaticCredits",
+   "PrincessDelivery",
+   "SunMask",
+   "Tingle",
+   "JimRunning",
+   "Kotake",
+   "HoldAText",
+   "EverythingElse"
+  ]
+ },
+ {
+  "key": "ShortenCutsceneSettings.BossIntros",
+  "label": "Boss intros",
+  "category": "cutscenes",
+  "description": "Skip these boss introduction cutscenes.",
+  "type": "flags",
+  "enum": "ShortenCutsceneBossIntro",
+  "options": [
+   {
+    "value": "Odolwa",
+    "label": "Odolwa",
+    "description": "Odolwa is ready to fight you right away."
+   },
+   {
+    "value": "Goht",
+    "label": "Goht",
+    "description": "Link doesn't look around in surprise when you enter Goht's room."
+   },
+   {
+    "value": "Gyorg",
+    "label": "Gyorg",
+    "description": "Gyorg is ready to fight you right away."
+   },
+   {
+    "value": "Twinmold",
+    "label": "Twinmold",
+    "description": "Twinmold is ready to fight you right away."
+   },
+   {
+    "value": "Majora",
+    "label": "Majora",
+    "description": "Majora is ready to fight you right away."
+   },
+   {
+    "value": "Wart",
+    "label": "Wart",
+    "description": "You don't have to look at Wart to get him down from the ceiling. It spawns on the ground."
+   },
+   {
+    "value": "IgosDuIkana",
+    "label": "Igos Du Ikana",
+    "description": "Igos du Ikana and his henchmen are ready to fight you right away."
+   },
+   {
+    "value": "Gomess",
+    "label": "Gomess",
+    "description": "Gomess and his bats are ready to fight you right away."
+   }
+  ],
+  "default": [
+   "Odolwa",
+   "Goht",
+   "Gyorg",
+   "Majora",
+   "IgosDuIkana",
+   "Gomess"
+  ]
+ },
+ {
+  "key": "QuickTextEnabled",
+  "label": "Quick Text Enabled",
+  "category": "quality_of_life",
+  "description": "Enable quick text. Dialogs are fast-forwarded to choices/end of dialog.",
+  "type": "bool",
+  "default": true
+ },
+ {
+  "key": "Character",
+  "label": "Character",
+  "category": "quality_of_life",
+  "description": "Select a character model to replace Link's default model.",
+  "type": "enum",
+  "enum": "Character",
+  "options": [
+   {
+    "value": "LinkMM",
+    "label": "Link (MM)"
+   },
+   {
+    "value": "LinkOOT",
+    "label": "Link (OoT)"
+   },
+   {
+    "value": "AdultLink",
+    "label": "Adult Link"
+   },
+   {
+    "value": "Kafei",
+    "label": "Kafei"
+   }
+  ],
+  "default": "LinkMM"
+ },
+ {
+  "key": "GossipHintStyle",
+  "label": "Gossip Hint Style",
+  "category": "hints",
+  "description": "Select a Gossip Stone hint style",
+  "type": "enum",
+  "enum": "GossipHintStyle",
+  "options": [
+   {
+    "value": "Default",
+    "label": "Default",
+    "description": "Vanilla Gossip Stone hints."
+   },
+   {
+    "value": "Random",
+    "label": "Random",
+    "description": "Hints will contain locations of random items."
+   },
+   {
+    "value": "Relevant",
+    "label": "Relevant",
+    "description": "Hints will contain locations of items loosely related to the vanilla hint or the area."
+   },
+   {
+    "value": "Competitive",
+    "label": "Competitive",
+    "description": "Guaranteed hints about time-consuming checks, and hints regarding importance or non-importance of regions"
+   }
+  ],
+  "default": "Competitive",
+  "excludes": [
+   {
+    "when": "Default",
+    "disables": [
+     "ClearHints",
+     "ImportanceCount",
+     "OverrideNumberOfRequiredGossipHints",
+     "OverrideNumberOfNonRequiredGossipHints",
+     "OverrideMaxNumberOfClockTownGossipHints",
+     "MixGossipAndGaroHints"
+    ]
+   },
+   {
+    "when": "Random",
+    "disables": [
+     "ImportanceCount",
+     "OverrideNumberOfRequiredGossipHints",
+     "OverrideNumberOfNonRequiredGossipHints",
+     "OverrideMaxNumberOfClockTownGossipHints",
+     "MixGossipAndGaroHints"
+    ]
+   },
+   {
+    "when": "Relevant",
+    "disables": [
+     "ImportanceCount",
+     "OverrideNumberOfRequiredGossipHints",
+     "OverrideNumberOfNonRequiredGossipHints",
+     "OverrideMaxNumberOfClockTownGossipHints",
+     "MixGossipAndGaroHints"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "GaroHintStyle",
+  "label": "Garo Hint Style",
+  "category": "hints",
+  "description": "Select a Garo hint style",
+  "type": "enum",
+  "enum": "GossipHintStyle",
+  "options": [
+   {
+    "value": "Default",
+    "label": "Default",
+    "description": "Vanilla Garo hints."
+   },
+   {
+    "value": "Random",
+    "label": "Random",
+    "description": "Hints will contain locations of random items."
+   },
+   {
+    "value": "Relevant",
+    "label": "Relevant",
+    "description": "Hints will contain locations of items loosely related to the vanilla hint or the area."
+   },
+   {
+    "value": "Competitive",
+    "label": "Competitive",
+    "description": "Guaranteed hints about time-consuming checks, and hints regarding importance or non-importance of regions."
+   }
+  ],
+  "default": "Default",
+  "excludes": [
+   {
+    "when": "Default",
+    "disables": [
+     "ClearGaroHints",
+     "ImportanceCountGaro",
+     "OverrideNumberOfRequiredGaroHints",
+     "OverrideNumberOfNonRequiredGaroHints",
+     "OverrideMaxNumberOfClockTownGaroHints",
+     "MixGossipAndGaroHints"
+    ]
+   },
+   {
+    "when": "Random",
+    "disables": [
+     "ImportanceCountGaro",
+     "OverrideNumberOfRequiredGaroHints",
+     "OverrideNumberOfNonRequiredGaroHints",
+     "OverrideMaxNumberOfClockTownGaroHints",
+     "MixGossipAndGaroHints"
+    ]
+   },
+   {
+    "when": "Relevant",
+    "disables": [
+     "ImportanceCountGaro",
+     "OverrideNumberOfRequiredGaroHints",
+     "OverrideNumberOfNonRequiredGaroHints",
+     "OverrideMaxNumberOfClockTownGaroHints",
+     "MixGossipAndGaroHints"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "MixGossipAndGaroHints",
+  "label": "Mix Gossip And Garo Hints",
+  "category": "hints",
+  "description": "Garo hints distribution and gossip hint distribution will be mixed together.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "FreeHints",
+  "label": "Free Hints",
+  "category": "hints",
+  "description": "Enable reading gossip stone hints without requiring the Mask of Truth.",
+  "type": "bool",
+  "default": true
+ },
+ {
+  "key": "FreeGaroHints",
+  "label": "Free Garo Hints",
+  "category": "hints",
+  "description": "Enable fighting Garos by speaking to Tatl instead of wearing the Garo's Mask.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "ClearHints",
+  "label": "Clear Hints",
+  "category": "hints",
+  "description": "Gossip stone hints will give clear item and location names.",
+  "type": "bool",
+  "default": true
+ },
+ {
+  "key": "ClearGaroHints",
+  "label": "Clear Garo Hints",
+  "category": "hints",
+  "description": "Garo hints will give clear item and location names.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "ImportanceCount",
+  "label": "Importance Count",
+  "category": "quality_of_life",
+  "description": "Gossip stone hints that normally give a Way of the Hero hint will instead tell you the number of important items in the region. Foolish hints will say zero important items. Foolish Except The Song hints will say one important song.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "ImportanceCountGaro",
+  "label": "Importance Count Garo",
+  "category": "hints",
+  "description": "Garo hints that normally give a Way of the Hero hint will instead tell you the number of important items in the region. Foolish hints will say zero important items. Foolish Except The Song hints will say one important song.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "TolerantGossipStones",
+  "label": "Tolerant Gossip Stones",
+  "category": "hints",
+  "description": "The angle at which Gossip Stones can be read will be more tolerant.",
+  "type": "bool",
+  "default": true
+ },
+ {
+  "key": "HintsIndicateImportance",
+  "label": "Hints Indicate Importance",
+  "category": "hints",
+  "description": "Location hints indicate the importance of the item.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "OverrideNumberOfRequiredGossipHints",
+  "label": "Override Number Of Required Gossip Hints",
+  "category": "hints",
+  "description": "Set the number of Way of the Hero hints that will appear on Gossip Stones.",
+  "type": "number",
+  "integer": true,
+  "min": 0,
+  "max": 14,
+  "default": null,
+  "nullable": true
+ },
+ {
+  "key": "OverrideNumberOfNonRequiredGossipHints",
+  "label": "Override Number Of Non Required Gossip Hints",
+  "category": "hints",
+  "description": "Set the number of Foolish hints that will appear on Gossip Stones.",
+  "type": "number",
+  "integer": true,
+  "min": 0,
+  "max": 14,
+  "default": null,
+  "nullable": true
+ },
+ {
+  "key": "OverrideMaxNumberOfClockTownGossipHints",
+  "label": "Override Max Number Of Clock Town Gossip Hints",
+  "category": "hints",
+  "description": "Set the maximum number of Way of the Hero hints on Gossip Stones that can be for a Clock Town region (including Laundry Pool).",
+  "type": "number",
+  "integer": true,
+  "min": 0,
+  "max": 7,
+  "default": null,
+  "nullable": true
+ },
+ {
+  "key": "OverrideNumberOfRequiredGaroHints",
+  "label": "Override Number Of Required Garo Hints",
+  "category": "hints",
+  "description": "Set the number of Way of the Hero hints that will appear on Garos.",
+  "type": "number",
+  "integer": true,
+  "min": 0,
+  "max": 8,
+  "default": null,
+  "nullable": true
+ },
+ {
+  "key": "OverrideNumberOfNonRequiredGaroHints",
+  "label": "Override Number Of Non Required Garo Hints",
+  "category": "hints",
+  "description": "Set the number of Foolish hints that will appear on Garos.",
+  "type": "number",
+  "integer": true,
+  "min": 0,
+  "max": 8,
+  "default": null,
+  "nullable": true
+ },
+ {
+  "key": "OverrideMaxNumberOfClockTownGaroHints",
+  "label": "Override Max Number Of Clock Town Garo Hints",
+  "category": "hints",
+  "description": "Set the maximum number of Way of the Hero hints on Garos that can be for a Clock Town region (including Laundry Pool).",
+  "type": "number",
+  "integer": true,
+  "min": 0,
+  "max": 7,
+  "default": null,
+  "nullable": true
+ },
+ {
+  "key": "OverrideHintPriorities",
+  "label": "Override Hint Priorities",
+  "category": "hints",
+  "description": "If any locations are provided, this list will be used exclusively for determining hint priorities. Settings are not taken into account, but non-randomized and junked locations will not be hinted. The higher a location appears in this list, the higher its priority. Locations with the same priority will be chosen randomly. If a location should combine with another location, all the combined locations should be added.",
+  "type": "custom",
+  "default": null,
+  "editor": "hint-priorities",
+  "nullable": true
+ },
+ {
+  "key": "OverrideImportanceIndicatorTiers",
+  "label": "Override Importance Indicator Tiers",
+  "category": "quality_of_life",
+  "description": "Make chosen tiers of hints indicate their importance.",
+  "type": "custom",
+  "default": null,
+  "editor": "hint-priorities",
+  "companion_of": "OverrideHintPriorities",
+  "nullable": true
+ },
+ {
+  "key": "OverrideHintItemCaps",
+  "label": "Override Hint Item Caps",
+  "category": "hints",
+  "description": "The number (if non-zero) indicates how many of the locations in the tier will be hinted, and the rest will be forced to be junk.",
+  "type": "custom",
+  "default": null,
+  "editor": "hint-priorities",
+  "companion_of": "OverrideHintPriorities",
+  "nullable": true
+ },
+ {
+  "key": "PreventDowngrades",
+  "label": "Prevent Downgrades",
+  "category": "quality_of_life",
+  "description": "Downgrading items will be prevented.",
+  "type": "bool",
+  "default": true
+ },
+ {
+  "key": "UpdateChests",
+  "label": "Update Chests",
+  "category": "quality_of_life",
+  "description": "Chest appearance will be updated to match the item they contain.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "UpdateNPCText",
+  "label": "Update NPC Text",
+  "category": "quality_of_life",
+  "description": "NPC text that refers to items and their locations will be updated.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "OathHint",
+  "label": "Oath Hint",
+  "category": "hints",
+  "description": "When you take the boss warp after defeating a temple boss, if you have enough boss remains to go to the moon and do not have Oath to Order then a cutscene will play in which the Giants reveal to you the region where the Oath to Order is located. If Mix Songs With Items is disabled, they will instead reveal the region of the Powder Keg, Captain's Hat, Mirror Shield, Deku Mask, Goron Mask or Zora Mask, depending on where the Oath to Order is.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "RemainsHint",
+  "label": "Remains Hint",
+  "category": "hints",
+  "description": "At the entrance to the Clock Tower Interior, Tatl will prompt to speak and will tell you the regions where the Boss Remains are located.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "FairyAndSkullHint",
+  "label": "Fairy And Skull Hint",
+  "category": "hints",
+  "description": "The cursed man in the Swamp Spider House, and the Green Shirt Man in the Ocean Spider House will tell you the regions of the remaining spider tokens. The Green Shirt Man in the Ocean Spider House will appear there when you blow up the entrance wall. Each fairy fountain (including Clock Town) will tell you the regions of the remaining Stray Fairies.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "FixEponaSword",
+  "label": "Fix Epona Sword",
+  "category": "quality_of_life",
+  "description": "Change Epona's B button behavior to prevent you from losing your sword if you don't have a bow. May affect vanilla glitches that use Epona's B button.",
+  "type": "bool",
+  "default": true
+ },
+ {
+  "key": "EnablePictoboxSubject",
+  "label": "Enable Pictobox Subject",
+  "category": "quality_of_life",
+  "description": "Display extra text showing which type of picture was captured by the Pictobox.",
+  "type": "bool",
+  "default": true
+ },
+ {
+  "key": "LenientGoronSpikes",
+  "label": "Lenient Goron Spikes",
+  "category": "quality_of_life",
+  "description": "Goron spikes can charge midair and keep their charge. Minimum speed for goron spikes is removed.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "KeepQuestTradeThroughTime",
+  "label": "Keep Quest Trade Through Time",
+  "category": "quality_of_life",
+  "description": "Quest items will return to your inventory after Song of Time.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "RequiredZoraEggs",
+  "label": "Required Zora Eggs",
+  "category": "quality_of_life",
+  "description": "Number of zora eggs that must be brought to the lab for the eggs to grow.",
+  "type": "number",
+  "integer": true,
+  "min": 1,
+  "max": 7,
+  "default": 7,
+  "nullable": false
+ },
+ {
+  "key": "SpeedupBeavers",
+  "label": "Speedup Beavers",
+  "category": "speedups",
+  "description": "Modify Beavers to not have to race the younger beaver.",
+  "type": "bool",
+  "default": true
+ },
+ {
+  "key": "SpeedupDampe",
+  "label": "Speedup Dampe",
+  "category": "speedups",
+  "description": "Change Dampe ghost flames to always have two on the ground floor and one up the ladder.",
+  "type": "bool",
+  "default": true
+ },
+ {
+  "key": "SpeedupDogRace",
+  "label": "Speedup Dog Race",
+  "category": "speedups",
+  "description": "Make Gold Dog always win if you have the Mask of Truth.",
+  "type": "bool",
+  "default": true
+ },
+ {
+  "key": "SpeedupLabFish",
+  "label": "Speedup Lab Fish",
+  "category": "speedups",
+  "description": "Change Lab Fish to only need to be fed one fish.",
+  "type": "bool",
+  "default": true
+ },
+ {
+  "key": "SpeedupBank",
+  "label": "Speedup Bank",
+  "category": "speedups",
+  "description": "Change the Bank reward thresholds to 200/500/1000 instead of 200/1000/5000. Also reduces maximum bank capacity from 5000 to 1000.",
+  "type": "bool",
+  "default": true
+ },
+ {
+  "key": "SpeedupBabyCuccos",
+  "label": "Speedup Baby Cuccos",
+  "category": "speedups",
+  "description": "Makes the location of baby cuccos show on the minimap.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "Cosmetic.HeartsSelection",
+  "label": "Hearts Selection",
+  "category": "cosmetics",
+  "description": "Hearts color selection used for HUD color override.",
+  "type": "enum",
+  "default": "Customized",
+  "excludes": [
+   {
+    "when": "Random Choice",
+    "disables": [
+     "HudColors.Heart",
+     "HudColors.HeartDD"
+    ]
+   },
+   {
+    "when": "Completely Random",
+    "disables": [
+     "HudColors.Heart",
+     "HudColors.HeartDD"
+    ]
+   }
+  ],
+  "options": [
+   {
+    "value": "Customized",
+    "label": "Customized"
+   },
+   {
+    "value": "Random Choice",
+    "label": "Random Choice"
+   },
+   {
+    "value": "Completely Random",
+    "label": "Completely Random"
+   }
+  ]
+ },
+ {
+  "key": "Cosmetic.MagicSelection",
+  "label": "Magic Selection",
+  "category": "cosmetics",
+  "description": "Magic color selection used for HUD color override.",
+  "type": "enum",
+  "default": "Customized",
+  "excludes": [
+   {
+    "when": "Random Choice",
+    "disables": [
+     "HudColors.Magic",
+     "HudColors.MagicInf"
+    ]
+   },
+   {
+    "when": "Completely Random",
+    "disables": [
+     "HudColors.Magic",
+     "HudColors.MagicInf"
+    ]
+   }
+  ],
+  "options": [
+   {
+    "value": "Customized",
+    "label": "Customized"
+   },
+   {
+    "value": "Random Choice",
+    "label": "Random Choice"
+   },
+   {
+    "value": "Completely Random",
+    "label": "Completely Random"
+   }
+  ]
+ },
+ {
+  "key": "Cosmetic.ShiftHueMiscUI",
+  "label": "Shift Hue Misc UI",
+  "category": "cosmetics",
+  "description": "Shifts the color of miscellaneous UI elements.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "Cosmetic.RandomizeSounds",
+  "label": "Randomize Sounds",
+  "category": "cosmetics",
+  "description": "Randomize sound effects that are played throughout the game.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "Cosmetic.TatlColorSchema",
+  "label": "Tatl Color Schema",
+  "category": "cosmetics",
+  "description": "Select a color scheme to replace Tatl's default color scheme.",
+  "type": "enum",
+  "enum": "TatlColorSchema",
+  "options": [
+   {
+    "value": "Default",
+    "label": "Default"
+   },
+   {
+    "value": "Dark",
+    "label": "Dark"
+   },
+   {
+    "value": "Hot",
+    "label": "Hot"
+   },
+   {
+    "value": "Cool",
+    "label": "Cool"
+   },
+   {
+    "value": "Random",
+    "label": "Random"
+   },
+   {
+    "value": "Rainbow",
+    "label": "Rainbow"
+   }
+  ],
+  "default": "Default"
+ },
+ {
+  "key": "Cosmetic.Music",
+  "label": "Music",
+  "category": "cosmetics",
+  "description": "Select a music option",
+  "type": "enum",
+  "enum": "Music",
+  "options": [
+   {
+    "value": "Default",
+    "label": "Default",
+    "description": "Vanilla background music."
+   },
+   {
+    "value": "Random",
+    "label": "Random",
+    "description": "Randomized background music."
+   },
+   {
+    "value": "None",
+    "label": "None",
+    "description": "No background music."
+   }
+  ],
+  "default": "Default",
+  "excludes": [
+   {
+    "when": "Default",
+    "disables": [
+     "Cosmetic.MusicLuckRollChance"
+    ]
+   },
+   {
+    "when": "None",
+    "disables": [
+     "Cosmetic.MusicLuckRollChance"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "Cosmetic.CameraStyle",
+  "label": "Camera Style",
+  "category": "cosmetics",
+  "description": "Select a camera style.",
+  "type": "enum",
+  "enum": "CameraStyle",
+  "options": [
+   {
+    "value": "Default",
+    "label": "Default",
+    "description": "Vanilla camera."
+   },
+   {
+    "value": "Responsive",
+    "label": "Responsive",
+    "description": "Link's movement will always be relative to the direction the camera is facing."
+   },
+   {
+    "value": "Instant",
+    "label": "Instant",
+    "description": "When Z-Targeting to move the camera behind Link, it will do it very quickly. Camera panning when climbing ledges is also sped up."
+   }
+  ],
+  "default": "Default"
+ },
+ {
+  "key": "Cosmetic.EnableHoldZTargeting",
+  "label": "Enable Hold Z Targeting",
+  "category": "cosmetics",
+  "description": "Default Z-Targeting style to Hold.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "Cosmetic.EnableNightBGM",
+  "label": "Enable Night BGM",
+  "category": "cosmetics",
+  "description": "Enables playing daytime Background music during nighttime in the field. (Clocktown night music can be weird)",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "Cosmetic.KeepPictoboxAntialiasing",
+  "label": "Keep Pictobox Antialiasing",
+  "category": "cosmetics",
+  "description": "Remove anti-aliasing from the Pictobox pictures, which is what makes Pictobox on emulator so slow.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "Cosmetic.LowHealthSFX",
+  "label": "Low Health Sound",
+  "category": "cosmetics",
+  "description": "Select a Low Health SFX setting:",
+  "type": "enum",
+  "enum": "LowHealthSFX",
+  "options": [
+   {
+    "value": "Default",
+    "label": "Default",
+    "description": "Vanilla sound."
+   },
+   {
+    "value": "Disabled",
+    "label": "Disabled",
+    "description": "No sound will play."
+   },
+   {
+    "value": "Random",
+    "label": "Random",
+    "description": "a random SFX will be chosen."
+   },
+   {
+    "value": "CuccoChicks",
+    "label": "Cucco Chicks"
+   },
+   {
+    "value": "CuccoClucking",
+    "label": "Cucco Clucking"
+   },
+   {
+    "value": "LinkPanting",
+    "label": "Link Panting"
+   },
+   {
+    "value": "DogBark",
+    "label": "Dog Bark"
+   },
+   {
+    "value": "SilverRupee",
+    "label": "Silver Rupee"
+   },
+   {
+    "value": "TatlDash",
+    "label": "Tatl Dash"
+   },
+   {
+    "value": "TatlMessage",
+    "label": "Tatl Message"
+   },
+   {
+    "value": "MikauBaby",
+    "label": "Mikau Baby"
+   },
+   {
+    "value": "CowMooing",
+    "label": "Cow Mooing"
+   },
+   {
+    "value": "LadderWarp",
+    "label": "Ladder Warp"
+   },
+   {
+    "value": "AmusedFather",
+    "label": "Amused Father"
+   },
+   {
+    "value": "TingleChuckle",
+    "label": "Tingle Chuckle"
+   }
+  ],
+  "default": "Default"
+ },
+ {
+  "key": "Cosmetic.DisableCombatMusic",
+  "label": "Disable Combat Music",
+  "category": "cosmetics",
+  "description": "Disables combat music around all regular (non boss or miniboss) enemies in the game.",
+  "type": "bool",
+  "default": false
+ },
+ {
+  "key": "Cosmetic.MusicLuckRollChance",
+  "label": "Music Luck Roll Chance",
+  "category": "cosmetics",
+  "description": "Music Rando comes with a chance to accept a song from outside of its categories. - This controls the percentage chance of a Luck Roll allowing out-of-category music placement - This is per specific slot+song check - Only songs with their first category being a general category (0-16) are Luck Rollable.",
+  "type": "number",
+  "integer": false,
+  "min": 0.0,
+  "max": 100.0,
+  "default": 3.33,
+  "nullable": false
+ },
+ {
+  "key": "Cosmetic.UseEnergyColors",
+  "label": "Use Energy Colors",
+  "category": "cosmetics",
+  "description": null,
+  "type": "custom",
+  "default": {
+   "Human": false,
+   "Deku": false,
+   "Goron": false,
+   "Zora": false,
+   "FierceDeity": false
+  },
+  "editor": "energy-colors",
+  "companion_of": "Cosmetic.EnergyColors"
+ },
+ {
+  "key": "Cosmetic.EnergyColors",
+  "label": "Energy Colors",
+  "category": "cosmetics",
+  "description": "The colour of each form's energy effects, like sword spins and the Goron roll.",
+  "type": "custom",
+  "default": {
+   "Human": [
+    "0, 100, 255",
+    "255, 100, 0"
+   ],
+   "Deku": [
+    "255, 255, 0"
+   ],
+   "Goron": [
+    "255, 155, 0",
+    "255, 0, 0",
+    "255, 155, 0"
+   ],
+   "Zora": [
+    "0, 150, 255"
+   ],
+   "FierceDeity": [
+    "0, 100, 255"
+   ]
+  },
+  "editor": "energy-colors",
+  "forms": [
+   "Human",
+   "Deku",
+   "Goron",
+   "Zora",
+   "FierceDeity"
+  ]
+ },
+ {
+  "key": "Cosmetic.UseTunicColors",
+  "label": "Use Tunic Colors",
+  "category": "cosmetics",
+  "description": null,
+  "type": "custom",
+  "default": {
+   "Human": false,
+   "Deku": false,
+   "Goron": false,
+   "Zora": false,
+   "FierceDeity": false
+  },
+  "editor": "tunic-colors",
+  "companion_of": "Cosmetic.TunicColors"
+ },
+ {
+  "key": "Cosmetic.TunicColors",
+  "label": "Tunic Colors",
+  "category": "cosmetics",
+  "description": "Each form's tunic colour, energy colours and ocarina instrument. Pick a colour to change it, or roll the dice for a random one.",
+  "type": "custom",
+  "default": {
+   "Human": "30, 105, 27",
+   "Deku": "30, 105, 27",
+   "Goron": "30, 105, 27",
+   "Zora": "30, 105, 27",
+   "FierceDeity": "189, 181, 173"
+  },
+  "editor": "tunic-colors",
+  "forms": [
+   "Human",
+   "Deku",
+   "Goron",
+   "Zora",
+   "FierceDeity"
+  ]
+ },
+ {
+  "key": "Cosmetic.Instruments",
+  "label": "Instruments",
+  "category": "cosmetics",
+  "description": "The instrument each form plays the ocarina songs with.",
+  "type": "custom",
+  "default": {
+   "Human": "Ocarina",
+   "Deku": "DekuPipes",
+   "Goron": "Drums",
+   "Zora": "Guitar"
+  },
+  "editor": "instruments",
+  "forms": [
+   "Human",
+   "Deku",
+   "Goron",
+   "Zora"
+  ],
+  "options": [
+   {
+    "value": "Random",
+    "label": "Random"
+   },
+   {
+    "value": "Swimming",
+    "label": "Swimming"
+   },
+   {
+    "value": "FairyFlying",
+    "label": "FairyFlying"
+   },
+   {
+    "value": "SwordSharpening",
+    "label": "SwordSharpening"
+   },
+   {
+    "value": "RoboticBuzzing",
+    "label": "RoboticBuzzing"
+   },
+   {
+    "value": "LensOfTruth",
+    "label": "LensOfTruth"
+   },
+   {
+    "value": "OohChoir",
+    "label": "OohChoir"
+   },
+   {
+    "value": "Explosion",
+    "label": "Explosion"
+   },
+   {
+    "value": "HorseGalloping",
+    "label": "HorseGalloping"
+   },
+   {
+    "value": "HorseNeighing",
+    "label": "HorseNeighing"
+   },
+   {
+    "value": "WaterFlowing",
+    "label": "WaterFlowing"
+   },
+   {
+    "value": "EchoeyFlute",
+    "label": "EchoeyFlute"
+   },
+   {
+    "value": "Ocarina",
+    "label": "Ocarina"
+   },
+   {
+    "value": "LavaBubbling",
+    "label": "LavaBubbling"
+   },
+   {
+    "value": "Chain",
+    "label": "Chain"
+   },
+   {
+    "value": "ChickenCluck",
+    "label": "ChickenCluck"
+   },
+   {
+    "value": "ChickenCrowing",
+    "label": "ChickenCrowing"
+   },
+   {
+    "value": "WaterSplashing",
+    "label": "WaterSplashing"
+   },
+   {
+    "value": "HingeCreaking",
+    "label": "HingeCreaking"
+   },
+   {
+    "value": "GlassHum",
+    "label": "GlassHum"
+   },
+   {
+    "value": "WaterDroplets",
+    "label": "WaterDroplets"
+   },
+   {
+    "value": "Whirlpool",
+    "label": "Whirlpool"
+   },
+   {
+    "value": "Arguing",
+    "label": "Arguing"
+   },
+   {
+    "value": "Dodongo",
+    "label": "Dodongo"
+   },
+   {
+    "value": "WhistlingFlute",
+    "label": "WhistlingFlute"
+   },
+   {
+    "value": "Accordion",
+    "label": "Accordion"
+   },
+   {
+    "value": "SoftHarp",
+    "label": "SoftHarp"
+   },
+   {
+    "value": "FemaleVoice",
+    "label": "FemaleVoice"
+   },
+   {
+    "value": "Tatl",
+    "label": "Tatl"
+   },
+   {
+    "value": "Bell",
+    "label": "Bell"
+   },
+   {
+    "value": "Whistle",
+    "label": "Whistle"
+   },
+   {
+    "value": "Harp",
+    "label": "Harp"
+   },
+   {
+    "value": "Drums",
+    "label": "Drums"
+   },
+   {
+    "value": "Guitar",
+    "label": "Guitar"
+   },
+   {
+    "value": "DekuPipes",
+    "label": "DekuPipes"
+   },
+   {
+    "value": "FrogCroak",
+    "label": "FrogCroak"
+   },
+   {
+    "value": "BabySinging",
+    "label": "BabySinging"
+   },
+   {
+    "value": "Beaver",
+    "label": "Beaver"
+   },
+   {
+    "value": "ClockCucco",
+    "label": "ClockCucco"
+   },
+   {
+    "value": "CathedralBell",
+    "label": "CathedralBell"
+   },
+   {
+    "value": "EagleSeagull",
+    "label": "EagleSeagull"
+   },
+   {
+    "value": "OrchestraTimpani",
+    "label": "OrchestraTimpani"
+   },
+   {
+    "value": "GlassIceShatter",
+    "label": "GlassIceShatter"
+   },
+   {
+    "value": "Laser",
+    "label": "Laser"
+   },
+   {
+    "value": "BubblePop",
+    "label": "BubblePop"
+   },
+   {
+    "value": "Monkey",
+    "label": "Monkey"
+   },
+   {
+    "value": "Engine",
+    "label": "Engine"
+   },
+   {
+    "value": "DogScared",
+    "label": "DogScared"
+   },
+   {
+    "value": "GoronElderDrum",
+    "label": "GoronElderDrum"
+   },
+   {
+    "value": "GiantSinging",
+    "label": "GiantSinging"
+   },
+   {
+    "value": "Piano",
+    "label": "Piano"
+   },
+   {
+    "value": "BassGuitar",
+    "label": "BassGuitar"
+   },
+   {
+    "value": "Gong",
+    "label": "Gong"
+   },
+   {
+    "value": "CreakingMetalLeaver",
+    "label": "CreakingMetalLeaver"
+   },
+   {
+    "value": "Flute",
+    "label": "Flute"
+   },
+   {
+    "value": "IkanaKing",
+    "label": "IkanaKing"
+   }
+  ]
+ },
+ {
+  "key": "Cosmetic.DPad",
+  "label": "D Pad",
+  "category": "cosmetics",
+  "description": "Put items on the D-Pad for quick use, and choose which side of the screen it shows on.",
+  "type": "custom",
+  "default": {
+   "Pad": {
+    "Values": [
+     "DekuMask",
+     "ZoraMask",
+     "Ocarina",
+     "GoronMask"
+    ]
+   },
+   "State": "Enabled",
+   "Display": "Left"
+  },
+  "asm": true,
+  "editor": "dpad",
+  "options": [
+   {
+    "value": "Ocarina",
+    "label": "Ocarina"
+   },
+   {
+    "value": "DekuMask",
+    "label": "DekuMask"
+   },
+   {
+    "value": "GoronMask",
+    "label": "GoronMask"
+   },
+   {
+    "value": "ZoraMask",
+    "label": "ZoraMask"
+   },
+   {
+    "value": "None",
+    "label": "None"
+   }
+  ]
+ },
+ {
+  "key": "Cosmetic.HudColors",
+  "label": "Hud Colors",
+  "category": "cosmetics",
+  "description": "Colours of the buttons, hearts, magic meter, clock, minimap and rupees on screen.",
+  "type": "custom",
+  "default": {
+   "ButtonA": "100, 200, 255",
+   "ButtonB": "100, 255, 120",
+   "ButtonC": "255, 240, 0",
+   "ButtonStart": "255, 130, 60",
+   "ClockEmblem": "0, 170, 100",
+   "ClockEmblemInverted1": "100, 205, 255",
+   "ClockEmblemInverted2": "0, 155, 255",
+   "ClockEmblemSun": "255, 255, 110",
+   "ClockMoon": "255, 255, 55",
+   "ClockSun": "255, 100, 110",
+   "Heart": "255, 70, 50",
+   "HeartDD": "200, 0, 0",
+   "Magic": "0, 200, 0",
+   "MagicInf": "0, 0, 200",
+   "Map": "0, 255, 255",
+   "MapEntranceCursor": "200, 0, 0",
+   "MapPlayerCursor": "200, 255, 0",
+   "RupeeIcon1": "200, 255, 100",
+   "RupeeIcon2": "170, 170, 255",
+   "RupeeIcon3": "255, 105, 105",
+   "ButtonIconA": "80, 90, 255",
+   "ButtonIconB": "70, 255, 80",
+   "ButtonIconC": "255, 255, 50",
+   "MenuAInner1": "100, 150, 255",
+   "MenuAInner2": "100, 255, 255",
+   "MenuAOuter1": "0, 0, 100",
+   "MenuAOuter2": "0, 150, 255",
+   "MenuCInner1": "255, 255, 0",
+   "MenuCInner2": "255, 255, 0",
+   "MenuCOuter1": "0, 0, 0",
+   "MenuCOuter2": "255, 160, 0",
+   "NoteA1": "80, 150, 255",
+   "NoteA2": "100, 200, 255",
+   "NoteAShadow1": "10, 10, 10",
+   "NoteAShadow2": "50, 50, 255",
+   "NoteC1": "255, 255, 50",
+   "NoteC2": "255, 255, 180",
+   "NoteCShadow1": "10, 10, 10",
+   "NoteCShadow2": "110, 110, 50",
+   "PauseTitleA": "0, 100, 255",
+   "PauseTitleC": "255, 150, 0",
+   "Prompt1": "0, 80, 200",
+   "Prompt2": "50, 130, 255",
+   "PromptGlow": "0, 130, 255",
+   "ScoreLines": "255, 0, 0",
+   "ScoreNote": "255, 100, 0",
+   "DPad": "128, 128, 128",
+   "MenuBorder1": "180, 180, 120",
+   "MenuBorder2": "150, 140, 90",
+   "MenuSubtitleText": "255, 200, 0",
+   "ShopCursor1": "0, 0, 255",
+   "ShopCursor2": "0, 80, 255",
+   "RupeeIcon4": "160, 96, 255"
+  },
+  "asm": true,
+  "editor": "hud-colors",
+  "fields": [
+   {
+    "value": "ButtonA",
+    "label": "A button"
+   },
+   {
+    "value": "ButtonB",
+    "label": "B button"
+   },
+   {
+    "value": "ButtonC",
+    "label": "C buttons"
+   },
+   {
+    "value": "ButtonStart",
+    "label": "Start button"
+   },
+   {
+    "value": "Heart",
+    "label": "Hearts"
+   },
+   {
+    "value": "HeartDD",
+    "label": "Hearts (Double Defense)"
+   },
+   {
+    "value": "Magic",
+    "label": "Magic meter"
+   },
+   {
+    "value": "MagicInf",
+    "label": "Magic meter (infinite)"
+   },
+   {
+    "value": "ClockEmblem",
+    "label": "Clock: uninverted"
+   },
+   {
+    "value": "ClockEmblemInverted1",
+    "label": "Clock: inverted (A)"
+   },
+   {
+    "value": "ClockEmblemInverted2",
+    "label": "Clock: inverted (B)"
+   },
+   {
+    "value": "ClockEmblemSun",
+    "label": "Clock: hour markers"
+   },
+   {
+    "value": "ClockSun",
+    "label": "Clock: sun"
+   },
+   {
+    "value": "ClockMoon",
+    "label": "Clock: moon"
+   },
+   {
+    "value": "Map",
+    "label": "Minimap"
+   },
+   {
+    "value": "MapEntranceCursor",
+    "label": "Minimap: entrance"
+   },
+   {
+    "value": "MapPlayerCursor",
+    "label": "Minimap: player"
+   },
+   {
+    "value": "RupeeIcon1",
+    "label": "Rupees: 99 wallet"
+   },
+   {
+    "value": "RupeeIcon2",
+    "label": "Rupees: 200 wallet"
+   },
+   {
+    "value": "RupeeIcon3",
+    "label": "Rupees: 500 wallet"
+   },
+   {
+    "value": "RupeeIcon4",
+    "label": "Rupees: 999 wallet"
+   },
+   {
+    "value": "DPad",
+    "label": "D-Pad"
+   }
+  ]
+ },
+ {
+  "key": "Cosmetic.RainbowTunic",
+  "label": "Rainbow Tunic",
+  "category": "cosmetics",
+  "description": "Link's tunic color will slowly cycle its hue.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "Cosmetic.BombTrapsRandomizeTunicColor",
+  "label": "Bomb Traps Randomize Tunic Color",
+  "category": "cosmetics",
+  "description": "When you find a Bomb Trap, Link's tunic will randomly change color.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "Cosmetic.RemoveMinorMusic",
+  "label": "Remove Minor Music",
+  "category": "cosmetics",
+  "description": "Minor music such as indoors and grottos will not play. Background music that is already playing will instead continue.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "Cosmetic.ShowTrackName",
+  "label": "Show Track Name",
+  "category": "cosmetics",
+  "description": "When a new track starts playing in-game, show the name of the track at the bottom left of the screen.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ },
+ {
+  "key": "Cosmetic.DisableFanfares",
+  "label": "Disable Fanfares",
+  "category": "cosmetics",
+  "description": "Replace item fanfares and swamp shooting gallery fanfares with sound effects.",
+  "type": "bool",
+  "default": false,
+  "asm": true
+ }
+]

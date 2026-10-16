@@ -1,0 +1,8 @@
+[
+{"name":"Default","value":0,"attributes":[]},
+{"name":"Instant","value":1,"attributes":[]},
+{"name":"VeryShort","value":2,"attributes":[]},
+{"name":"Short","value":3,"attributes":[]},
+{"name":"Long","value":4,"attributes":[]},
+{"name":"VeryLong","value":5,"attributes":[]}
+]

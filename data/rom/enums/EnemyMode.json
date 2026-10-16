@@ -1,0 +1,5 @@
+[
+{"name":"Default","value":0,"attributes":[]},
+{"name":"Randomized","value":1,"attributes":[{"type":"Description","args":["Enable randomization of enemies. May cause softlocks in some circumstances, use at your own risk."],"values":{"Description":"Enable randomization of enemies. May cause softlocks in some circumstances, use at your own risk."}}]},
+{"name":"Hyper","value":2,"attributes":[{"type":"Description","args":["Double the rate at which enemies are updated, making them more difficult."],"values":{"Description":"Double the rate at which enemies are updated, making them more difficult."}}]}
+]

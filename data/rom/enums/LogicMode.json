@@ -1,0 +1,7 @@
+[
+{"name":"Casual","value":0,"attributes":[]},
+{"name":"Glitched","value":1,"attributes":[]},
+{"name":"Vanilla","value":2,"attributes":[]},
+{"name":"UserLogic","value":3,"attributes":[]},
+{"name":"NoLogic","value":4,"attributes":[]}
+]

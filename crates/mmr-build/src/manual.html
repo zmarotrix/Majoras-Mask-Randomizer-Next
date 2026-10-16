@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MMR Next Manual</title>
+<style>
+:root {
+  --bg: #0a0b12; --bg2: #10121c;
+  --panel: rgba(255, 255, 255, 0.035); --panel-hi: rgba(255, 255, 255, 0.06);
+  --border: rgba(255, 255, 255, 0.08); --border-hi: rgba(255, 255, 255, 0.16);
+  --text: #e9ebf5; --muted: #8b91a8; --faint: #5b6178;
+  --accent: #a78bfa; --accent-2: #22d3ee; --good: #34d399; --warn: #fbbf24;
+  --mark: rgba(250, 204, 21, 0.28);
+  --radius: 14px;
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
+  --bg: #f4f5fa; --bg2: #ffffff; --panel: rgba(20, 24, 40, 0.035); --panel-hi: rgba(20, 24, 40, 0.06);
+  --border: rgba(20, 24, 40, 0.10); --border-hi: rgba(20, 24, 40, 0.2); --text: #161a2b; --muted: #5b6178; --faint: #8b91a8;
+  --accent: #7c3aed; --accent-2: #0891b2; --good: #059669; --warn: #b45309; --mark: rgba(250, 204, 21, 0.45);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #f4f5fa; --bg2: #ffffff; --panel: rgba(20, 24, 40, 0.035); --panel-hi: rgba(20, 24, 40, 0.06);
+    --border: rgba(20, 24, 40, 0.10); --border-hi: rgba(20, 24, 40, 0.2); --text: #161a2b; --muted: #5b6178; --faint: #8b91a8;
+    --accent: #7c3aed; --accent-2: #0891b2; --good: #059669; --warn: #b45309; --mark: rgba(250, 204, 21, 0.45);
+    color-scheme: light;
+  }
+}
+* { box-sizing: border-box; }
+html { scroll-padding-top: 84px; }
+html, body { margin: 0; }
+body {
+  font: 15px/1.55 Inter, "Segoe UI Variable", "Segoe UI", system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(1100px 600px at 85% -10%, rgba(167, 139, 250, 0.14), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, rgba(34, 211, 238, 0.08), transparent 60%),
+    var(--bg);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+a { color: var(--accent); }
+button, input { font: inherit; color: inherit; }
+.mono { font-family: ui-monospace, "Cascadia Code", Consolas, monospace; }
+
+header.top {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; align-items: center; gap: 16px;
+  padding: 14px 24px;
+  background: color-mix(in srgb, var(--bg) 80%, transparent);
+  backdrop-filter: blur(16px) saturate(140%);
+  border-bottom: 1px solid var(--border);
+}
+.brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.logo {
+  width: 36px; height: 36px; border-radius: 11px; flex: none;
+  background: conic-gradient(from 200deg, var(--accent), var(--accent-2), #f472b6, var(--accent));
+  display: grid; place-items: center; box-shadow: 0 0 24px rgba(167, 139, 250, 0.4);
+}
+.logo::after { content: ""; width: 13px; height: 13px; border-radius: 4px; background: var(--bg); transform: rotate(45deg); }
+.brand h1 { font-size: 17px; margin: 0; white-space: nowrap; }
+.brand p { font-size: 12px; color: var(--muted); margin: 0; white-space: nowrap; }
+.search { flex: 1; max-width: 520px; margin-left: auto; position: relative; }
+.search input {
+  width: 100%; padding: 9px 40px 9px 36px; border-radius: 11px;
+  border: 1px solid var(--border); background: var(--panel); outline: none;
+  transition: border-color .15s, background .15s;
+}
+.search input:focus { border-color: var(--accent); background: var(--panel-hi); }
+.search svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color: var(--muted); }
+.search kbd { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 11px; color: var(--faint); border: 1px solid var(--border); border-radius: 5px; padding: 0 5px; }
+.iconbtn { width: 36px; height: 36px; flex: none; display: grid; place-items: center; border-radius: 10px; border: 1px solid var(--border); background: var(--panel); cursor: pointer; }
+.iconbtn:hover { border-color: var(--border-hi); }
+.iconbtn svg { width: 16px; height: 16px; }
+
+.wrap { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 32px; max-width: 1240px; margin: 0 auto; padding: 24px; }
+nav.toc { position: sticky; top: 84px; align-self: start; max-height: calc(100vh - 100px); overflow: auto; display: flex; flex-direction: column; gap: 2px; }
+nav.toc .label { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--faint); margin: 14px 10px 6px; }
+nav.toc a { display: flex; justify-content: space-between; gap: 8px; padding: 6px 10px; border-radius: 9px; color: var(--muted); text-decoration: none; font-size: 14px; transition: background .15s, color .15s; }
+nav.toc a:hover { background: var(--panel-hi); color: var(--text); }
+nav.toc a.on { background: var(--panel-hi); color: var(--text); box-shadow: inset 2px 0 0 var(--accent); }
+nav.toc a span { color: var(--faint); font-size: 12px; }
+
+main { min-width: 0; }
+.intro { padding: 22px 24px; border: 1px solid var(--border); border-radius: var(--radius); background: linear-gradient(135deg, rgba(167, 139, 250, 0.10), rgba(34, 211, 238, 0.05)); margin-bottom: 28px; }
+.intro h2 { margin: 0 0 6px; font-size: 22px; }
+.intro p { margin: 0; color: var(--muted); max-width: 70ch; }
+section.sec { margin-bottom: 40px; }
+section.sec > h2 { font-size: 21px; margin: 0 0 4px; }
+section.sec > p.desc { margin: 0 0 18px; color: var(--muted); }
+.group { margin: 22px 0 10px; }
+.group h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .07em; color: var(--accent); margin: 0 0 2px; }
+.group p { margin: 0 0 10px; color: var(--muted); font-size: 14px; }
+.cards { display: grid; gap: 10px; }
+.card {
+  position: relative; padding: 14px 16px; border: 1px solid var(--border); border-radius: 12px; background: var(--panel);
+  transition: border-color .15s, background .15s;
+}
+.card:hover { border-color: var(--border-hi); }
+.card:target { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent); }
+.card .head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.card h4 { margin: 0; font-size: 15.5px; }
+.badge { font-size: 11px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); white-space: nowrap; }
+.badge.cos { color: #f472b6; border-color: color-mix(in srgb, #f472b6 40%, transparent); }
+.link { margin-left: auto; opacity: 0; color: var(--faint); text-decoration: none; font-size: 13px; transition: opacity .15s; }
+.card:hover .link { opacity: 1; }
+.card p { margin: 6px 0 0; color: var(--muted); }
+.opts { display: grid; gap: 4px; margin-top: 10px; }
+.opt { display: grid; grid-template-columns: minmax(120px, max-content) 1fr; gap: 12px; padding: 6px 10px; border-radius: 8px; background: var(--panel); font-size: 14px; }
+.opt b { font-weight: 600; }
+.opt span { color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.chip { font-size: 13px; padding: 3px 10px; border-radius: 999px; background: var(--panel-hi); border: 1px solid var(--border); }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 10px; font-size: 13px; color: var(--muted); }
+.meta b { color: var(--text); font-weight: 600; }
+details.pre { margin-top: 8px; font-size: 13px; color: var(--muted); }
+details.pre summary { cursor: pointer; width: max-content; }
+details.pre ul { margin: 6px 0 0; padding-left: 18px; }
+mark { background: var(--mark); color: inherit; border-radius: 3px; padding: 0 1px; }
+
+.presets { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+.presets .card ul { margin: 8px 0 0; padding-left: 18px; color: var(--muted); font-size: 14px; }
+.filters { display: flex; gap: 6px; margin: 0 0 12px; flex-wrap: wrap; }
+.filters button { padding: 5px 12px; border-radius: 999px; border: 1px solid var(--border); background: var(--panel); cursor: pointer; font-size: 13px; color: var(--muted); }
+.filters button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.tlogic { font-size: 11px; color: var(--accent-2); }
+.empty { padding: 40px; text-align: center; color: var(--muted); border: 1px dashed var(--border); border-radius: var(--radius); }
+.hidden { display: none !important; }
+
+@media (max-width: 860px) {
+  .wrap { grid-template-columns: minmax(0, 1fr); padding: 16px; gap: 16px; }
+  nav.toc { position: static; max-height: none; flex-direction: row; overflow-x: auto; padding-bottom: 4px; }
+  nav.toc .label { display: none; }
+  nav.toc a { white-space: nowrap; border: 1px solid var(--border); }
+  nav.toc a span { display: none; }
+  header.top { padding: 12px 16px; gap: 10px; }
+  .brand p, .search kbd { display: none; }
+  .opt { grid-template-columns: 1fr; gap: 0; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><div class="logo"></div><div><h1>MMR Next Manual</h1><p id="ver"></p></div></div>
+  <label class="search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="q" type="search" placeholder="Search settings and tricks" aria-label="Search">
+    <kbd>/</kbd>
+  </label>
+  <button class="iconbtn" id="theme" title="Light or dark" aria-label="Switch theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+</header>
+<div class="wrap">
+  <nav class="toc" id="toc"></nav>
+  <main id="main"></main>
+</div>
+<script>
+const DATA = /*MANUAL_DATA*/null;
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const KINDS = { bool: "On / off", number: "Number", enum: "Choice", flags: "Any of", item_list: "List of items", tricks: "Tricks", file: "File", custom: "Editor" };
+
+// Theme: follows the system unless chosen.
+try { const t = localStorage.getItem("mmr-manual-theme"); if (t) document.documentElement.dataset.theme = t; } catch {}
+$("#theme").onclick = () => {
+  const dark = getComputedStyle(document.documentElement).colorScheme !== "light";
+  document.documentElement.dataset.theme = dark ? "light" : "dark";
+  try { localStorage.setItem("mmr-manual-theme", document.documentElement.dataset.theme); } catch {}
+};
+$("#ver").textContent = `Version ${DATA.version}`;
+
+// Highlight query matches in plain text.
+let words = [];
+function hl(text) {
+  let out = esc(text);
+  for (const w of words) out = out.replace(new RegExp(`(${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})(?![^<]*>)`, "gi"), "<mark>$1</mark>");
+  return out;
+}
+const haystack = (...parts) => parts.flat().filter(Boolean).join(" ").toLowerCase();
+const matches = (text) => words.every((w) => text.includes(w));
+
+function settingCard(key) {
+  const s = DATA.settings[key];
+  if (!s) return "";
+  const text = haystack(s.label, key, s.description, s.options.map((o) => [o.label, o.description]));
+  if (!matches(text)) return "";
+  const opts = s.options.length
+    ? s.options.some((o) => o.description)
+      ? `<div class="opts">${s.options.map((o) => `<div class="opt"><b>${hl(o.label)}</b><span>${hl(o.description || "")}</span></div>`).join("")}</div>`
+      : `<div class="chips">${s.options.map((o) => `<span class="chip">${hl(o.label)}</span>`).join("")}</div>`
+    : "";
+  const range = s.min != null || s.max != null ? `<span>Range <b>${s.min ?? "…"}–${s.max ?? "…"}</b></span>` : "";
+  const pre = s.presets.length
+    ? `<details class="pre"><summary>Changed by ${s.presets.length} preset${s.presets.length > 1 ? "s" : ""}</summary><ul>${s.presets.map(([p, v]) => `<li><b>${esc(p)}</b>: ${esc(v)}</li>`).join("")}</ul></details>`
+    : "";
+  return `<article class="card" id="s-${esc(key)}">
+    <div class="head"><h4>${hl(s.label)}</h4><span class="badge">${KINDS[s.kind] || s.kind}</span>${s.cosmetic ? '<span class="badge cos">Cosmetic</span>' : ""}<a class="link" href="#s-${esc(key)}" title="Link to this setting">#</a></div>
+    ${s.description ? `<p>${hl(s.description)}</p>` : ""}
+    ${opts}
+    <div class="meta"><span>Default <b>${esc(s.default)}</b></span>${range}<span class="mono" title="Name in settings files">${hl(key)}</span></div>
+    ${pre}
+  </article>`;
+}
+
+let trickFilter = "All";
+function render() {
+  words = $("#q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const toc = [], parts = [];
+  if (!words.length) {
+    parts.push(`<div class="intro"><h2>Everything the randomizer can do</h2><p>Every setting, grouped like the app, with what each option does and what it starts as. Search above, or press <b>/</b>. Click a setting's <b>#</b> to link straight to it.</p></div>`);
+  }
+  let found = 0;
+  for (const sec of DATA.sections) {
+    const groups = [];
+    let n = 0;
+    for (const g of sec.groups) {
+      const keys = [...g.settings, ...((g.more && g.more.settings) || [])];
+      const cards = keys.map(settingCard).filter(Boolean);
+      if (!cards.length) continue;
+      n += cards.length;
+      groups.push(`<div class="group"><h3>${esc(g.title)}</h3>${g.description ? `<p>${esc(g.description)}</p>` : ""}<div class="cards">${cards.join("")}</div></div>`);
+    }
+    if (!n) continue;
+    found += n;
+    toc.push(`<a href="#sec-${sec.id}" data-sec="sec-${sec.id}">${esc(sec.label)}<span>${n}</span></a>`);
+    parts.push(`<section class="sec" id="sec-${sec.id}"><h2>${esc(sec.label)}</h2>${sec.description ? `<p class="desc">${esc(sec.description)}</p>` : ""}${groups.join("")}</section>`);
+  }
+
+  // Presets.
+  const presets = DATA.presets.filter((p) => matches(haystack(p.name, p.description, p.highlights)));
+  if (presets.length) {
+    found += presets.length;
+    toc.unshift(`<a href="#presets" data-sec="presets">Presets<span>${presets.length}</span></a>`);
+    const html = `<section class="sec" id="presets"><h2>Presets</h2><p class="desc">Ready-made setups. Each sets every option at once; you can change anything afterwards.</p><div class="presets">${presets
+      .map((p) => `<article class="card"><h4>${hl(p.name)}</h4>${p.description ? `<p>${hl(p.description)}</p>` : ""}${p.highlights.length ? `<ul>${p.highlights.map((h) => `<li>${hl(h)}</li>`).join("")}</ul>` : ""}</article>`)
+      .join("")}</div></section>`;
+    parts.splice(words.length ? 0 : 1, 0, html);
+  }
+
+  // Tricks.
+  const tricks = DATA.tricks.filter((t) => (trickFilter === "All" || t.logic.includes(trickFilter)) && matches(haystack(t.id, t.description, t.category)));
+  if (tricks.length || (!words.length && DATA.tricks.length)) {
+    found += tricks.length;
+    toc.push(`<a href="#tricks" data-sec="tricks">Tricks<span>${tricks.length}</span></a>`);
+    const cats = [...new Set(tricks.map((t) => t.category || "Other"))];
+    parts.push(`<section class="sec" id="tricks"><h2>Tricks</h2><p class="desc">Techniques the logic can expect of you when you turn them on (in Logic and tricks).</p>
+      <div class="filters">${["All", "Casual", "Glitched"].map((f) => `<button data-f="${f}" class="${f === trickFilter ? "on" : ""}">${f === "All" ? "All logic" : f + " logic"}</button>`).join("")}</div>
+      ${cats.map((c) => `<div class="group"><h3>${esc(c)}</h3><div class="cards">${tricks.filter((t) => (t.category || "Other") === c).map((t) => `<article class="card" id="t-${esc(t.id)}"><div class="head"><h4>${hl(t.id)}</h4><span class="tlogic">${t.logic.join(" · ")}</span><a class="link" href="#t-${esc(t.id)}">#</a></div>${t.description ? `<p>${hl(t.description)}</p>` : ""}${t.url ? `<p><a href="${esc(t.url)}" target="_blank" rel="noopener">Watch how</a></p>` : ""}</article>`).join("")}</div></div>`).join("")}
+    </section>`);
+  }
+
+  if (!found) parts.push(`<div class="empty">Nothing matches “${esc(words.join(" "))}”.</div>`);
+  $("#toc").innerHTML = `<div class="label">${words.length ? `${found} result${found === 1 ? "" : "s"}` : "Contents"}</div>` + toc.join("");
+  $("#main").innerHTML = parts.join("");
+  for (const b of document.querySelectorAll(".filters button")) b.onclick = () => { trickFilter = b.dataset.f; render(); };
+  spy();
+}
+
+// Table of contents follows the scroll.
+let observer;
+function spy() {
+  observer?.disconnect();
+  const links = [...document.querySelectorAll("nav.toc a")];
+  observer = new IntersectionObserver((entries) => {
+    for (const e of entries) if (e.isIntersecting) for (const l of links) l.classList.toggle("on", l.dataset.sec === e.target.id);
+  }, { rootMargin: "-90px 0px -70% 0px" });
+  for (const s of document.querySelectorAll("section.sec")) observer.observe(s);
+}
+
+let timer;
+$("#q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(render, 90); });
+document.addEventListener("keydown", (e) => {
+  if (e.key === "/" && document.activeElement !== $("#q")) { e.preventDefault(); $("#q").focus(); }
+  if (e.key === "Escape" && document.activeElement === $("#q")) { $("#q").value = ""; render(); $("#q").blur(); }
+});
+render();
+if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+</script>
+</body>
+</html>

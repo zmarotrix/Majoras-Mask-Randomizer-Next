@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.json -diff linguist-generated=false
+*.mmrs binary
+*.bin binary

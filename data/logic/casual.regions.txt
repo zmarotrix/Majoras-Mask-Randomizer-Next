@@ -1,0 +1,1874 @@
+region "Start"
+  exits
+    -> "Astral Observatory": Deku Mask or Bombers' Hide and Seek or Bomber Guard Skip or Observatory Goron Bomb Jump or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    -> "Ikana Graveyard": Play Epona's Song or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface or Road to Ikana Fences With Goron Bomb Jumps or Road to Ikana Fences With Goron Bubble Boosts or Road to Ikana Fences as Zora
+    -> "The Moon": Play Oath to Order and Moon: Boss Remains Required
+    -> "Mountain Village": (Destroy Large Snowballs and OtherArrow) or (Destroy Large Snowballs and Bottle: Hot Spring Water and Play Song of Soaring) or (Snowball Skip With Tall Character and OtherArrow) or (Snowball Skip With Tall Character and Bottle: Hot Spring Water and Play Song of Soaring) or (Snowball Skip as Human and OtherArrow) or (Snowball Skip as Human and Bottle: Hot Spring Water and Play Song of Soaring) or SettingGiantMaskAnywhere
+    -> "Southern Swamp: Past Big Octo": Pictograph Box or Any Healing Potion or (Kill Big Octo and Deku Mask) or (Kill Big Octo and Run Through Poisoned Water) or (Kill Big Octo and Poisoned Water as Goron) or (Kill Big Octo and SettingClimbMostSurfaces and SettingDamageModeDefault) or (Big Octo Skip as Deku and Play Song of Soaring) or (Big Octo Skip as Goron and Play Song of Soaring) or (Big Octo Skip as FD and Play Song of Soaring) or (Big Octo Skip as Adult Link and Play Song of Soaring) or (Kill Big Octo and Lilypad Parkour as FD)
+    -> "Great Bay Coast": Play Epona's Song or SettingClimbMostSurfaces or SettingHookshotAnySurface or SettingGiantMaskAnywhere or Great Bay Early With Goron Bomb Jump or Great Bay Early With Goron Chu Chu Jump or Great Bay Early as FD or Great Bay Early With Only Bombs
+    -> "Defeat Garo Master": Any Sword or OtherArrow or Deku Bubbles or Goron Mask or Zora Mask or SettingAllowFierceDeityAnywhere or Link Trial With Sticks
+    -> "Destroy Large Boulders": OtherExplosive or (SettingGiantMaskAnywhere and Any B Sword)
+    -> "Exit Great Bay Temple": Hookshot or GBT Exit as FD or GBT Exit as Goron or GBT Exit With Nothing or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    -> "Great Bay Temple: Yellow Valve": Zora Mask or GBT Goron Waterwheel or GBT Whirlpool Access as FD or GBT as Giant or SettingClimbMostSurfaces or SettingHookshotAnySurface or SettingIronGoron
+    -> "Great Bay Temple Pre-Boss Room": GBT Reverse Water Direction
+    -> "Great Bay Temple Seesaw Room": (GBT Reverse Water Direction and GBT Reverse Water Loop and Use Ice Arrow) or (GBT Reverse Water Direction and GBT Reverse Water Loop and GBT Iceless) or GBT Backdoor Seesaw Room
+    -> "Termina Field": always
+    -> "Termina Field (area)": always
+    -> "North Clock Town": always
+    -> "Road to Ikana": always
+    -> "Road to Southern Swamp": always
+    -> "Grotto Generic Southern Swamp": (Kill Big Octo and Deku Mask) or (Kill Big Octo and Run Through Poisoned Water) or (Kill Big Octo and Swamp Poison Water by Climbing) or (Kill Big Octo and Lilypad Parkour as FD) or (Big Octo Skip as Deku and Dungeon Entrance Return) or (Big Octo Skip as FD and Dungeon Entrance Return) or (Big Octo Skip as Adult Link and Dungeon Entrance Return) or (Poison Swamp Grotto as Goron and Kill Big Octo) or (Poison Swamp Grotto as Goron and Big Octo Skip as Goron and Dungeon Entrance Return) or (Dungeon Entrance Return and Recoil Flip to Swamp Spiderhouse with Fairy)
+    -> "West Clock Town": always
+    -> "Romani Ranch": always
+    -> "West Clock Town (area)": always
+    -> "Romani Ranch (area)": always
+    -> "North Clock Town (area)": always
+    -> "East Clock Town": always
+    -> "East Clock Town (area)": always
+    -> "Southern Swamp": always
+    -> "Road to Southern Swamp (area)": always
+    -> "Interior Swamp Spider House": (Kill Big Octo and Deku Mask) or (Kill Big Octo and Run Through Poisoned Water) or (Kill Big Octo and Poisoned Water as Goron) or (Kill Big Octo and Swamp Poison Water by Climbing) or (Kill Big Octo and Lilypad Parkour as FD) or (Big Octo Skip as Deku and Play Song of Soaring) or (Big Octo Skip as Goron and Play Song of Soaring) or (Big Octo Skip as FD and Play Song of Soaring) or (Big Octo Skip as Adult Link and Play Song of Soaring) or (Recoil Flip to Swamp Spiderhouse with Fairy and Play Song of Soaring)
+    -> "Southern Swamp (area)": always
+    -> "Keg Trial": Use Fire Arrow or Powder Keg Challenge Access as FD or Powder Keg Challenge Access as Zora/Adult Link
+    -> "Night Inn": Deku Mask or Room Key or SettingAllowFierceDeityAnywhere or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface or Inn Balcony Jump or Inn Balcony as Goron or Inn Balcony With Cucco or Inn Balcony With Bombs or Inn Balcony With Nothing
+    -> "Snowhead Temple: Main Room": SHT Bridge Room or SHT 2nd Locked Door or SHT Compass Room to Twin Block Room or (SHT Long Jumps and Powder Kegs as Explosives and Powder Keg)
+    -> "Stone Tower Temple: Courtyard": STT Elegy Maze or (STT Compass Chest Sun Block and STT Water Tunnel and Zora Mask and 1 Stone Tower Key) or (STT Compass Chest Sun Block and STT Water Tunnel and STT Eyegore Room Key to Bridge and STT Eyegore Bridge to Courtyard and 1 Stone Tower Key) or (STT Compass Chest Sun Block and STT Water Tunnel and SettingClimbMostSurfaces and 1 Stone Tower Key) or (STT Compass Chest Sun Block and STT Water Tunnel and SettingHookshotAnySurface and 1 Stone Tower Key)
+    -> "Misc": always
+    -> "South Clock Town": always
+    -> "Stock Pot Inn": always
+    -> "Laundry Pool": always
+    -> "Milk Road": always
+    -> "Clock Tower Roof": always
+    -> "Bottle Catch": always
+    -> "InteriorLensCave": always
+    -> "Road to Ikana (area)": always
+    -> "Beneath Clocktown": always
+    -> "Pirates' Fortress Sewer": always
+    -> "Deku Playground Items": always
+    -> "Path to Mountain Village": always
+
+region "Astral Observatory"
+  exits
+    -> "Grotto Deku Merchant": always
+  locations
+    Astronomy Telescope: always
+    Observatory Scarecrow Pot: always
+    Observatory Scarecrow Pot 2: always
+    Observatory Balloon Pot: always
+    Observatory Balloon Pot 2: always
+    Observatory Scarecrow Pot 3: always
+    Termina Field Telescope Guay: always
+    Termina Field Observatory Soft Soil: Bottle: Bug
+    Termina Field Observatory Gossip Fairy: Summon Fairy
+
+region "Beneath Clocktown"
+  locations
+    Pre-Clocktown Chest: OtherInaccessible
+
+region "Bottle Catch"
+  locations
+    Bottle: Fairy: OtherAnyBottle
+    Bottle: Fish: OtherAnyBottle
+    Bottle: Bug: OtherAnyBottle
+    Bottle: Spring Water: OtherAnyBottle
+    Bottle: Hot Spring Water: OtherAnyBottle and (Region: Grotto Hot Spring or Hot Spring Water in Mountains or Hot Spring Water in Well)
+    Bottle: Zora Egg: OtherAnyBottle and (ZoraEggAll or (Bottle: Zora Egg and Bottle: Fish and ZoraEggAny) or (Setting: RequiredZoraEggs is 0 and Setting: BottleCatchEgg is randomized and Setting: BottleCatchFish is randomized and Bottle: Zora Egg and All Zora Eggs For Fish) or (Setting: RequiredZoraEggs is 1 and Setting: BottleCatchEgg is randomized and Setting: BottleCatchFish is randomized and Bottle: Zora Egg and All Zora Eggs For Fish) or (Setting: RequiredZoraEggs is 2 and Setting: BottleCatchEgg is randomized and Setting: BottleCatchFish is randomized and Bottle: Zora Egg and All Zora Eggs For Fish) or (Setting: RequiredZoraEggs is 3 and Setting: BottleCatchEgg is randomized and Setting: BottleCatchFish is randomized and Bottle: Zora Egg and All Zora Eggs For Fish) or (Setting: RequiredZoraEggs is 4 and Setting: BottleCatchEgg is randomized and Setting: BottleCatchFish is randomized and Bottle: Zora Egg and All Zora Eggs For Fish) or (Setting: RequiredZoraEggs is 5 and Setting: BottleCatchEgg is randomized and Setting: BottleCatchFish is randomized and Bottle: Zora Egg and All Zora Eggs For Fish) or (Setting: RequiredZoraEggs is 6 and Setting: BottleCatchEgg is randomized and Setting: BottleCatchFish is randomized and Bottle: Zora Egg and All Zora Eggs For Fish))
+    Bottle: Mushroom: Mask of Scents and OtherAnyBottle
+
+region "Butler Race"
+  locations
+    Butler: always
+    Butler Race Pillar Item: always
+    Butler Race Pillar Item 2: always
+    Butler Race Pillar Item 3: always
+    Butler Race Pillar Item 4: always
+    Butler Race Pillar Item 5: always
+    Butler Race Pillar Item 6: always
+    Butler Race River Item: always
+    Butler Race River Item 2: always
+    Butler Race River Item 3: always
+    Butler Race River Item 4: always
+    Butler Race River Item 5: always
+    Butler Race River Item 6: always
+    Butler Race Right Path Item: always
+    Butler Race Right Path Item 2: always
+    Butler Race Right Path Item 3: always
+    Butler Race Right Path Item 4: always
+    Butler Race Right Path Item 5: always
+    Butler Race Right Path Item 6: always
+    Butler Race Final Room Item: always
+    Butler Race Final Room Item 2: always
+    Butler Race Final Room Item 3: always
+    Butler Race Final Room Item 4: always
+    Butler Race Final Room Item 5: always
+    Butler Race Final Room Item 6: always
+    Butler Race Final Room Item 7: always
+    Butler Race Final Room Item 8: always
+    Butler Race Final Room Item 9: always
+    Butler Race Final Room Item 10: always
+    Butler Race Dual Pot: always
+    Butler Race Pillar Item 7: always
+    Butler Race Pillar Item 8: always
+
+region "Climb Stone Tower"
+  exits
+    -> "Inverted Stone Tower Temple": Use Light Arrow and (Play Elegy of Emptiness or Flip Stone Tower Without Elegy)
+    -> "Interior Stone Tower Temple": always
+  locations
+    Inverted Stone Tower Right Chest: Use Light Arrow and ((Play Elegy of Emptiness and OtherMagicBean and Water for Magic Bean) or (Play Elegy of Emptiness and SettingClimbMostSurfaces) or (Play Elegy of Emptiness and Stone Tower Bean Chests as Giant) or (Flip Stone Tower Without Elegy and OtherMagicBean and Water for Magic Bean) or (Flip Stone Tower Without Elegy and SettingClimbMostSurfaces) or (Flip Stone Tower Without Elegy and Stone Tower Bean Chests as Giant))
+    Inverted Stone Tower Middle Chest: Use Light Arrow and ((Play Elegy of Emptiness and OtherMagicBean and Water for Magic Bean) or (Play Elegy of Emptiness and SettingClimbMostSurfaces) or (Play Elegy of Emptiness and Stone Tower Bean Chests as Giant) or (Flip Stone Tower Without Elegy and OtherMagicBean and Water for Magic Bean) or (Flip Stone Tower Without Elegy and SettingClimbMostSurfaces) or (Flip Stone Tower Without Elegy and Stone Tower Bean Chests as Giant))
+    Inverted Stone Tower Left Chest: Use Light Arrow and ((Play Elegy of Emptiness and OtherMagicBean and Water for Magic Bean) or (Play Elegy of Emptiness and SettingClimbMostSurfaces) or (Play Elegy of Emptiness and Stone Tower Bean Chests as Giant) or (Flip Stone Tower Without Elegy and OtherMagicBean and Water for Magic Bean) or (Flip Stone Tower Without Elegy and SettingClimbMostSurfaces) or (Flip Stone Tower Without Elegy and Stone Tower Bean Chests as Giant))
+    Stone Tower Upper Scarecrow Pot: always
+    Stone Tower Upper Scarecrow Pot 2: always
+    Stone Tower Owl Pot: always
+    Stone Tower Owl Pot 2: always
+    Inverted Stone Tower Pot: Use Light Arrow and ((Play Elegy of Emptiness and OtherMagicBean and Water for Magic Bean) or (Play Elegy of Emptiness and SettingClimbMostSurfaces) or (Play Elegy of Emptiness and Stone Tower Bean Chests as Giant) or (Flip Stone Tower Without Elegy and OtherMagicBean and Water for Magic Bean) or (Flip Stone Tower Without Elegy and SettingClimbMostSurfaces) or (Flip Stone Tower Without Elegy and Stone Tower Bean Chests as Giant))
+    Stone Tower Owl Pot 3: always
+    Inverted Stone Tower Pot 2: Use Light Arrow and ((Play Elegy of Emptiness and OtherMagicBean and Water for Magic Bean) or (Play Elegy of Emptiness and SettingClimbMostSurfaces) or (Play Elegy of Emptiness and Stone Tower Bean Chests as Giant) or (Flip Stone Tower Without Elegy and OtherMagicBean and Water for Magic Bean) or (Flip Stone Tower Without Elegy and SettingClimbMostSurfaces) or (Flip Stone Tower Without Elegy and Stone Tower Bean Chests as Giant))
+    Stone Tower Lower Scarecrow Pot: always
+    Stone Tower Lower Scarecrow Pot 2: always
+    Stone Tower Upper Scarecrow Pot 3: always
+    Stone Tower Upper Scarecrow Pot 4: always
+    Stone Tower Lower Scarecrow Pot 3: always
+    Stone Tower Soft Soil Lower: Use Light Arrow and Bottle: Bug and (Play Elegy of Emptiness or Flip Stone Tower Without Elegy)
+    Stone Tower Soft Soil Upper: Use Light Arrow and Bottle: Bug and ((Play Elegy of Emptiness and OtherMagicBean and Water for Magic Bean) or (Play Elegy of Emptiness and SettingClimbMostSurfaces) or (Play Elegy of Emptiness and Stone Tower Bean Chests as Giant) or (Flip Stone Tower Without Elegy and OtherMagicBean and Water for Magic Bean) or (Flip Stone Tower Without Elegy and SettingClimbMostSurfaces) or (Flip Stone Tower Without Elegy and Stone Tower Bean Chests as Giant))
+    Stone Tower Lower Scarecrow Pot 4: always
+    Stone Tower Lower Scarecrow Pot 5: always
+    Stone Tower Upper Scarecrow Pot 5: always
+    Stone Tower Owl Pot 4: always
+    Inverted Stone Tower Pot 3: Use Light Arrow and ((Play Elegy of Emptiness and OtherMagicBean and Water for Magic Bean) or (Play Elegy of Emptiness and SettingClimbMostSurfaces) or (Play Elegy of Emptiness and Stone Tower Bean Chests as Giant) or (Flip Stone Tower Without Elegy and OtherMagicBean and Water for Magic Bean) or (Flip Stone Tower Without Elegy and SettingClimbMostSurfaces) or (Flip Stone Tower Without Elegy and Stone Tower Bean Chests as Giant))
+
+region "Clock Tower Roof"
+  locations
+    Skull Kid: Short Ranged Weapon or Skull Kid With Bombs or Skull Kid With Blast Mask or Skull Kid With FD or (SettingAllowFierceDeityAnywhere and Magic Meter) [no return]
+    Skull Kid Song: Short Ranged Weapon or Skull Kid With Bombs or Skull Kid With Blast Mask or Skull Kid With FD or (SettingAllowFierceDeityAnywhere and Magic Meter) [no return]
+    Clock Tower Rooftop Pot: always [available Night3; no return]
+    Clock Tower Rooftop Pot 2: always [available Night3; no return]
+    Clock Tower Rooftop Pot 3: always [available Night3; no return]
+    Clock Tower Rooftop Pot 4: always [available Night3; no return]
+
+region "Defeat Garo Master"
+  exits
+    -> "Stone Tower Temple: Garo Master": STT Mirror Puzzle Access and STT Mirror Puzzle Room and STT Updraft Room and STT LA Chest Retrieval
+
+region "Defeat WFT Gekko"
+  locations
+    Woodfall Boss Key Chest: always
+    Woodfall Temple Gekko Room Pot: always
+    Woodfall Temple Gekko Room Pot 2: always
+    Woodfall Temple Gekko Room Pot 3: always
+    Woodfall Temple Gekko Room Pot 4: always
+    Frog in Woodfall Temple: Don Gero's Mask
+
+region "Deku Palace"
+  exits
+    -> "Grotto Bean Seller": always
+    -> "Interior Deku Shrine": (Kill Deku Shrine Big Octo and OtherArrow and SettingDamageModeDefault) or (Kill Deku Shrine Big Octo and Zora Mask and SettingDamageModeDefault) or (Kill Deku Shrine Big Octo and Hookshot and SettingDamageModeDefault) or Region: Woodfall Temple Clear
+  locations
+    Imprisoned Monkey: Deku Mask and Ocarina of Time and (Deku Palace Bean Skip or Water for Magic Bean or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Deku Palace West Garden: always
+    Deku Palace Item: always
+    Deku Palace Item 2: always
+    Deku Palace Item 3: always
+    Deku Palace Item 4: always
+    Deku Palace Item 5: always
+    Deku Palace Item 6: always
+    Deku Palace Item 7: always
+    Deku Palace Item 8: always
+    Deku Palace Item 9: always
+    Deku Palace Item 10: always
+    Deku Palace Item 11: always
+    Deku Palace Item 12: always
+    Deku Palace Item 13: always
+    Deku Palace Item 14: always
+    Deku Palace Out of Bounds Item: Collect Out of Bounds Item
+    Deku Palace Item 15: always
+    Deku Palace Item 16: always
+    Deku Palace Item 17: always
+    Deku Palace Pot: (Deku Mask and Water for Magic Bean and OtherMagicBean) or (Deku Mask and Deku Palace Bean Skip) or Zora Mask or Deku Palace Pots as Goron or Deku Palace Pots as Goron With Nothing or SettingHookshotAnySurface or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Deku Palace Pot 2: (Deku Mask and Water for Magic Bean and OtherMagicBean) or (Deku Mask and Deku Palace Bean Skip) or Zora Mask or Deku Palace Pots as Goron or Deku Palace Pots as Goron With Nothing or SettingHookshotAnySurface or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Deku Palace Rupee Cluster: always
+    Deku Palace Rupee Cluster 2: always
+    Deku Palace Rupee Cluster 3: always
+    Deku Palace Rupee Cluster 4: always
+    Deku Palace Rupee Cluster 5: always
+    Deku Palace Rupee Cluster 6: always
+    Deku Palace Rupee Cluster 7: always
+
+region "Deku Playground Items"
+  locations
+    Deku Playground Day 2 Item: OtherPlayDekuPlayground or Deku Playground Rupee Displacement or Deku Playground as FD or Deku Playground as Goron [set up Day1, Night1, Day2; available Day2]
+    Deku Playground Day 2 Item 2: OtherPlayDekuPlayground or Deku Playground Rupee Displacement or Deku Playground as FD or Deku Playground as Goron [set up Day1, Night1, Day2; available Day2]
+    Deku Playground Day 2 Item 3: OtherPlayDekuPlayground or Deku Playground Rupee Displacement or Deku Playground as FD or Deku Playground as Goron [set up Day1, Night1, Day2; available Day2]
+    Deku Playground Day 2 Item 4: OtherPlayDekuPlayground or Deku Playground Rupee Displacement or Deku Playground as FD or Deku Playground as Goron [set up Day1, Night1, Day2; available Day2]
+    Deku Playground Day 2 Item 5: OtherPlayDekuPlayground or Deku Playground Rupee Displacement or Deku Playground as FD or Deku Playground as Goron [set up Day1, Night1, Day2; available Day2]
+    Deku Playground Day 2 Item 6: OtherPlayDekuPlayground or Deku Playground Rupee Displacement or Deku Playground as FD or Deku Playground as Goron [set up Day1, Night1, Day2; available Day2]
+    Deku Playground Day 1 Item: OtherPlayDekuPlayground or Deku Playground with Goron Spikes [set up Day1; available Day1]
+    Deku Playground Day 1 Item 2: OtherPlayDekuPlayground or Deku Playground with Goron Spikes [set up Day1; available Day1]
+    Deku Playground Day 1 Item 3: OtherPlayDekuPlayground or Deku Playground with Goron Spikes [set up Day1; available Day1]
+    Deku Playground Day 1 Item 4: OtherPlayDekuPlayground or Deku Playground with Goron Spikes [set up Day1; available Day1]
+    Deku Playground Day 1 Item 5: OtherPlayDekuPlayground or Deku Playground with Goron Spikes [set up Day1; available Day1]
+    Deku Playground Day 1 Item 6: OtherPlayDekuPlayground or Deku Playground with Goron Spikes [set up Day1; available Day1]
+    Deku Playground Day 3 Item: OtherPlayDekuPlayground or Deku Playground Rupee Displacement or Deku Playground as FD or Deku Playground as Goron [set up Day1, Night1, Day2, Night2, Day3; available Day3]
+    Deku Playground Day 3 Item 2: OtherPlayDekuPlayground or Deku Playground Rupee Displacement or Deku Playground as FD or Deku Playground as Goron [set up Day1, Night1, Day2, Night2, Day3; available Day3]
+    Deku Playground Day 3 Item 3: OtherPlayDekuPlayground or Deku Playground as FD or Deku Playground as Goron [set up Day1, Night1, Day2, Night2, Day3; available Day3]
+    Deku Playground Day 3 Item 4: OtherPlayDekuPlayground or Deku Playground as FD or Deku Playground as Goron [set up Day1, Night1, Day2, Night2, Day3; available Day3]
+    Deku Playground Day 3 Item 5: OtherPlayDekuPlayground or Deku Playground Rupee Displacement or Deku Playground as FD or Deku Playground as Goron [set up Day1, Night1, Day2, Night2, Day3; available Day3]
+    Deku Playground Day 3 Item 6: OtherPlayDekuPlayground or Deku Playground Rupee Displacement or Deku Playground as FD or Deku Playground as Goron [set up Day1, Night1, Day2, Night2, Day3; available Day3]
+
+region "Destroy Large Boulders"
+  locations
+    Termina Field Rock: always
+    Termina Field Rock 2: always
+    Termina Field Rock 3: always
+    Termina Field Rock 4: always
+    Termina Field Rock 5: always
+    Termina Field Rock 6: always
+    Termina Field Rock 7: always
+    Termina Field Rock 8: always
+    Termina Field Rock 9: always
+
+region "East Clock Town"
+  exits
+    -> "Interior Honey And Darling": always
+
+region "East Clock Town (area)"
+  exits
+    -> "Interior Mayors Residence": always
+    -> "Interior Milk Bar": OtherMilkBarDay or OtherMilkBarNight1Or2 or OtherMilkBarNight3
+    -> "Interior Town Shooting Gallery": always
+    -> "Interior Treasure Chest Shop": always
+  locations
+    Postman's Freedom Reward: Letter to Mama [set up Day1, Night1, Day2, Night2, Day3; available Night3]
+    Bombers' Hideout Chest: OtherExplosive and (Deku Mask or Bombers' Hide and Seek or Bomber Guard Skip or (Observatory Goron Bomb Jump and OtherAnyBombBag) or (Observatory Goron Bomb Jump and Blast Mask) or SettingGiantMaskAnywhere or SettingClimbMostSurfaces)
+    East Clock Town Chest: always
+    East Clock Town Crate: always
+    East Clock Town Target: always
+    East Clock Town Target 2: always
+    East Clock Town Target 3: always
+    East Clock Town Target 4: always
+    East Clock Town Target 5: always
+    East Clock Town Target 6: always
+    East Clock Town Basket: always
+    East Clock Town Basket 2: always
+    East Clock Town Basket 3: always
+    Postman's Freedom Reward: Letter to Mama [set up Day1, Night1, Day2, Night2, Day3; available Night3]
+
+region "Exit Great Bay Temple"
+
+region "Exit Ocean Spider House"
+  locations
+    Ocean Skulltula Entrance Right Wall: Region: Interior Ocean Spider House and ((OtherExplosive and Hookshot) or (OtherExplosive and Zora Mask) or (OtherExplosive and OtherArrow and SettingClimbMostSurfaces) or (OtherExplosive and Deku Bubbles and SettingClimbMostSurfaces) or (Enter Ocean Spider House as Giant and Hookshot) or (Enter Ocean Spider House as Giant and Zora Mask) or (Enter Ocean Spider House as Giant and OtherArrow and SettingClimbMostSurfaces) or (Enter Ocean Spider House as Giant and Deku Bubbles and SettingClimbMostSurfaces) or OSH Entrance Skulls With Nothing)
+    Ocean Skulltula Entrance Left Wall: Region: Interior Ocean Spider House and ((OtherExplosive and Hookshot) or (OtherExplosive and Zora Mask) or (OtherExplosive and OtherArrow and SettingClimbMostSurfaces) or (OtherExplosive and Deku Bubbles and SettingClimbMostSurfaces) or (Enter Ocean Spider House as Giant and Hookshot) or (Enter Ocean Spider House as Giant and Zora Mask) or (Enter Ocean Spider House as Giant and OtherArrow and SettingClimbMostSurfaces) or (Enter Ocean Spider House as Giant and Deku Bubbles and SettingClimbMostSurfaces) or OSH Entrance Skulls With Nothing)
+    Ocean Skulltula Entrance Web: Region: Interior Ocean Spider House and ((OtherExplosive and Use Fire Arrow and Hookshot) or (OtherExplosive and Use Fire Arrow and Zora Mask) or (OtherExplosive and OSH Fireless and Hookshot) or (OtherExplosive and OSH Fireless and Zora Mask) or (OtherExplosive and SettingClimbMostSurfaces) or (OtherExplosive and OSH as Giant and Any B Sword) or (Enter Ocean Spider House as Giant and Use Fire Arrow and Hookshot) or (Enter Ocean Spider House as Giant and Use Fire Arrow and Zora Mask) or (Enter Ocean Spider House as Giant and OSH Fireless and Hookshot) or (Enter Ocean Spider House as Giant and OSH Fireless and Zora Mask) or (Enter Ocean Spider House as Giant and SettingClimbMostSurfaces) or (Enter Ocean Spider House as Giant and OSH as Giant) or OSH Entrance Web Skull as Goron)
+    Oceanside Spider House Entrance Pot: OtherExplosive or Enter Ocean Spider House as Giant
+    Oceanside Spider House Entrance Pot 2: OtherExplosive or Enter Ocean Spider House as Giant
+    Oceanside Spider House Entrance Pot 3: OtherExplosive or Enter Ocean Spider House as Giant
+
+region "Goht"
+  exits
+    -> "Gohts Lair": always
+
+region "Gohts Lair"
+  exits
+    -> "Snowhead Temple Clear": Kill Goht
+  locations
+    Heart Container: Kill Goht
+    Warp: Kill Goht
+
+region "Goron Racetrack"
+  exits
+    -> "Interior Goron Racetrack": always
+
+region "Great Bay Coast"
+  exits
+    -> "Great Bay Temple": Zora Mask and Play New Wave Bossa Nova and (Hookshot or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or Turtle Jump)
+    -> "Pirates Fortress": Underwater Stuff
+    -> "Exit Ocean Spider House": Goron Mask or Exit OSH Without Goron or SettingAllowFierceDeityAnywhere or SettingDeathModeDefault or SettingClimbMostSurfaces
+    -> "Grotto Cow Great Bay Coast": Hookshot or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or Great Bay Cows With Nothing
+    -> "Grotto Generic Great Bay Coast": always
+    -> "Grotto Generic Zora Cape": Destroy Normal Boulders
+    -> "Interior Evan Room": Zora Mask
+    -> "Interior Fairy Fountain Zora Cape": OtherExplosive and (Hookshot or SettingClimbMostSurfaces or Ocean Great Fairy With Ice Arrows or Ocean Great Fairy as FD or Low% Ocean Great Fairy)
+    -> "Interior Fisherman Hut": always
+    -> "Interior Japas Room": Zora Mask
+    -> "Interior Lulu Room": Zora Mask
+    -> "Interior Marine Research Lab": always
+    -> "Interior Mikau Tijo Room": Zora Mask
+    -> "Interior Ocean Spider House": always
+    -> "Interior Pinnacle Rock": always
+    -> "Interior Waterfall Rapids": Hookshot or SettingClimbMostSurfaces or Zora Cape as Giant
+    -> "Interior Zora Shop": Zora Mask or Swim to Zora Hall as Human or SettingGiantMaskAnywhere
+  locations
+    Seahorses: Zora Mask and Seahorse and OtherAnyBottle
+    Mikau: Play Song of Healing
+    Zora Cape Ledge Without Tree Chest: Hookshot or SettingClimbMostSurfaces or (Zora Cape as Giant and Deku Mask) or (Zora Cape as Giant and Zora Cape Recoil Flip)
+    Zora Cape Ledge With Tree Chest: Hookshot or SettingClimbMostSurfaces or Zora Cape as Giant
+    Zora Cape Underwater Chest: Zora Mask
+    Zora Cape Like-Like: Underwater Stuff or The Giant Dive
+    Great Bay Coast Ledge: (Scarecrow's Song and OtherMagicBean and Water for Magic Bean) or (OtherMagicBean and Water for Magic Bean and Hookshot and Coast Ledge Zora Jump) or (Hookshot and Coast Ledge Long Jump) or (Hookshot and Coast Ledge as FD) or (Coast Ledge as Giant and Tall Character and Coast Ledge Long Jump) or (Coast Ledge as Giant and Coast Ledge as FD) or SettingHookshotAnySurface or SettingClimbMostSurfaces
+    Zora Hall Stage Lights: Use Fire Arrow and (Zora Mask or Swim to Zora Hall as Human or SettingGiantMaskAnywhere)
+    Bad Pictograph of Lulu: Pictograph Box and Zora Mask
+    Good Pictograph of Lulu: Pictograph Box and Zora Mask
+    Great Bay Coast Pot: always
+    Great Bay Coast Pot 2: always
+    Great Bay Coast Pot 3: always
+    Great Bay Coast Pot 4: always
+    Great Bay Coast Pot 5: always
+    Zora Cape Owl Pot: Zora Mask or Swim to Zora Hall as Human or SettingGiantMaskAnywhere
+    Great Bay Coast Ledge Pot: Hookshot or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Great Bay Coast Ledge Pot 2: Hookshot or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or Great Bay Cows With Nothing
+    Great Bay Coast Ledge Pot 3: Hookshot or SettingClimbMostSurfaces or (SettingGiantMaskAnywhere and SettingNotCharacterAdultLink)
+    Great Bay Coast Pot 6: always
+    Zora Cape Owl Pot 2: Zora Mask or Swim to Zora Hall as Human or SettingGiantMaskAnywhere
+    Great Bay Coast Pot 7: always
+    Zora Cape Owl Pot 3: Zora Mask or Swim to Zora Hall as Human or SettingGiantMaskAnywhere
+    Zora Cape Waterfall Pot: always
+    Great Bay Coast Soft Soil: Bottle: Bug and (Hookshot or SettingClimbMostSurfaces or SettingGiantMaskAnywhere)
+    Zora Cape Jar Game: Zora Mask or Zora Jar Game With Powder Keg or (Zora Jar Game with Explosives and Blast Mask and SettingDamageModeDefault) or (Zora Jar Game with Explosives and Blast Mask and Any Shield) or (Zora Jar Game with Explosives and Ocarina of Time) [available Day1, Day2, Day3]
+    Great Bay Coast Pot 8: always
+    Zora Cape Owl Pot 4: Zora Mask or Swim to Zora Hall as Human or SettingGiantMaskAnywhere
+    Great Bay Coast Gossip Fairy: Summon Fairy
+    Zora Cape Gossip Fairy: Summon Fairy
+    Great Bay Coast Butterfly Fairy: always
+    Great Bay Coast Palm Tree 1: always
+    Great Bay Coast Palm Tree 2: always
+    Great Bay Coast Palm Tree 3: always
+    Zora Cape Shore Palm Tree 1: always
+    Zora Cape Shore Palm Tree 2: always
+    Zora Cape Rock Palm Tree: OtherExplosive and (Hookshot or SettingClimbMostSurfaces or Ocean Great Fairy With Ice Arrows or Ocean Great Fairy as FD or Low% Ocean Great Fairy)
+    Zora Cape Scarecrow Palm Tree: OtherExplosive and (Hookshot or SettingClimbMostSurfaces or Ocean Great Fairy as FD or Low% Ocean Great Fairy or Zora Cape Lower Palm Trees With Ice Arrows)
+    Zora Cape Lone Palm Tree: OtherExplosive and (Hookshot or SettingClimbMostSurfaces or Ocean Great Fairy as FD or Low% Ocean Great Fairy or Zora Cape Lower Palm Trees With Ice Arrows)
+
+region "Great Bay Compass Chest Room"
+  exits
+    -> "Great Bay Temple Seesaw Room": (SettingIronGoron and Use Ice Arrow) or (SettingIronGoron and GBT Iceless)
+
+region "Great Bay Map Chest Room"
+
+region "Great Bay Temple"
+  exits
+    -> "Gyorg": Gyorg's Remains or (Great Bay Boss Key and GBT Reverse Water Direction and GBT Green Pipes) or (Great Bay Boss Key and Region: Great Bay Temple: Yellow Valve and GBT Green Pipes and SettingIronGoron) or (Great Bay Boss Key Chest and GBT Reverse Water Direction and GBT Green Pipes and SettingNotRandomizedItemGreatBayBossKey) or (Great Bay Boss Key Chest and Region: Great Bay Temple: Yellow Valve and GBT Green Pipes and SettingIronGoron and SettingNotRandomizedItemGreatBayBossKey)
+  locations
+    Ice Arrow Chest: Region: Exit Great Bay Temple and Region: Great Bay Temple: Yellow Valve and GBT Diving and Great Bay Small Key
+    Great Bay Map Chest: Region: Exit Great Bay Temple and Region: Great Bay Map Chest Room and (Hookshot or Deku Mask or Use Ice Arrow or (GBT Map Chest Room Jumps and Zora Mask) or (GBT Map Chest Room Jumps and SettingCharacterAdultLink and SettingDamageModeDefault and OtherAnyBombBag) or (GBT Map Chest Room Jumps and Blast Mask and SettingCharacterAdultLink and SettingDamageModeDefault) or (GBT Map Chest Room Jumps and SettingAllowFierceDeityAnywhere) or (GBT Map Chest Room Jumps and GBT as Giant) or SettingClimbMostSurfaces)
+    Great Bay Compass Chest: Region: Exit Great Bay Temple and Region: Great Bay Compass Chest Room
+    Great Bay Boss Key Chest: Region: Exit Great Bay Temple and Great Bay Boss Key Chest
+    Great Bay Small Key Chest: Region: Exit Great Bay Temple and Region: Great Bay Compass Chest Room and (Zora Mask or GBT Iron Goron Sneaks Past Dexihands)
+    Great Bay Temple Skulltula: Region: Exit Great Bay Temple and (Any Sword or OtherArrow or Hookshot or Goron Mask or Zora Mask or SettingAllowFierceDeityAnywhere or OtherExplosive or WFT Skulltula With Stick)
+    Great Bay Temple Pre-Boss Room Underwater Bubble: Region: Exit Great Bay Temple and ((GBT Reverse Water Direction and Zora Mask) or (GBT Reverse Water Direction and Use Ice Arrow and Great Fairy's Mask) or (GBT Reverse Water Direction and GBT Stray Fairy Collection With Bombchu and Great Fairy's Mask) or (GBT Reverse Water Direction and Use Ice Arrow and GBT Underwater Hookshot) or (GBT Reverse Water Direction and GBT Stray Fairy Collection With Bombchu and GBT Underwater Hookshot) or (Region: Great Bay Temple: Yellow Valve and SettingIronGoron))
+    Great Bay Temple Water Control Room Underwater Bubble: Region: Exit Great Bay Temple and (Zora Mask or (Great Fairy's Mask and OtherArrow) or (Great Fairy's Mask and Hookshot) or (Great Fairy's Mask and GBT Stray Fairy Collection With Bombchu) or GBT Water Control Room Underwater Fairy With Nothing or SettingIronGoron or SettingHookshotAnySurface)
+    Great Bay Temple Pre-Boss Room Bubble: Region: Exit Great Bay Temple and Region: Great Bay Temple Pre-Boss Room and (Use Ice Arrow or (Great Fairy's Mask and OtherArrow) or (Great Fairy's Mask and Hookshot) or (Great Fairy's Mask and Zora Mask) or (Great Fairy's Mask and GBT Stray Fairy Collection With Bombchu) or (Great Fairy's Mask and GBT as Giant and Any Sword) or GBT Pre-Boss Bubble Fairy as Zora or GBT Pre-Boss Bubble Fairy Recoil Flip or SettingHookshotAnySurface)
+    Great Bay Temple Waterwheel Room Upper: Region: Exit Great Bay Temple and Region: Great Bay Temple Waterwheel Room and ((Use Ice Arrow and Hookshot) or (GBT Waterwheel Fairy Chests With Explosives and OtherExplosive and SettingDamageModeDefault) or GBT Waterwheel Room as FD or GBT as Giant or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Great Bay Temple Green Valve: Region: Exit Great Bay Temple and Region: Great Bay Temple: Yellow Valve and ((Hookshot and Use Ice Arrow) or (Hookshot and GBT Green Pump Room Early as FD) or (Hookshot and SettingClimbMostSurfaces) or GBT Green Pump Room Climb or GBT Green Pump Room Giant Upwarp or SettingHookshotAnySurface)
+    Great Bay Temple Seesaw Room: Region: Exit Great Bay Temple and Region: Great Bay Temple Seesaw Room and ((Tall Character and Use Fire Arrow) or GBT Fireless or (GBT Map Chest Room Jumps and SettingAllowFierceDeityAnywhere) or GBT as Giant or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Great Bay Temple Waterwheel Room Lower: Region: Exit Great Bay Temple and Region: Great Bay Temple Waterwheel Room and (Hookshot or GBT Waterwheel Room as FD or (GBT Waterwheel Fairy Chests With Explosives and Any Shield and OtherAnyBombBag) or (GBT Waterwheel Fairy Chests With Explosives and Zora Mask and OtherAnyBombBag) or (GBT Waterwheel Fairy Chests With Explosives and Blast Mask and Any Shield) or GBT Waterwheel Room Lower Chest With Nothing)
+    Great Bay Temple Entrance Torches: Region: Exit Great Bay Temple
+    Great Bay Temple Bio Babas: Region: Exit Great Bay Temple and Region: Great Bay Compass Chest Room and (Short Ranged Weapon or GBT Bio Babas With Bombchu or SettingIronGoron or (SettingAllowFierceDeityAnywhere and Magic Meter))
+    Great Bay Temple Underwater Barrel: Region: Exit Great Bay Temple and Region: Great Bay Temple Seesaw Room and (Zora Mask or (GBT Stray Fairy Collection With Bombchu and Great Fairy's Mask) or (GBT as Giant and Any Sword and Any Shield and Great Fairy's Mask) or SettingIronGoron)
+    Great Bay Temple Whirlpool Jar: Region: Exit Great Bay Temple and Region: Great Bay Temple: Yellow Valve and (Zora Mask or (Great Fairy's Mask and OtherArrow) or GBT Whirlpool Jar as FD or SettingIronGoron)
+    Great Bay Temple Whirlpool Barrel: Region: Exit Great Bay Temple and Region: Great Bay Temple: Yellow Valve
+    Great Bay Temple Dexihands Jar: Region: Exit Great Bay Temple and Region: Great Bay Compass Chest Room and (Short Ranged Weapon or GBT Dexihands Jar With Explosives or (GBT as Giant and Any Sword) or (SettingAllowFierceDeityAnywhere and Magic Meter) or SettingIronGoron)
+    Great Bay Temple Ledge Jar: Region: Exit Great Bay Temple and Region: Great Bay Map Chest Room and (Zora Mask or Deku Mask or Use Ice Arrow or (OtherArrow and Great Fairy's Mask) or (Hookshot and Great Fairy's Mask) or (GBT Stray Fairy Collection With Bombchu and Great Fairy's Mask) or (GBT Map Chest Room Jumps and SettingCharacterAdultLink and SettingDamageModeDefault and OtherAnyBombBag) or (GBT Map Chest Room Jumps and SettingCharacterAdultLink and Blast Mask and SettingDamageModeDefault) or (GBT Map Chest Room Jumps and SettingAllowFierceDeityAnywhere) or (GBT Map Chest Room Jumps and GBT as Giant) or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Great Bay Temple Red Valve Barrel: Region: Exit Great Bay Temple and Region: Great Bay Map Chest Room and (Use Ice Arrow or GBT Red Valve Early or (GBT Map Chest Room Jumps and Deku Mask and OtherExplosive and SettingDamageModeDefault) or (GBT Map Chest Room Jumps and SettingCharacterAdultLink and SettingDamageModeDefault and OtherAnyBombBag) or (GBT Map Chest Room Jumps and SettingCharacterAdultLink and Blast Mask and SettingDamageModeDefault) or (GBT Map Chest Room Jumps and SettingAllowFierceDeityAnywhere) or (GBT Map Chest Room Jumps and GBT as Giant) or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Great Bay Temple Seesaw Room Pot: Region: Exit Great Bay Temple and Region: Great Bay Temple Seesaw Room
+    Great Bay Temple Green Pump Barrel: Region: Exit Great Bay Temple and Region: Great Bay Temple: Yellow Valve and (Use Ice Arrow or GBT Green Pump Room Early as FD or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Great Bay Temple Water Control Room Item: Region: Exit Great Bay Temple
+    Great Bay Temple Water Control Room Item 2: Region: Exit Great Bay Temple
+    Great Bay Temple Red Valve Barrel 2: Region: Exit Great Bay Temple and Region: Great Bay Map Chest Room and (Use Ice Arrow or GBT Red Valve Early or (GBT Map Chest Room Jumps and Deku Mask and OtherExplosive and SettingDamageModeDefault) or (GBT Map Chest Room Jumps and SettingCharacterAdultLink and SettingDamageModeDefault and OtherAnyBombBag) or (GBT Map Chest Room Jumps and SettingCharacterAdultLink and Blast Mask and SettingDamageModeDefault) or (GBT Map Chest Room Jumps and SettingAllowFierceDeityAnywhere) or (GBT Map Chest Room Jumps and GBT as Giant) or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Great Bay Temple Green Pump Barrel 2: Region: Exit Great Bay Temple and Region: Great Bay Temple: Yellow Valve and (Use Ice Arrow or GBT Green Pump Room Early as FD or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Great Bay Temple Water Control Room Item 3: Region: Exit Great Bay Temple
+    Great Bay Temple Water Control Room Item 4: Region: Exit Great Bay Temple
+    Great Bay Temple Red Valve Crate: Region: Exit Great Bay Temple and Region: Great Bay Map Chest Room and (Use Ice Arrow or GBT Red Valve Early or (GBT Map Chest Room Jumps and Deku Mask and OtherExplosive and SettingDamageModeDefault) or (GBT Map Chest Room Jumps and SettingCharacterAdultLink and SettingDamageModeDefault and OtherAnyBombBag) or (GBT Map Chest Room Jumps and SettingCharacterAdultLink and Blast Mask and SettingDamageModeDefault) or (GBT Map Chest Room Jumps and SettingAllowFierceDeityAnywhere) or (GBT Map Chest Room Jumps and GBT as Giant) or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Great Bay Temple Water Control Room Item 5: Region: Exit Great Bay Temple
+    Great Bay Temple Dexihand Item: Region: Exit Great Bay Temple and Region: Great Bay Compass Chest Room and (Zora Mask or SettingIronGoron or GBT Underwater Hookshot)
+    Great Bay Temple Dexihand Item 2: Region: Exit Great Bay Temple and Region: Great Bay Compass Chest Room and (Zora Mask or SettingIronGoron or GBT Underwater Hookshot)
+    Great Bay Temple Green Pump Item: Region: Great Bay Temple: Yellow Valve and ((Hookshot and Use Ice Arrow) or (Hookshot and GBT Green Pump Room Early as FD) or (Hookshot and SettingClimbMostSurfaces) or (GBT Green Pump Room Giant Upwarp and Zora Mask and Use Ice Arrow) or (GBT Green Pump Room Giant Upwarp and Zora Mask and GBT Green Pump Room Early as FD) or (GBT Green Pump Room Giant Upwarp and Zora Mask and SettingClimbMostSurfaces) or (GBT Green Pump Room Climb and Zora Mask) or SettingHookshotAnySurface)
+    Great Bay Temple Green Pump Item 2: Region: Great Bay Temple: Yellow Valve and ((Hookshot and Use Ice Arrow) or (Hookshot and GBT Green Pump Room Early as FD) or (Hookshot and SettingClimbMostSurfaces) or (GBT Green Pump Room Giant Upwarp and Zora Mask and Use Ice Arrow) or (GBT Green Pump Room Giant Upwarp and Zora Mask and GBT Green Pump Room Early as FD) or (GBT Green Pump Room Giant Upwarp and Zora Mask and SettingClimbMostSurfaces) or (GBT Green Pump Room Climb and Zora Mask) or SettingHookshotAnySurface)
+    Great Bay Temple Entrance Room Barrel: Region: Exit Great Bay Temple
+    Frog in Great Bay Temple: Region: Exit Great Bay Temple and Great Bay Boss Key Chest and Don Gero's Mask and Use Ice Arrow
+
+region "Great Bay Temple Clear"
+  locations
+    Fisherman Game: always
+
+region "Great Bay Temple Pre-Boss Room"
+
+region "Great Bay Temple Seesaw Room"
+
+region "Great Bay Temple Waterwheel Room"
+
+region "Great Bay Temple: Yellow Valve"
+  exits
+    -> "Great Bay Compass Chest Room": Zora Mask or (GBT Cutscene Diving and GBT Reverse Water Direction) or (GBT Cutscene Diving and GBT Map Chest Room Jumps and SettingAllowFierceDeityAnywhere) or GBT Iron Goron Sneaks Past Dexihands or GBT Underwater Hookshot or (GBT Reverse Water Direction and SettingIronGoron) or GBT as Giant
+    -> "Great Bay Map Chest Room": Zora Mask or (GBT Cutscene Diving and GBT Map Chest Room Jumps and SettingAllowFierceDeityAnywhere) or (GBT Cutscene Diving and Dungeon Entrance Return) or GBT Underwater Hookshot or GBT as Giant or SettingIronGoron
+    -> "Great Bay Temple Pre-Boss Room": SettingIronGoron
+    -> "Great Bay Temple Waterwheel Room": (GBT Reverse Water Direction and GBT Reverse Water Loop) or (Region: Great Bay Compass Chest Room and SettingIronGoron) or GBT Backdoor Seesaw Room
+
+region "Grotto Bean Seller"
+  locations
+    Bean Man: always
+    Ledge Chest: Hookshot or (OtherMagicBean and Water for Magic Bean) or Bean Grotto as Giant or SettingClimbMostSurfaces
+    Soft Soil: Bottle: Bug
+    Butterfly Fairy: always
+
+region "Grotto Bio Baba"
+  locations
+    Right Hive: Zora Mask or (Bio Baba Hive Luck and Hookshot) or (Bio Baba Hive Luck and Bio Baba Grotto With Bombs) or (Bio Baba Hive Luck and SettingGiantMaskAnywhere and Any B Sword) or (SettingIronGoron and Short Ranged Weapon) or (SettingIronGoron and Bio Baba Grotto With Bombs) or (SettingIronGoron and SettingGiantMaskAnywhere and Any B Sword)
+    Left Hive: Zora Mask or (Bio Baba Hive Luck and Hookshot) or (Bio Baba Hive Luck and Bio Baba Grotto With Bombs) or (Bio Baba Hive Luck and SettingGiantMaskAnywhere and Any B Sword) or (SettingIronGoron and Short Ranged Weapon) or (SettingIronGoron and Bio Baba Grotto With Bombs) or (SettingIronGoron and SettingGiantMaskAnywhere and Any B Sword)
+
+region "Grotto Cow Great Bay Coast"
+  locations
+    Cow #1: Play Epona's Song
+    Cow #2: Play Epona's Song
+    Butterfly Fairy: always
+
+region "Grotto Cow Termina Field"
+  locations
+    Cow #1: Play Epona's Song
+    Cow #2: Play Epona's Song
+    Butterfly Fairy: always
+
+region "Grotto Deku Merchant"
+  locations
+    Business Scrub Purchase: Any Wallet
+
+region "Grotto Deku Playground"
+  locations
+    Deku Playground Three Days: OtherPlayDekuPlayground [set up Day1; available Day3]
+    Deku Playground Any Day: OtherPlayDekuPlayground
+
+region "Grotto Dodongo"
+  locations
+    Dodongos: Any Sword or OtherArrow or OtherAnyBombBag or Goron Mask or SettingAllowFierceDeityAnywhere or Dodongos With Sticks
+
+region "Grotto Generic Great Bay Coast"
+  locations
+    Chest: always
+
+region "Grotto Generic Ikana Canyon"
+  locations
+    Chest: always
+
+region "Grotto Generic Ikana Graveyard"
+  locations
+    Chest: always
+
+region "Grotto Generic Mountain Village Spring"
+  locations
+    Chest: always
+
+region "Grotto Generic Path To Snowhead"
+  locations
+    Chest: always
+
+region "Grotto Generic Road To Ikana"
+  locations
+    Chest: always
+
+region "Grotto Generic Road To Swamp"
+  locations
+    Chest: always
+
+region "Grotto Generic Southern Swamp"
+  locations
+    Chest: always
+
+region "Grotto Generic Termina Field Grass"
+  locations
+    Chest: always
+
+region "Grotto Generic Termina Field Pillar"
+  locations
+    Chest: always
+
+region "Grotto Generic Twin Islands"
+  locations
+    Chest: always
+
+region "Grotto Generic Woods Of Mystery"
+  locations
+    Chest: always
+
+region "Grotto Generic Zora Cape"
+  locations
+    Chest: always
+
+region "Grotto Gossip Canyon"
+
+region "Grotto Gossip Mountain"
+
+region "Grotto Gossip Ocean"
+  locations
+    Butterfly Fairy: always
+
+region "Grotto Gossip Swamp"
+
+region "Grotto Hot Spring"
+  locations
+    Rock Chest: Region: Destroy Large Boulders or Powder Kegs as Explosives
+
+region "Grotto Peahat"
+  locations
+    Peahat: Any Sword or OtherArrow or Deku Mask or Goron Mask or Zora Mask or SettingAllowFierceDeityAnywhere or Peahat With Sticks [set up Day1, Night1, Day2, Night2, Day3; available Day1, Day2, Day3]
+
+region "Gyorg"
+  exits
+    -> "Gyorgs Lair": always
+    -> "Exit Great Bay Temple": OtherKillGyorg
+
+region "Gyorgs Lair"
+  exits
+    -> "Great Bay Temple Clear": Kill Gyorg
+  locations
+    Heart Container: Kill Gyorg
+    Warp: Kill Gyorg
+
+region "Ikana Canyon"
+  exits
+    -> "Climb Stone Tower": (Play Elegy of Emptiness and Hookshot and Goron Mask and Zora Mask) or (Play Elegy of Emptiness and Hookshot and Climb Stone Tower with One Transformation) or (Play Elegy of Emptiness and Hookshot and Climb Stone Tower as FD) or Climb Stone Tower as Giant or SettingClimbMostSurfaces or SettingHookshotAnySurface
+    -> "Ikana Castle": Use Light Arrow or Mirror Shield or Ikana Castle Gainer or Ikana Castle Access as Goron or SettingAllowFierceDeityAnywhere or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface
+    -> "Ikana King": Use Light Arrow or (Ikana Castle Falling Ceiling Room and Ikana Castle Skulltula Room and Goron Mask and Powder Keg and Mirror Shield) or (SettingGiantMaskAnywhere and Mirror Shield and Any B Sword) or (SettingGiantMaskAnywhere and Mirror Shield and Goron Mask and Powder Keg) or SettingHookshotAnySurface or SettingClimbMostSurfaces
+    -> "Interior Fairy Fountain Ikana Canyon": always
+    -> "Interior Ikana Pool Cave": always
+    -> "Interior Music Box House": (Play Song of Storms and Region: Interior Ikana Pool Cave) or (Play Song of Healing and Region: Interior Music Box House) or (Region: Stone Tower Clear and Region: Interior Music Box House)
+    -> "Interior Poe Hut": always
+  locations
+    Mirror Shield Chest: (Gibdo Mask and Use Light Arrow and GibdoToFinalWallmaster and GibdoToMirrorShield) or (Gibdo Mask and GibdoToFinalWallmaster and GibdoToBlackBoes and GibdoToMirrorShield and GibdoEntranceRight) or (Use Fire Arrow and Use Light Arrow) or (Reverse Well With Climbing and Use Fire Arrow) or (Gibdo Mask and Reverse Well With Climbing and GibdoToFinalWallmaster and GibdoToMirrorShield)
+    Bottle: Big Poe: Gibdo Mask and OtherAnyBottle and GibdoToMiniBoss and GibdoToCowAndMiniboss and (Use Light Arrow or (OtherArrow and GibdoEntranceRight) or (Zora Mask and GibdoEntranceRight) or (SettingAllowFierceDeityAnywhere and Magic Meter and GibdoEntranceRight) or (Defeat Well Big Poe With Bombs and GibdoEntranceRight))
+    Well Right Path Chest: Gibdo Mask and GibdoToRightChest and ((GibdoEntranceRight and GibdoToBlackBoes) or Use Light Arrow)
+    Well Left Path Chest: Gibdo Mask and GibdoEntranceLeft and GibdoToBombPots and GibdoToLeftChest and ((Lens of Truth and Magic Meter) or Lensless Chests)
+    Cow Beneath the Well: Play Epona's Song and Gibdo Mask and GibdoToCow and GibdoToCowAndMiniboss and ((Play Song of Soaring and GibdoEntranceRight) or (Play Song of Soaring and Use Light Arrow) or (Hot Spring Water in Well and SettingNotRandomizedBottleCatchHotSpringWater and GibdoEntranceRight) or (Use Light Arrow and Hot Spring Water in Well and SettingNotRandomizedBottleCatchHotSpringWater and Wallmaster Void Out))
+    Ikana Canyon Grass: always
+    Well Left Path Pot: Gibdo Mask and GibdoEntranceLeft and GibdoToBombPots
+    Well Left Path Pot 2: Gibdo Mask and GibdoEntranceLeft and GibdoToBombPots
+    Well Left Path Pot 3: Gibdo Mask and GibdoEntranceLeft and GibdoToBombPots
+    Well Left Path Pot 4: Gibdo Mask and GibdoEntranceLeft and GibdoToBombPots
+    Well Left Path Pot 5: Gibdo Mask and GibdoEntranceLeft and GibdoToBombPots
+    Ikana Canyon Grass 2: always
+    Ikana Canyon Grass 3: always
+    Ikana Canyon Grass 4: always
+    Ikana Canyon Spirit House Gossip Fairy: Summon Fairy
+    Well Fountain Fairy 1: Gibdo Mask and GibdoEntranceLeft and GibdoToBombPots and GibdoToFairyFountain
+    Well Fountain Fairy 2: Gibdo Mask and GibdoEntranceLeft and GibdoToBombPots and GibdoToFairyFountain
+    Well Fountain Fairy 3: Gibdo Mask and GibdoEntranceLeft and GibdoToBombPots and GibdoToFairyFountain
+    Well Fountain Fairy 4: Gibdo Mask and GibdoEntranceLeft and GibdoToBombPots and GibdoToFairyFountain
+    Well Fountain Fairy 5: Gibdo Mask and GibdoEntranceLeft and GibdoToBombPots and GibdoToFairyFountain
+    Well Fountain Fairy 6: Gibdo Mask and GibdoEntranceLeft and GibdoToBombPots and GibdoToFairyFountain
+    Well Fountain Fairy 7: Gibdo Mask and GibdoEntranceLeft and GibdoToBombPots and GibdoToFairyFountain
+    Well Fountain Fairy 8: Gibdo Mask and GibdoEntranceLeft and GibdoToBombPots and GibdoToFairyFountain
+
+region "Ikana Castle"
+  locations
+    Ikana Castle Pillar: (Ikana Castle Falling Ceiling Room and Ikana Castle Skulltula Room and Deku Mask) or (Ikana Castle Falling Ceiling Room and Ikana Castle Skulltula Room and Ikana Castle as FD) or (Ikana Castle Falling Ceiling Room and Ikana Castle Skulltula Room and Ikana Castle Pillar as Goron) or SettingHookshotAnySurface or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Ikana Castle Courtyard Grass: always
+    Ikana Castle Courtyard Grass 2: always
+    Ikana Castle Left Staircase Pot: (Ikana Castle Falling Ceiling Room and Ikana Castle Skulltula Room) or SettingClimbMostSurfaces or SettingHookshotAnySurface or SettingGiantMaskAnywhere
+    Ikana Castle Courtyard Grass 3: always
+    Ikana Castle Courtyard Grass 4: always
+    Ikana Castle Fire Ceiling Room Pot: Use Fire Arrow or SettingClimbMostSurfaces or SettingHookshotAnySurface or (SettingGiantMaskAnywhere and Ikana Castle Skulltula Room and Ikana Castle Hole Room Jumps) or (SettingGiantMaskAnywhere and Ikana Castle Skulltula Room and OtherArrow) or (SettingGiantMaskAnywhere and Ikana Castle as FD)
+    Ikana Castle Hole Room Pot: (Ikana Castle Falling Ceiling Room and Deku Mask) or (Ikana Castle Falling Ceiling Room and Ikana Castle Hole Room Jumps) or (Ikana Castle Falling Ceiling Room and Ikana Castle as FD) or (SettingGiantMaskAnywhere and Deku Mask) or (SettingGiantMaskAnywhere and Ikana Castle as FD) or (SettingGiantMaskAnywhere and Ikana Castle Hole Room Jumps and Ikana Castle Skulltula Room) or SettingHookshotAnySurface or SettingClimbMostSurfaces
+    Ikana Castle Hole Room Pot 2: (Ikana Castle Falling Ceiling Room and Deku Mask) or (Ikana Castle Falling Ceiling Room and Ikana Castle Hole Room Jumps) or (Ikana Castle Falling Ceiling Room and Ikana Castle as FD) or (SettingGiantMaskAnywhere and Deku Mask) or (SettingGiantMaskAnywhere and Ikana Castle as FD) or (SettingGiantMaskAnywhere and Ikana Castle Hole Room Jumps and Ikana Castle Skulltula Room) or SettingHookshotAnySurface or SettingClimbMostSurfaces
+    Ikana Castle Courtyard Pot: always
+    Ikana Castle Hole Room Pot 3: (Ikana Castle Falling Ceiling Room and Deku Mask) or (Ikana Castle Falling Ceiling Room and Ikana Castle Hole Room Jumps) or (Ikana Castle Falling Ceiling Room and Ikana Castle as FD) or (SettingGiantMaskAnywhere and Deku Mask) or (SettingGiantMaskAnywhere and Ikana Castle as FD) or (SettingGiantMaskAnywhere and Ikana Castle Hole Room Jumps and Ikana Castle Skulltula Room) or SettingHookshotAnySurface or SettingClimbMostSurfaces
+    Ikana Castle Hole Room Pot 4: (Ikana Castle Falling Ceiling Room and Deku Mask) or (Ikana Castle Falling Ceiling Room and Ikana Castle Hole Room Jumps) or (Ikana Castle Falling Ceiling Room and Ikana Castle as FD) or (SettingGiantMaskAnywhere and Deku Mask) or (SettingGiantMaskAnywhere and Ikana Castle as FD) or (SettingGiantMaskAnywhere and Ikana Castle Hole Room Jumps and Ikana Castle Skulltula Room) or SettingHookshotAnySurface or SettingClimbMostSurfaces
+
+region "Ikana Graveyard"
+  exits
+    -> "Ikana: Past the Ghost": (Garo's Mask and Hookshot) or (Gibdo Mask and Hookshot) or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface or Ikana Canyon Access as FD or Garo Mask Skip
+    -> "Grotto Generic Ikana Graveyard": OtherExplosive
+    -> "Pass Keeta": Play Sonata of Awakening or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface or Ikana Graveyard Rocks Without Sonata
+  locations
+    Dampe Digging: Captain's Hat and (OtherArrow or Zora Mask or (SettingAllowFierceDeityAnywhere and Magic Meter) or Defeat Well Big Poe With Bombs or Defeat Dampe Big Poe With Nothing) [available Night3]
+    Iron Knuckle Chest: Captain's Hat and OtherExplosive and Kill Iron Knuckle and (Use Lens of Truth or Day 2 Grave Without Lens of Truth or SettingClimbMostSurfaces or SettingHookshotAnySurface) [set up Day1, Night1, Day2, Night2; available Night2]
+    Invisible Soldier: Use Lens of Truth and Any Healing Potion
+    Captain Keeta's Chest: Keeta Fight
+    Day 1 Grave Tablet: Captain's Hat and Kill Iron Knuckle [set up Day1, Night1; available Night1]
+    Day 1 Grave Bats: Captain's Hat and (Any Sword or OtherArrow or Hookshot or Deku Mask or Goron Mask or Zora Mask or Ikana Graveyard Bats With Sticks and Bombs or SettingAllowFierceDeityAnywhere) [set up Day1, Night1; available Night1]
+    Night 1 Grave Pot: Captain's Hat [set up Day1, Night1; available Night1]
+    Night 2 Grave Pot: Captain's Hat [set up Day1, Night1, Day2, Night2; available Night2]
+    Night 1 Grave Pot 2: Captain's Hat [set up Day1, Night1; available Night1]
+    Dampe's Basement Pot: Captain's Hat [available Night3]
+    Dampe's Basement Pot 2: Captain's Hat [available Night3]
+    Dampe's Basement Pot 3: Captain's Hat [available Night3]
+    Dampe's Basement Pot 4: Captain's Hat [available Night3]
+    Ikana Graveyard Grass: always
+    Dampe's Basement Pot 5: Captain's Hat [available Night3]
+    Dampe's Basement Pot 6: Captain's Hat [available Night3]
+    Dampe's Basement Pot 7: Captain's Hat [available Night3]
+    Ikana Graveyard Grass 2: always
+    Dampe's Basement Pot 8: Captain's Hat [available Night3]
+    Night 2 Grave Pot 2: Captain's Hat [set up Day1, Night1, Day2, Night2; available Night2]
+    Ikana Graveyard Grass 3: always
+    Ikana Graveyard Rupee Cluster: Captain's Hat [set up Day1, Night1, Day2, Night2; available Night2]
+    Ikana Graveyard Rupee Cluster 2: Captain's Hat [set up Day1, Night1, Day2, Night2; available Night2]
+    Ikana Graveyard Rupee Cluster 3: Captain's Hat [set up Day1, Night1, Day2, Night2; available Night2]
+    Ikana Graveyard Rupee Cluster 4: Captain's Hat [set up Day1, Night1, Day2, Night2; available Night2]
+    Ikana Graveyard Rupee Cluster 5: Captain's Hat [set up Day1, Night1, Day2, Night2; available Night2]
+    Ikana Graveyard Rupee Cluster 6: Captain's Hat [set up Day1, Night1, Day2, Night2; available Night2]
+    Ikana Graveyard Rupee Cluster 7: Captain's Hat [set up Day1, Night1, Day2, Night2; available Night2]
+    Ikana Graveyard Lantern: always
+    Ikana Graveyard Lantern 2: always
+    Ikana Graveyard Lantern 3: always
+    Ikana Graveyard Lantern 4: always
+    Ikana Graveyard Lantern 5: always
+    Ikana Graveyard Lantern 6: always
+    Ikana Graveyard Lantern 7: always
+    Ikana Graveyard Lantern 8: always
+    Ikana Graveyard Lantern 9: always
+    Ikana Graveyard Lantern 10: always
+    Ikana Graveyard Lantern 11: always
+    Ikana Graveyard Lantern 12: always
+    Ikana Graveyard Day 2 Bats: Short Ranged Weapon or SettingAllowFierceDeityAnywhere or (Ikana Graveyard Bats With Sticks and Bombs and OtherAnyBombBag) or (SettingGiantMaskAnywhere and Any B Sword) [set up Day1, Night1, Day2; available Day2]
+    Notebook Meeting: Shiro: Bombers' Notebook and Use Lens of Truth
+    Invisible Soldier: Use Lens of Truth and Any Healing Potion
+    Road to Ikana Pot: OtherArrow or Scarecrow's Song or SettingGiantMaskAnywhere or Road to Ikana Pot as FD or Road to Ikana Pot With Bombchu
+    Road to Ikana Gossip Fairy: Summon Fairy
+
+region "Ikana King"
+  locations
+    Ikana King: Igos Fight
+    Ikana King Pot: Igos Fight or SettingDeathModeDefault
+    Ikana King Pot 2: Igos Fight or SettingDeathModeDefault
+    Ikana King Entry Pot: always
+    Ikana King Entry Pot 2: always
+    Ikana King Pot 3: Igos Fight or SettingDeathModeDefault
+    Ikana King Entry Pot 3: always
+
+region "Ikana: Past the Ghost"
+  exits
+    -> "Ikana Canyon": (Hookshot and Ikana Canyon Iceless) or (Hookshot and Use Ice Arrow) or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface
+    -> "Grotto Generic Ikana Canyon": always
+    -> "Interior Secret Shrine": always
+  locations
+    Anju and Kafei: Region: Night Inn and Kafei's Mask and Letter to Kafei and Pendant of Memories [set up Day1; available Night3]
+    Ikana Canyon Ledge: (Zora Mask and Ocean Title Deed and Deku Mask) or Canyon Ledge as FD or SettingHookshotAnySurface or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Canyon Scrub Trade: Zora Mask and Ocean Title Deed
+    Escaping from Sakon's Hideout: Letter to Kafei [set up Day1, Night1; available Night3]
+    Anju and Kafei: Pendant of Memories and Kafei's Mask and Letter to Kafei and Region: Night Inn [set up Day1; available Night3]
+    Ikana Canyon Dock Gossip Fairy: Summon Fairy
+    Ikana Canyon Ravine Gossip Fairy: Summon Fairy and ((Zora Mask and Ocean Title Deed and Deku Mask) or Canyon Ledge as FD or SettingHookshotAnySurface or SettingClimbMostSurfaces or SettingGiantMaskAnywhere)
+
+region "Interior Bomb Shop"
+  locations
+    Bomb Bag Purchase: always
+    Bomb Shop 10 Bombs: always
+    Bomb Shop 10 Bombchu: always
+
+region "Interior Cucco Shack"
+  locations
+    Grog: Bremen Mask [set up Day1, Night1, Day2, Night2, Day3]
+    Cucco Shack Crate: always [set up Day1, Night1, Day2, Night2, Day3]
+    Cucco Shack Diamond Hole: always
+    Cucco Shack Diamond Hole 2: always
+    Cucco Shack Diamond Hole 3: always
+    Cucco Shack Diamond Hole 4: always
+    Cucco Shack Diamond Hole 5: always
+    Cucco Shack Diamond Hole 6: always
+    Cucco Shack Potted Plant: always
+    Notebook Meeting: Grog: Bombers' Notebook [set up Day1, Night1, Day2, Night2, Day3]
+    Grog: Bremen Mask [set up Day1, Night1, Day2, Night2, Day3]
+    Cucco Shack Gossip Fairy: Summon Fairy [set up Day1, Night1, Day2, Night2, Day3]
+
+region "Interior Curiosity Shop"
+  locations
+    All-Night Mask Purchase: Wallet (500) and (OtherArrow or Hookshot or Any Sword or Goron Mask or Zora Mask or OtherExplosive or SettingAllowFierceDeityAnywhere) [set up Day1; available Night3]
+    Curiosity Shop Blue Rupee: Bottle: Mushroom or OtherAnyMilk [available Night1, Night2, Night3]
+    Curiosity Shop Red Rupee: OtherAnyBottle [available Night1, Night2, Night3]
+    Curiosity Shop Purple Rupee: Bottle: Poe [available Night1, Night2, Night3]
+    Curiosity Shop Gold Rupee: Bottle of Gold Dust or Bottle: Big Poe or Bottle of Chateau Romani or (Chateau Romani and OtherAnyBottle) [available Night1, Night2, Night3]
+    All-Night Mask Purchase: Wallet (500) and (OtherArrow or Hookshot or Any Sword or Goron Mask or Zora Mask or OtherExplosive or SettingAllowFierceDeityAnywhere) [set up Day1; available Night3]
+
+region "Interior Deku Shrine"
+  exits
+    -> "Butler Race": Bottle: Deku Princess and Deku Mask
+
+region "Interior Doggy Racetrack"
+  locations
+    Dog Race: Mask of Truth or Dog Race Luck [set up Day1, Night1, Day2, Night2, Day3]
+    Doggy Racetrack Roof Chest: Tall Character or Hookshot or (OtherMagicBean and Water for Magic Bean) or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or Doggy Racetrack Chest With Jump Slash or Doggy Racetrack Chest With Nothing [set up Day1, Night1, Day2, Night2, Day3]
+    Doggy Racetrack Pot: always
+    Doggy Racetrack Pot 2: always
+    Doggy Racetrack Pot 3: always
+    Doggy Racetrack Pot 4: always
+    Doggy Racetrack Soft Soil: Bottle: Bug [set up Day1, Night1, Day2, Night2, Day3]
+    Doggy Racetrack Gossip Fairy: Summon Fairy
+
+region "Interior Evan Room"
+  locations
+    Evan: Ocarina of Time
+
+region "Interior Fairy Fountain Ikana Canyon"
+  locations
+    Ikana Great Fairy: Stone Tower Stray Fairy and Stone Tower Stray Fairy and Stone Tower Stray Fairy and Stone Tower Stray Fairy and Stone Tower Stray Fairy and Stone Tower Stray Fairy and Stone Tower Stray Fairy and Stone Tower Stray Fairy and Stone Tower Stray Fairy and Stone Tower Stray Fairy and Stone Tower Stray Fairy and Stone Tower Stray Fairy and Stone Tower Stray Fairy and Stone Tower Stray Fairy and Stone Tower Stray Fairy
+
+region "Interior Fairy Fountain Snowhead"
+  locations
+    Snowhead Great Fairy: Snowhead Stray Fairy and Snowhead Stray Fairy and Snowhead Stray Fairy and Snowhead Stray Fairy and Snowhead Stray Fairy and Snowhead Stray Fairy and Snowhead Stray Fairy and Snowhead Stray Fairy and Snowhead Stray Fairy and Snowhead Stray Fairy and Snowhead Stray Fairy and Snowhead Stray Fairy and Snowhead Stray Fairy and Snowhead Stray Fairy and Snowhead Stray Fairy
+
+region "Interior Fairy Fountain Town"
+  locations
+    Town Great Fairy Non-Human: Clock Town Stray Fairy and (Deku Mask or Goron Mask or Zora Mask or SettingAllowFierceDeityAnywhere)
+    Town Great Fairy: Clock Town Stray Fairy
+
+region "Interior Fairy Fountain Woodfall"
+  locations
+    Woodfall Great Fairy: Woodfall Stray Fairy and Woodfall Stray Fairy and Woodfall Stray Fairy and Woodfall Stray Fairy and Woodfall Stray Fairy and Woodfall Stray Fairy and Woodfall Stray Fairy and Woodfall Stray Fairy and Woodfall Stray Fairy and Woodfall Stray Fairy and Woodfall Stray Fairy and Woodfall Stray Fairy and Woodfall Stray Fairy and Woodfall Stray Fairy and Woodfall Stray Fairy
+
+region "Interior Fairy Fountain Zora Cape"
+  locations
+    Ocean Great Fairy: Great Bay Stray Fairy and Great Bay Stray Fairy and Great Bay Stray Fairy and Great Bay Stray Fairy and Great Bay Stray Fairy and Great Bay Stray Fairy and Great Bay Stray Fairy and Great Bay Stray Fairy and Great Bay Stray Fairy and Great Bay Stray Fairy and Great Bay Stray Fairy and Great Bay Stray Fairy and Great Bay Stray Fairy and Great Bay Stray Fairy and Great Bay Stray Fairy
+
+region "Interior Fisherman Hut"
+
+region "Interior Goron Graveyard"
+  locations
+    Darmani: Use Lens of Truth and Play Song of Healing
+
+region "Interior Goron Racetrack"
+  locations
+    Goron Racetrack Pot: always
+    Goron Racetrack Pot 2: always
+    Goron Racetrack Pot 3: always
+    Goron Racetrack Pot 4: always
+    Goron Racetrack Pot 5: always
+    Goron Racetrack Pot 6: always
+    Goron Racetrack Pot 7: always
+    Goron Racetrack Pot 8: always
+    Goron Racetrack Pot 9: always
+    Goron Racetrack Pot 10: always
+    Goron Racetrack Pot 11: always
+    Goron Racetrack Pot 12: always
+    Goron Racetrack Pot 13: always
+    Goron Racetrack Pot 14: always
+    Goron Racetrack Pot 15: always
+    Goron Racetrack Pot 16: always
+    Goron Racetrack Pot 17: always
+    Goron Racetrack Pot 18: always
+    Goron Racetrack Pot 19: always
+    Goron Racetrack Pot 20: always
+    Goron Racetrack Pot 21: always
+    Goron Racetrack Pot 22: always
+    Goron Racetrack Pot 23: always
+    Goron Racetrack Pot 24: always
+    Goron Racetrack Pot 25: always
+    Goron Racetrack Pot 26: always
+    Goron Racetrack Pot 27: always
+    Goron Racetrack Pot 28: always
+    Goron Racetrack Pot 29: always
+    Goron Racetrack Pot 30: always
+
+region "Interior Goron Shop"
+
+region "Interior Honey And Darling"
+  locations
+    Honey and Darling Three Days: OtherArrow and OtherAnyBombBag and Bring Your Own Ammo: 10 Bombchu [set up Day1; available Day3]
+    Honey and Darling Any Day: OtherArrow or OtherAnyBombBag or (Deku Mask and Magic Meter) [set up Day1; available Day3]
+
+region "Interior Ikana Pool Cave"
+
+region "Interior Japas Room"
+
+region "Interior Lens Cave"
+  locations
+    Lens of Truth Chest: always
+    Lens Cave Invisible Chest: Use Lens of Truth or Lensless Chests
+
+region "Interior Lottery Shop"
+  locations
+    Lottery: always [set up Day1, Night1, Day2, Night2, Day3; available Night1, Night2, Night3]
+
+region "Interior Lulu Room"
+  locations
+    Ocean Scrub Trade: Goron Mask and Mountain Title Deed
+    Lulu's Room Ledge: (Goron Mask and Deku Mask and Mountain Title Deed) or Lulu's Ledge as Zora or Lulu's Ledge as Goron or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface
+
+region "Interior Marine Research Lab"
+  locations
+    Baby Zoras: Zora Mask and Bottle: Zora Egg and Ocarina of Time
+    Lab Fish: Bottle: Fish
+
+region "Interior Mayors Residence"
+  locations
+    Mayor: Couple's Mask [set up Day1, Night1, Day2, Night2, Day3; available Day1, Day2, Day3]
+    Madame Aroma in Office: always [available Day1, Night1, Day2, Night2]
+    Notebook Meeting: Mayor Dotour: Bombers' Notebook [set up Day1, Night1, Day2, Night2, Day3; available Day1, Day2, Day3]
+    Mayor: Couple's Mask [set up Day1, Night1, Day2, Night2, Day3; available Day1, Day2, Day3]
+    Madame Aroma in Office: always [available Day1, Night1, Day2, Night2]
+
+region "Interior Mikau Tijo Room"
+
+region "Interior Milk Bar"
+  locations
+    Madame Aroma in Bar: Letter to Mama and Kafei's Mask [set up Day1, Night1, Day2, Night2, Day3; available Night3]
+    Gorman: Deku Mask and Goron Mask and Zora Mask [set up Day1, Night1, Day2, Night2; available Night1, Night2]
+    Milk Bar Chateau: Romani's Mask and Any Wallet [available Night1, Night2, Night3]
+    Milk Bar Milk: Romani's Mask [available Night1, Night2, Night3]
+    Madame Aroma in Bar: Letter to Mama and Kafei's Mask [set up Day1, Night1, Day2, Night2, Day3; available Night3]
+    Gorman: Deku Mask and Goron Mask and Zora Mask [set up Day1, Night1, Day2, Night2; available Night1, Night2]
+
+region "Interior Mountain Smithy"
+  locations
+    Mountain Smithy Day 1: Any Wallet and ((Play Song of Soaring and Bottle: Hot Spring Water) or Region: Snowhead Temple Clear or Use Fire Arrow or (Hot Spring Water in Mountains and SettingNotRandomizedBottleCatchHotSpringWater)) [set up Day1, Night1; available Day2, Night2]
+    Mountain Smithy Day 2: Bottle of Gold Dust and ((Play Song of Soaring and Bottle: Hot Spring Water) or Region: Snowhead Temple Clear or Use Fire Arrow or (Hot Spring Water in Mountains and SettingNotRandomizedBottleCatchHotSpringWater)) [set up Day1, Night1, Day2, Night2; available Day3, Night3]
+
+region "Interior Music Box House"
+  locations
+    Pamela's Father: Play Song of Healing
+
+region "Interior Ocean Spider House"
+  exits
+    -> "Ocean Skulltulas": Exit Ocean Spider House and ((Hookshot and OtherExplosive) or Enter Ocean Spider House as Goron or Enter Ocean Spider House as Giant or (SettingClimbMostSurfaces and OtherExplosive))
+  locations
+    Ocean Spider House Day 1 Reward: Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit [set up Day1, Night1; available Day1, Night1]
+    Ocean Spider House Day 2 Reward: Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit [set up Day1, Night1, Day2, Night2; available Day2, Night2]
+    Ocean Spider House Day 3 Reward: Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit and Ocean Skulltula Spirit [available Day3, Night3]
+
+region "Interior Pinnacle Rock"
+  exits
+    -> "Pinnacle Rock": (Zora Mask and Seahorse and OtherAnyBottle) or (Zora Mask and Pinnacle Rock without Seahorse) or (SettingIronGoron and Seahorse and OtherAnyBottle) or (SettingIronGoron and Pinnacle Rock without Seahorse)
+
+region "Interior Poe Hut"
+  locations
+    Poe Hut: Zora Mask or Long Ranged Weapon or Poe Hut With Bombs and Sticks or SettingAllowFierceDeityAnywhere
+
+region "Interior Post Office"
+  locations
+    Postman's Game: Bunny Hood or Postman without Bunny Hood [set up Day1; available Day1]
+    Postman's Game: Bunny Hood or Postman without Bunny Hood [set up Day1; available Day1]
+
+region "Interior Potion Shop"
+  locations
+    Witch Shop Blue Potion: Bottle: Mushroom
+    Witch Shop Red Potion: always
+    Witch Shop Green Potion: always
+    Kotake Mushroom Sale: Bottle: Mushroom
+    Potion Shop Item: always
+
+region "Interior Ranch Barn"
+  locations
+    Ranch Cow #1: Play Epona's Song and (OtherRomaniInHouseNight1 or OtherRomaniInHouseNight2Or3)
+    Ranch Cow #2: Play Epona's Song and (OtherRomaniInHouseNight1 or OtherRomaniInHouseNight2Or3)
+    Ranch Cow #3: Play Epona's Song and ((OtherRomaniInHouseNight1 and SettingCloseCows) or (OtherRomaniInHouseNight1 and Milk Multiple Cows) or (OtherRomaniInHouseNight1 and SettingClimbMostSurfaces) or (OtherRomaniInHouseNight1 and SettingGiantMaskAnywhere) or (OtherRomaniInHouseNight2Or3 and SettingCloseCows) or (OtherRomaniInHouseNight2Or3 and Milk Multiple Cows) or (OtherRomaniInHouseNight2Or3 and SettingClimbMostSurfaces) or (OtherRomaniInHouseNight2Or3 and SettingGiantMaskAnywhere))
+    Ranch Barn Hay Item: always
+    Ranch Barn Hay Item 2: always
+
+region "Interior Ranch House"
+
+region "Interior Secret Shrine"
+  exits
+    -> "Secret Shrine Floating Items": (OtherMagicBean and Water for Magic Bean) or Zora Mask or SettingHookshotAnySurface
+  locations
+    Secret Shrine Final Chest: Use Light Arrow
+    Secret Shrine Dinolfos Chest: Use Light Arrow
+    Secret Shrine Wizzrobe Chest: Use Light Arrow
+    Secret Shrine Wart Chest: Use Light Arrow
+    Secret Shrine Garo Master Chest: Use Light Arrow
+    Secret Shrine Underwater Pot: Use Light Arrow
+    Secret Shrine Underwater Pot 2: Use Light Arrow
+    Secret Shrine Underwater Pot 3: Use Light Arrow
+    Secret Shrine Underwater Pot 4: Use Light Arrow
+    Secret Shrine Soft Soil: Bottle: Bug
+    Secret Shrine Underwater Pot 5: Use Light Arrow
+
+region "Interior Stone Tower Temple"
+  exits
+    -> "Stone Tower Temple": always
+
+region "Interior Swamp Shooting Gallery"
+  locations
+    Swamp Archery #1: OtherArrow and Bring Your Own Ammo: 40 Arrows
+    Swamp Archery #2: OtherArrow and Bring Your Own Ammo: 40 Arrows [set up Day1, Night1, Day2, Night2, Day3; available Day1, Day2, Day3]
+
+region "Interior Swamp Spider House"
+  exits
+    -> "Swamp Spider": always
+
+region "Interior Swordsman School"
+  locations
+    Swordsman's School: Any B Sword [set up Day1, Night1, Day2, Night2, Day3; available Day1, Night1, Day2, Night2, Day3]
+    Swordsman's School Pot: Any B Sword or SettingAllowFierceDeityAnywhere [available Night3]
+    Swordsman's School Pot 2: Any B Sword or SettingAllowFierceDeityAnywhere [available Night3]
+    Swordsman's School Pot 3: Any B Sword or SettingAllowFierceDeityAnywhere [available Night3]
+    Swordsman's School Pot 4: Any B Sword or SettingAllowFierceDeityAnywhere [available Night3]
+    Swordsman's School Pot 5: Any B Sword or SettingAllowFierceDeityAnywhere [available Night3]
+    Swordsman School Gong: Deku Mask or Goron Mask or Zora Mask or SettingAllowFierceDeityAnywhere or Any B Sword [set up Day1, Night1, Day2, Night2, Day3; available Day1, Night1, Day2, Night2, Day3]
+
+region "Interior Town Shooting Gallery"
+  locations
+    Town Archery #1: OtherArrow and Bring Your Own Ammo: 40 Arrows
+    Town Archery #2: OtherArrow and Bring Your Own Ammo: Biggest Quiver [set up Day1, Night1, Day2, Night2, Day3; available Day1, Day2, Day3]
+
+region "Interior Trading Post"
+  locations
+    Trading Post Red Potion: always
+    Trading Post Green Potion: always
+    Trading Post Hero's Shield: always
+    Trading Post Fairy: always
+    Trading Post Deku Stick: always
+    Trading Post 30 Arrows: always
+    Trading Post 10 Deku Nuts: always
+    Trading Post 50 Arrows: always
+
+region "Interior Treasure Chest Shop"
+  locations
+    Treasure Chest Game Goron: Goron Mask [set up Day1, Night1, Day2, Night2, Day3; available Day1, Day2, Day3]
+    Treasure Chest Game Human: always [set up Day1, Night1, Day2, Night2, Day3; available Day1, Day2, Day3]
+    Treasure Chest Game Zora: Zora Mask [set up Day1, Night1, Day2, Night2, Day3; available Day1, Day2, Day3]
+    Treasure Chest Game Deku: Deku Mask [set up Day1, Night1, Day2, Night2, Day3; available Day1, Day2, Day3]
+
+region "Interior Waterfall Rapids"
+  locations
+    Beaver Race #1: Zora Mask
+    Beaver Race #2: Zora Mask
+
+region "Interior Woods Of Mystery"
+  exits
+    -> "Grotto Generic Woods Of Mystery": always
+  locations
+    Koume: Any Healing Potion
+
+region "Interior Zora Shop"
+  locations
+    Zora Shop Hero's Shield: always
+    Zora Shop 10 Arrows: always
+    Zora Shop Red Potion: always
+
+region "InteriorLensCave"
+  locations
+    Lens Cave Rock Chest: (Region: Interior Lens Cave and OtherExplosive) or (SettingNotEntranceModeSimpleInteriors and Region: Mountain Village and Lens Cave With Powder Keg Challenge)
+
+region "Inverted Stone Tower Temple"
+  exits
+    -> "Twinmold": (Region: Inverted Stone Tower Temple: Eyegore and Hookshot and Stone Tower Boss Key) or (Region: Inverted Stone Tower Temple: Eyegore and ISTT as Giant and Stone Tower Boss Key) or (SettingClimbMostSurfaces and Stone Tower Boss Key) or Twinmold's Remains
+    -> "Inverted Stone Tower Temple: Eyegore": ISTT Return from Eyegore Bridge and (ISTT 2nd Locked Door or (ISTT 2nd Floor Puzzles and ISTT Cross Poe Gap and ISTT Hookshot to Eyegore) or (ISTT Forward Updraft Room and ISTT Early Boss Key and ISTT Hookshot to Eyegore) or (ISTT Forward Updraft Room and ISTT Recoil Flip to Eyegore Bridge) or (ISTT Lightless and ISTT Hookshot to Eyegore) or (ISTT Reverse 2F and ISTT Recoil Flip to Eyegore Bridge) or ISTT as Giant or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    -> "Inverted Stone Tower Temple: Updraft Bridge": ISTT Forward Updraft Room or ISTT Reverse 2F or (ISTT 2nd Locked Door and ISTT Eyegore Bridge to Dexihand) or (ISTT Lightless and ISTT Hookshot to Eyegore and ISTT Eyegore Bridge to Dexihand) or ISTT as Giant or SettingClimbMostSurfaces or SettingHookshotAnySurface
+  locations
+    Stone Tower Boss Key Chest: STT BK Retrieval and Gomess Fight and ((ISTT 2nd Floor Puzzles and ISTT Cross Poe Gap and ISTT Cross Under Eyegore Bridge) or (ISTT 2nd Floor Puzzles and ISTT Cross Poe Gap and ISTT Hookshot to Eyegore) or (ISTT Forward Updraft Room and ISTT Early Boss Key) or (ISTT Forward Updraft Room and ISTT Recoil Flip to Eyegore Bridge) or (ISTT Lightless and ISTT Hookshot to Eyegore) or (ISTT Lightless and ISTT Cross Under Eyegore Bridge) or (ISTT Reverse 2F and ISTT Early Boss Key) or (Hookshot and 1 Stone Tower Key and ISTT Lightless) or SettingClimbMostSurfaces or SettingHookshotAnySurface or ISTT as Giant)
+    Stone Tower Death Armos Maze Chest: ISTT Death Armos Maze Chest Switch and ((ISTT 2nd Floor Puzzles and ISTT Cross Poe Gap) or (ISTT Forward Updraft Room and ISTT Early Boss Key and ISTT Cross Under Eyegore Bridge) or (ISTT Forward Updraft Room and ISTT Early Boss Key and ISTT Hookshot to Eyegore and ISTT Eyegore Bridge to Maze) or (ISTT Forward Updraft Room and ISTT Recoil Flip to Eyegore Bridge and ISTT Eyegore Bridge to Maze) or ISTT Lightless)
+    Bottle: Poe: OtherAnyBottle and (ISTT 2nd Floor Puzzles or (ISTT Forward Updraft Room and ISTT Recoil Flip to Eyegore Bridge) or (ISTT Forward Updraft Room and ISTT Early Boss Key and ISTT Hookshot to Eyegore and ISTT Eyegore Bridge to Maze) or (ISTT Forward Updraft Room and ISTT Early Boss Key and ISTT Cross Under Eyegore Bridge) or ISTT Lightless)
+    Inverted Stone Tower Temple Entrance Sun Switch: Use Light Arrow
+    Inverted Stone Tower Temple Wizzrobe: ISTT 2nd Floor Puzzles or (ISTT Forward Updraft Room and ISTT Early Boss Key and ISTT Cross Under Eyegore Bridge and ISTT Cross Poe Gap) or (ISTT Forward Updraft Room and ISTT Early Boss Key and ISTT Hookshot to Eyegore and ISTT Eyegore Bridge to Maze and ISTT Cross Poe Gap) or (ISTT Forward Updraft Room and ISTT Recoil Flip to Eyegore Bridge and ISTT Cross Poe Gap) or (ISTT Lightless and ISTT Cross Poe Gap) or SettingClimbMostSurfaces
+    Inverted Stone Tower Temple Updraft Room Item: (Use Light Arrow and Deku Mask) or (Use Light Arrow and Hookshot) or (Use Light Arrow and ISTT Updraft Rupee Gainer) or (Use Light Arrow and ISTT Updraft Rupee Goron Bomb Jump) or (Use Light Arrow and SettingAllowFierceDeityAnywhere) or ISTT Updraft Rupees as Zora or (SettingClimbMostSurfaces and SettingNotCharacterAdultLink) or (SettingClimbMostSurfaces and Deku Mask) or (SettingHookshotAnySurface and SettingNotCharacterAdultLink)
+    Inverted Stone Tower Temple Updraft Room Item 2: (Use Light Arrow and Deku Mask) or (Use Light Arrow and Hookshot) or (Use Light Arrow and ISTT Updraft Rupee Gainer) or (Use Light Arrow and ISTT Updraft Rupee Goron Bomb Jump) or (Use Light Arrow and SettingAllowFierceDeityAnywhere) or ISTT Updraft Rupees as Zora or (SettingClimbMostSurfaces and SettingNotCharacterAdultLink) or (SettingClimbMostSurfaces and Deku Mask) or (SettingHookshotAnySurface and SettingNotCharacterAdultLink)
+    Stone Tower Temple Wizzrobe Pot: ISTT 2nd Floor Puzzles or (ISTT Forward Updraft Room and ISTT Early Boss Key and ISTT Cross Under Eyegore Bridge and ISTT Cross Poe Gap) or (ISTT Forward Updraft Room and ISTT Early Boss Key and ISTT Hookshot to Eyegore and ISTT Eyegore Bridge to Maze and ISTT Cross Poe Gap) or (ISTT Forward Updraft Room and ISTT Recoil Flip to Eyegore Bridge and ISTT Eyegore Bridge to Maze and ISTT Cross Poe Gap) or (ISTT Lightless and ISTT Cross Poe Gap and OtherArrow) or (ISTT Lightless and ISTT Cross Poe Gap and Hookshot) or (ISTT Lightless and ISTT Cross Poe Gap and SettingAllowFierceDeityAnywhere) or SettingClimbMostSurfaces
+
+region "Inverted Stone Tower Temple: Eyegore"
+  locations
+    Giant's Mask Chest: always
+    Inverted Stone Tower Temple Pre-Boss Closest Item: Hookshot or ISTT Thin Bridge Rupees as Goron or ISTT as Giant or SettingClimbMostSurfaces
+    Inverted Stone Tower Temple Pre-Boss 2nd Closest Item: Hookshot or ISTT Thin Bridge Rupees as Goron or ISTT as Giant or SettingClimbMostSurfaces
+    Inverted Stone Tower Temple Pre-Boss Item: Hookshot or ISTT Thin Bridge Three Blue Rupees as Zora or ISTT as Giant or SettingClimbMostSurfaces
+    Inverted Stone Tower Temple Pre-Boss Item 2: Hookshot or ISTT Thin Bridge Three Blue Rupees as Zora or ISTT as Giant or SettingClimbMostSurfaces
+    Inverted Stone Tower Temple Pre-Boss Item 3: Hookshot or ISTT Thin Bridge Three Blue Rupees as Zora or ISTT as Giant or SettingClimbMostSurfaces
+    Inverted Stone Tower Temple Pre-Boss Furthest Item: (Hookshot and Zora Mask) or ISTT Thin Bridge Rupees as Goron or (ISTT as Giant and Zora Mask) or (SettingClimbMostSurfaces and Zora Mask) or SettingHookshotAnySurface
+    Inverted Stone Tower Temple Pre-Boss Furthest Item 2: (Hookshot and Zora Mask) or ISTT Thin Bridge Rupees as Goron or (ISTT as Giant and Zora Mask) or (SettingClimbMostSurfaces and Zora Mask) or SettingHookshotAnySurface
+    Inverted Stone Tower Temple Pre-Boss 2nd Furthest Item: (Hookshot and Zora Mask) or ISTT Thin Bridge Rupees as Goron or (ISTT as Giant and Zora Mask) or (SettingClimbMostSurfaces and Zora Mask) or SettingHookshotAnySurface
+    Inverted Stone Tower Temple Pre-Boss 2nd Furthest Item 2: (Hookshot and Zora Mask) or ISTT Thin Bridge Rupees as Goron or (ISTT as Giant and Zora Mask) or (SettingClimbMostSurfaces and Zora Mask) or SettingHookshotAnySurface
+    Inverted Stone Tower Temple Pre-Boss Closest Item 2: Hookshot or ISTT Thin Bridge Rupees as Goron or ISTT as Giant or SettingClimbMostSurfaces
+    Inverted Stone Tower Temple Pre-Boss 2nd Closest Item 2: Hookshot or ISTT Thin Bridge Rupees as Goron or ISTT as Giant or SettingClimbMostSurfaces
+
+region "Inverted Stone Tower Temple: Updraft Bridge"
+  locations
+    Stone Tower Updraft Room Chest: always
+    Inverted Stone Tower Temple Updraft Frozen Eye: ISTT Frozen Eye Chest Retrieval and Use Fire Arrow
+    Inverted Stone Tower Temple Dexihand Item: always
+    Inverted Stone Tower Temple Dexihand Item 2: always
+    Inverted Stone Tower Temple Dexihand Item 3: always
+
+region "Keg Trial"
+
+region "Laundry Pool"
+  locations
+    Kafei: Letter to Kafei [set up Day1, Night1; available Day2, Night2; needed Day2, Night2]
+    Curiosity Shop Man #2: Letter to Kafei [set up Day1, Night1; available Day3; needed Day3]
+    Curiosity Shop Man #1: Letter to Kafei [set up Day1, Night1; available Day3]
+    Guru Guru: always [available Night1, Night2]
+    Laundry Pool Crate: always
+    Laundry Pool Item: always [available Night2]
+    Laundry Pool Item 2: always [available Night2]
+    Laundry Pool Item 3: always [available Night2]
+    Kafei: Letter to Kafei [set up Day1, Night1; available Day2, Night2]
+    Curiosity Shop Man #1: Letter to Kafei [set up Day1, Night1; available Day3]
+    Curiosity Shop Man #2: Letter to Kafei [set up Day1, Night1; available Day3]
+    Guru-Guru: always [available Night1, Night2]
+    Frog in the Laundry Pool: Don Gero's Mask
+
+region "Milk Road"
+  locations
+    Gorman Bros Race: Play Epona's Song [set up Day1, Night1, Day2, Night2, Day3; available Day1, Day2, Day3]
+    Gorman Bros Milk Purchase: always [set up Day1, Night1, Day2, Night2, Day3; available Day1, Day2, Day3]
+    Milk Road Grass: always
+    Milk Road Grass 2: always
+    Milk Road Keaton Grass: always
+    Milk Road Keaton Grass 2: Magic Meter and Any Sword
+    Milk Road Keaton Grass 3: Magic Meter and Any Sword
+    Milk Road Keaton Grass 4: Magic Meter and Any Sword
+    Milk Road Keaton Grass 5: Magic Meter and Any Sword
+    Milk Road Keaton Grass 6: Big Spin Attack or Keaton Grass Small Spin
+    Milk Road Keaton Grass 7: Big Spin Attack or Keaton Grass Small Spin
+    Milk Road Keaton Grass 8: Big Spin Attack or Keaton Grass Small Spin
+    Milk Road Keaton Grass 9: Big Spin Attack or Keaton Grass Small Spin
+    Notebook Meeting: The Gorman Brothers: Bombers' Notebook [available Day1, Day2, Day3]
+    Gorman Bros Race: Play Epona's Song [set up Day1, Night1, Day2, Night2, Day3; available Day1, Day2, Day3]
+    Milk Road Grass 3: always
+    Milk Road Gossip Fairy: Summon Fairy
+
+region "Misc"
+  locations
+    Starting Item: always
+    Removed by Royal Wallet: Adult Wallet and Giant Wallet
+    Starting Song: always
+    Starting Sword: always
+    Starting Shield: always
+    Starting Heart Container #1: always
+    Starting Heart Container #2: always
+
+region "Mountain Village"
+  exits
+    -> "Snowhead": (Goron Mask and Magic Meter) or Path to Snowhead without Magic or Path to Snowhead Jumping and Climbing or Path to Snowhead as FD or Path to Snowhead with Nothing or SettingHookshotAnySurface or SettingGiantMaskAnywhere
+    -> "Goron Racetrack": (Goron Mask and Powder Keg) or (Goron Mask and Region: Keg Trial) or Goron Racetrack Access as Giant or Goron Racetrack Access as FD or Goron Racetrack Access With Hookshot/Climb Anywhere or (SettingGiantMaskAnywhere and Any B Sword)
+    -> "Grotto Generic Twin Islands": (Goron Mask and OtherExplosive) or (OtherExplosive and SettingClimbMostSurfaces) or (OtherExplosive and SettingHookshotAnySurface) or (OtherExplosive and SettingGiantMaskAnywhere) or (OtherExplosive and Scarecrow's Song) or (Powder Kegs as Explosives and Region: Keg Trial) or Zoey Grotto Recoil Flip or (Fish Push and OtherExplosive)
+    -> "Grotto Hot Spring": (Bottle: Hot Spring Water and Play Song of Soaring) or (Bottle: Hot Spring Water and Hot Spring Water in Mountains and SettingNotRandomizedBottleCatchHotSpringWater) or Region: Snowhead Temple Clear or Use Fire Arrow
+    -> "Interior Goron Graveyard": (Lens of Truth and Magic Meter) or Lensless Climbing or SettingClimbMostSurfaces
+    -> "Interior Goron Shop": always
+    -> "Interior Lens Cave": Use Lens of Truth or Dungeon Entrance Return or Goron Village Invisible Platforming Backwards
+    -> "Interior Mountain Smithy": always
+  locations
+    Powder Keg Challenge: Region: Keg Trial and Goron Mask
+    Mountain Scrub Trade: Deku Mask and Swamp Title Deed
+    Hungry Goron: Goron Spikes and (Play Goron Lullaby or Use Fire Arrow or Rock Sirloin Fireless)
+    Baby Goron: Goron Mask and Ocarina of Time and Any Goron Lullaby
+    Goron Village Ledge: (Deku Mask and Swamp Title Deed) or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Goron Village Small Snowball: always
+    Goron Village Small Snowball 2: always
+    Mountain Village Winter Small Snowball: always
+    Goron Village Large Snowball: Destroy Large Snowballs
+    Goron Village Large Snowball 2: Destroy Large Snowballs
+    Goron Village Large Snowball 3: Destroy Large Snowballs
+    Mountain Village Day 3 Snowball: Destroy Large Snowballs [available Day3, Night3]
+    Mountain Village Day 2 Snowball: Destroy Large Snowballs [set up Day1, Night1, Day2, Night2; available Day2, Night2]
+    Goron Village Small Snowball 3: always
+    Goron Village Small Snowball 4: always
+    Mountain Village Winter Small Snowball 2: always
+    Goron Village Small Snowball 5: always
+    Goron Village Small Snowball 6: always
+    Goron Shrine Pot: always [set up Day1, Night1; available Day1, Night1]
+    Goron Shrine Pot 2: always [set up Day1, Night1; available Day1, Night1]
+    Goron Shrine Pot 3: always [set up Day1, Night1; available Day1, Night1]
+    Goron Shrine Pot 4: always [set up Day1, Night1; available Day1, Night1]
+    Goron Shrine Pot 5: always [set up Day1, Night1; available Day1, Night1]
+    Goron Village Small Snowball 7: always
+    Goron Village Small Snowball 8: always
+    Goron Shrine Pot 6: always [set up Day1, Night1; available Day1, Night1]
+    Goron Shrine Pot 7: always [set up Day1, Night1; available Day1, Night1]
+    Goron Shrine Pot 8: always [set up Day1, Night1; available Day1, Night1]
+    Goron Shrine Pot 9: always [set up Day1, Night1; available Day1, Night1]
+    Goron Graveyard Snowball: (Lens of Truth and Magic Meter) or Lensless Climbing or SettingClimbMostSurfaces
+    Goron Graveyard Snowball 2: (Lens of Truth and Magic Meter) or Lensless Climbing or SettingClimbMostSurfaces
+    Mountain Village Winter Small Snowball 3: always
+    Goron Shrine Pot 10: always [set up Day1, Night1; available Day1, Night1]
+    Goron Shrine Pot 11: always [set up Day1, Night1; available Day1, Night1]
+    Goron Village Large Snowball 4: Destroy Large Snowballs
+    Goron Village Large Snowball 5: Destroy Large Snowballs
+    Goron Village Large Snowball 6: Destroy Large Snowballs
+    Goron Village Small Snowball 9: always
+    Goron Village Small Snowball 10: always
+    Mountain Village Winter Small Snowball 4: always
+    Mountain Village Winter Small Snowball 5: always
+    Mountain Village Day 1 Snowball: Destroy Large Snowballs
+    Mountain Village Day 2 Snowball 2: Destroy Large Snowballs [set up Day1, Night1, Day2, Night2; available Day2, Night2]
+    Twin Islands Day 3 Snowball: Destroy Large Snowballs [available Day3, Night3]
+    Twin Islands Day 3 Snowball 2: Destroy Large Snowballs [available Day3, Night3]
+    Twin Islands Day 3 Snowball 3: Destroy Large Snowballs [available Day3, Night3]
+    Twin Islands Day 3 Snowball 4: Destroy Large Snowballs [available Day3, Night3]
+    Twin Islands Day 3 Snowball 5: Destroy Large Snowballs [available Day3, Night3]
+    Twin Islands Day 2 Snowball: Destroy Large Snowballs [set up Day1, Night1, Day2, Night2; available Day2, Night2]
+    Twin Islands Day 2 Snowball 2: Destroy Large Snowballs [set up Day1, Night1, Day2, Night2; available Day2, Night2]
+    Twin Islands Day 2 Snowball 3: Destroy Large Snowballs [set up Day1, Night1, Day2, Night2; available Day2, Night2]
+    Twin Islands Day 2 Snowball 4: Destroy Large Snowballs [set up Day1, Night1, Day2, Night2; available Day2, Night2]
+    Twin Islands Day 1 Snowball: Destroy Large Snowballs [set up Day1, Night1; available Day1, Night1]
+    Twin Islands Day 1 Snowball 2: Destroy Large Snowballs [set up Day1, Night1; available Day1, Night1]
+    Twin Islands Day 1 Snowball 3: Destroy Large Snowballs [set up Day1, Night1; available Day1, Night1]
+    Twin Islands Day 1 Snowball 4: Destroy Large Snowballs [set up Day1, Night1; available Day1, Night1]
+    Twin Islands Day 1 Snowball 5: Destroy Large Snowballs [set up Day1, Night1; available Day1, Night1]
+    Twin Islands Small Snowball: always
+    Twin Islands Small Snowball 2: always
+    Twin Islands Ramp Snowball: Goron Mask or SettingClimbMostSurfaces or SettingHookshotAnySurface or SettingGiantMaskAnywhere or Scarecrow's Song or Zoey Grotto Recoil Flip or Fish Push
+    Path to Mountain Village Small Snowball: always
+    Mountain Village Winter Pot: OtherArrow or Zora Mask or Hookshot or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or Smithy Fairy as FD or Smithy Fairy With Bombchu or Smithy Fairy With Powder Keg
+    Mountain Village Winter Small Snowball 6: always
+
+region "Night Inn"
+  locations
+    Midnight Meeting: Kafei's Mask [set up Day1; available Night1; needed Day1, Night1]
+    Midnight Meeting: Kafei's Mask [set up Day1; available Night1]
+    Deliver the Pendant of Memories: Kafei's Mask and Pendant of Memories [set up Day1; available Day2, Night2, Day3, Night3]
+
+region "North Clock Town"
+  exits
+    -> "Grotto Deku Playground": always
+
+region "North Clock Town (area)"
+  exits
+    -> "Interior Fairy Fountain Town": always
+  locations
+    Bombers' Hide and Seek: Bombers' Hide and Seek
+    Old Lady: Goron Mask or Zora Mask or Any Sword or SettingAllowFierceDeityAnywhere [set up Day1; available Night1; if not kept also Letter to Kafei and Pendant of Memories]
+    North Clock Town Tree: always
+    North Clock Town Keaton Grass: always
+    North Clock Town Keaton Grass 2: Magic Meter and Any Sword
+    North Clock Town Keaton Grass 3: Magic Meter and Any Sword
+    North Clock Town Keaton Grass 4: Magic Meter and Any Sword
+    North Clock Town Keaton Grass 5: Magic Meter and Any Sword
+    North Clock Town Keaton Grass 6: Big Spin Attack or Keaton Grass Small Spin
+    North Clock Town Keaton Grass 7: Big Spin Attack or Keaton Grass Small Spin
+    North Clock Town Keaton Grass 8: Big Spin Attack or Keaton Grass Small Spin
+    North Clock Town Keaton Grass 9: Big Spin Attack or Keaton Grass Small Spin
+    Old Lady: Goron Mask or Zora Mask or Any Sword or SettingAllowFierceDeityAnywhere [set up Day1; available Night1; if not kept also Letter to Kafei and Pendant of Memories]
+
+region "Ocean Skulltulas"
+  locations
+    Ocean Spider House Chest: OtherArrow and (Captain's Hat or OSH Brute Force Code)
+    Ocean Skulltula Storage Room Behind Boat: always
+    Ocean Skulltula Library Hole Behind Picture: Hookshot or OSH as Zora or (OSH as Giant and Deku Bubbles) or (OSH as Giant and OtherArrow)
+    Ocean Skulltula Library Hole Behind Cabinet: Hookshot or OSH as Zora or (OSH as Giant and Deku Bubbles) or (OSH as Giant and OtherArrow)
+    Ocean Skulltula Library On Corner Bookshelf: always
+    Ocean Skulltula 2nd Room Ceiling Edge: Hookshot or Zora Mask or (OSH as Giant and Deku Bubbles) or (OSH as Giant and OtherArrow) or (OSH as Giant and Any B Sword) or (SettingClimbMostSurfaces and Deku Bubbles) or (SettingClimbMostSurfaces and OtherArrow)
+    Ocean Skulltula 2nd Room Ceiling Plank: Hookshot or Zora Mask or (OSH as Giant and Deku Bubbles) or (OSH as Giant and OtherArrow) or (OSH as Giant and Any B Sword)
+    Ocean Skulltula Colored Skulls Ceiling Edge: Hookshot or Zora Mask or (OSH as Giant and Deku Bubbles) or (OSH as Giant and OtherArrow) or (OSH as Giant and Any B Sword) or (SettingClimbMostSurfaces and Deku Bubbles) or (SettingClimbMostSurfaces and OtherArrow)
+    Ocean Skulltula Library Ceiling Edge: Hookshot or Zora Mask or (OSH as Giant and Deku Bubbles) or (OSH as Giant and OtherArrow) or (OSH as Giant and Any B Sword) or (SettingClimbMostSurfaces and Deku Bubbles) or (SettingClimbMostSurfaces and OtherArrow)
+    Ocean Skulltula Storage Room Ceiling Web: (Use Fire Arrow and Hookshot) or OSH Fireless
+    Ocean Skulltula Storage Room Behind Crate: (SettingNotCharacterAdultLink and Hookshot) or (SettingNotCharacterAdultLink and Goron Mask) or (SettingNotCharacterAdultLink and Zora Mask) or (SettingNotCharacterAdultLink and OSH as Giant) or (SettingCharacterAdultLink and Deku Mask) or (SettingCharacterAdultLink and OSH as Zora) or OSH Storage Room Behind Crate Skull as Adult With Hookshot or OSH Storage Room Behind Crate Skull as Adult With Fish
+    Ocean Skulltula 2nd Room Jar: always
+    Ocean Skulltula 2nd Room Webbed Hole: Hookshot or OSH as Zora
+    Ocean Skulltula Colored Skulls Chandelier 1: always
+    Ocean Skulltula Colored Skulls Chandelier 2: always
+    Ocean Skulltula Colored Skulls Chandelier 3: always
+    Ocean Skulltula Colored Skulls Behind Picture: Short Ranged Weapon
+    Ocean Skulltula Library Behind Picture: Short Ranged Weapon
+    Ocean Skulltula Library Behind Bookcase 1: always
+    Ocean Skulltula Storage Room Crate: always
+    Ocean Skulltula 2nd Room Webbed Pot: always
+    Ocean Skulltula 2nd Room Upper Pot: always
+    Ocean Skulltula Colored Skulls Pot: always
+    Ocean Skulltula Storage Room Jar: Hookshot or (Enter Ocean Spider House as Goron and OtherAnyBombBag) or (Enter Ocean Spider House as Goron and Powder Kegs as Explosives and Powder Keg and OSH Storage Room Clip) or (Enter Ocean Spider House as Giant and OSH as Giant) or (Enter Ocean Spider House as Giant and OSH Storage Room Clip)
+    Ocean Skulltula 2nd Room Lower Pot: always
+    Ocean Skulltula Library Behind Bookcase 2: always
+    Ocean Skulltula 2nd Room Behind Skull 1: always
+    Ocean Skulltula 2nd Room Behind Skull 2: always
+    Oceanside Spider House Main Room Pot: always
+    Oceanside Spider House Main Room Pot 2: always
+    Oceanside Spider House Storage Room Pot: always
+    Oceanside Spider House Mask: always
+    Oceanside Spider House Mask 2: always
+    Oceanside Spider House Mask 3: always
+    Oceanside Spider House Mask 4: always
+    Oceanside Spider House Mask 5: always
+    Oceanside Spider House Mask 6: always
+    Oceanside Spider House Mask 7: always
+    Oceanside Spider House Mask 8: always
+    Oceanside Spider House Mask 9: always
+    Oceanside Spider House Mask Room Pot: always
+    Oceanside Spider House Mask Room Pot 2: always
+
+region "Odolwa"
+  exits
+    -> "Odolwas Lair": always
+
+region "Odolwas Lair"
+  exits
+    -> "Woodfall Temple Clear": Kill Odolwa
+  locations
+    Heart Container: Kill Odolwa
+    Warp: Kill Odolwa
+
+region "P F Interior"
+  locations
+    Hookshot Chest: OtherArrow or Deku Bubbles
+    Pirates' Fortress Interior Lower Chest: always
+    Pirates' Fortress Interior Upper Chest: Hookshot or Pirates' Fortress Upper Chest as Goron or Pirates' Fortress Upper Chest as FD or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Pirates' Fortress Interior Tank Chest: (Zora Mask and Hookshot) or (Zora Mask and SettingAllowFierceDeityAnywhere) or (Zora Mask and SettingClimbMostSurfaces) or (SettingIronGoron and Hookshot) or (SettingIronGoron and SettingAllowFierceDeityAnywhere) or (SettingIronGoron and SettingClimbMostSurfaces)
+    Pirates' Fortress Interior Guard Room Chest: Hookshot or PF Guard Room Rear Entry or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Pirates' Fortress Guarded Egg Pot: Hookshot or PF Guard Room Rear Entry or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Pirates' Fortress Barrel Maze Egg Pot: Hookshot or SettingAllowFierceDeityAnywhere or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Pirates' Fortress Sewer Exit Pot: always
+    Pirates' Fortress Lone Guard Egg Pot: Hookshot or SettingAllowFierceDeityAnywhere or PF Guard Room Rear Entry or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Pirates' Fortress Barrel Maze Egg Pot 2: Hookshot or SettingAllowFierceDeityAnywhere or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Pirates' Fortress Sewer Exit Barrel: always
+    Pirates' Fortress Sewer Exit Barrel 2: always
+    Pirates' Fortress Sewer Exit Barrel 3: always
+    Pirates' Fortress Sewer Exit Pot 2: always
+    Pirates' Fortress Item: Hookshot or PF Guard Room Rear Entry or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Pirates' Fortress Item 2: Hookshot or PF Guard Room Rear Entry or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Pirates' Fortress Item 3: Hookshot or PF Guard Room Rear Entry or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    Pirates' Fortress Skull Flag Left Eye: always
+    Pirates' Fortress Skull Flag Left Eye 2: always
+    Pirates' Fortress Skull Flag Left Eye 3: always
+    Pirates' Fortress Skull Flag Right Eye: always
+    Pirates' Fortress Skull Flag Right Eye 2: always
+    Pirates' Fortress Skull Flag Right Eye 3: always
+    Hookshot Room Skull Flag Forehead: OtherArrow or Deku Bubbles or Hookshot Room Skull Flag Rupees With Zora Boomerangs
+    Hookshot Room Skull Flag Forehead 2: OtherArrow or Deku Bubbles or Hookshot Room Skull Flag Rupees With Zora Boomerangs
+    Hookshot Room Skull Flag Forehead 3: OtherArrow or Deku Bubbles or Hookshot Room Skull Flag Rupees With Zora Boomerangs
+    Hookshot Room Pot: always
+    Hookshot Room Pot 2: always
+
+region "Pass Keeta"
+  locations
+    Ikana Graveyard Highest Rock: OtherAnyBombBag or (Powder Kegs as Explosives and Powder Keg) or (SettingGiantMaskAnywhere and Any B Sword)
+    Ikana Graveyard Lowest Rock: OtherExplosive or (SettingGiantMaskAnywhere and Any B Sword)
+    Ikana Graveyard 2nd Lowest Rock: OtherExplosive or (SettingGiantMaskAnywhere and Any B Sword)
+    Ikana Graveyard 2nd Highest Rock: OtherAnyBombBag or (Powder Kegs as Explosives and Powder Keg) or (SettingGiantMaskAnywhere and Any B Sword)
+    Ikana Graveyard Middle Rock: OtherAnyBombBag or (Powder Kegs as Explosives and Powder Keg) or (SettingGiantMaskAnywhere and Any B Sword)
+
+region "Path to Mountain Village"
+  locations
+    Path to Mountain Village Gossip Fairy: Summon Fairy and (OtherArrow or (Play Song of Soaring and Bottle: Hot Spring Water))
+
+region "Pinnacle Rock"
+  locations
+    Pinnacle Rock Lower Chest: Zora Mask
+    Pinnacle Rock Upper Chest: Zora Mask
+    Pinnacle Rock Pot: always
+    Pinnacle Rock Pot 2: Zora Mask
+    Pinnacle Rock Pot 3: always
+    Pinnacle Rock Pot 4: always
+
+region "Pirates Fortress"
+  exits
+    -> "P F Interior": (Zora Mask and Goron Mask) or Hookshot or FD Jump Into PFI or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or (SettingIronGoron and OtherArrow) or (SettingIronGoron and Deku Bubbles) or (SettingIronGoron and Sewers With Bombchu) or (SettingIronGoron and Sewers With Explosives and OtherAnyBombBag) or (SettingIronGoron and Sewers With Explosives and Blast Mask)
+  locations
+    Pirates' Fortress Cage Room Shallow Chest: Goron Mask
+    Pirates' Fortress Cage Room Deep Chest: Goron Mask
+    Pirates' Fortress Maze Chest: Goron Mask
+    Pirates' Fortress Exterior Log Chest: always
+    Pirates' Fortress Exterior Sand Chest: always
+    Pirates' Fortress Exterior Corner Chest: always
+    Pirates' Fortress Cage: Goron Mask
+    Fisherman Pictograph: Pictograph Box and Region: Interior Fisherman Hut
+    Pirates' Fortress Cage Pot: Goron Mask
+    Pirates' Fortress Cage Room Barrel: Goron Mask
+    Pirates' Fortress Cage Room Barrel 2: Goron Mask
+    Pirates' Fortress Cage Room Barrel 3: Goron Mask
+    Pirates' Fortress Cage Room Barrel 4: Goron Mask
+    Pirates' Fortress Cage Room Barrel 5: Goron Mask
+
+region "Pirates' Fortress Sewer"
+  locations
+    Pirates' Fortress Sewer Gate Pot: Region: P F Interior or (Region: Pirates Fortress and Sewers With Explosives and Powder Kegs as Explosives and Powder Keg)
+
+region "Play Goron Lullaby"
+  locations
+    Snowhead Large Snowball: Goron Mask
+    Snowhead Large Snowball 2: Goron Mask
+    Snowhead Large Snowball 3: Goron Mask
+    Snowhead Large Snowball 4: Goron Mask
+    Snowhead Large Snowball 5: Goron Mask
+    Snowhead Large Snowball 6: Goron Mask
+
+region "Road to Ikana"
+  exits
+    -> "Grotto Generic Road To Ikana": Destroy Red Boulders
+
+region "Road to Ikana (area)"
+  locations
+    Path to Ikana Pillar Chest: Hookshot or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+
+region "Road to Southern Swamp"
+  exits
+    -> "Grotto Generic Road To Swamp": always
+
+region "Road to Southern Swamp (area)"
+  exits
+    -> "Interior Swamp Shooting Gallery": always
+  locations
+    Path to Swamp Tree: Short Ranged Weapon or (Avoid Swamp Tree Bat and Kill Bad Bats) or (Avoid Swamp Tree Bat and Stone Mask) or (SettingClimbMostSurfaces and Kill Bad Bats) or (SettingClimbMostSurfaces and Stone Mask) or SettingGiantMaskAnywhere
+    Road to Southern Swamp Gossip Fairy: Summon Fairy
+
+region "Romani Ranch"
+  exits
+    -> "Interior Cucco Shack": OtherEpona
+
+region "Romani Ranch (area)"
+  exits
+    -> "Interior Doggy Racetrack": OtherEpona
+    -> "Interior Ranch Barn": OtherEpona
+    -> "Interior Ranch House": OtherEpona
+  locations
+    Aliens Defense: OtherEpona and (OtherArrow or Bowless Aliens or Super Bowless Aliens) [set up Day1, Night1; available Night1]
+    Cremia: OtherEpona and Bring Your Own Ammo: Escort Cremia and (OtherArrow or Bowless Aliens or Super Bowless Aliens) [set up Day1, Night1; available Night2]
+    Romani's Game: OtherEpona [set up Day1; available Day1]
+    Ranch Crate: always [available Day3, Night3]
+    Ranch Fence Item: always [available Day3, Night3]
+    Ranch Fence Item 2: always [available Day3, Night3]
+    Ranch Fence Item 3: always [available Day3, Night3]
+    Ranch Fence Item 4: always [available Day3, Night3]
+    Ranch Fence Item 5: always [available Day3, Night3]
+    Ranch Fence Item 6: always [available Day3, Night3]
+    Ranch Day 1 Soil: OtherEpona and Bottle: Bug [set up Day1; available Day1]
+    Ranch Day 2 or 3 Soil: Bottle: Bug [available Day3, Night3]
+    Romani's Game: OtherEpona [set up Day1; available Day1]
+    Aliens Defense: OtherEpona and (OtherArrow or Bowless Aliens or Super Bowless Aliens) [set up Day1, Night1; available Night1]
+    Cremia: OtherEpona and (OtherArrow or Bowless Aliens or Super Bowless Aliens) [set up Day1, Night1; available Night2]
+    Ranch Entrance Gossip Fairy: Summon Fairy [available Day3, Night3]
+    Ranch Tree Gossip Fairy: Summon Fairy [available Day3, Night3]
+    Ranch Barn Gossip Fairy: Summon Fairy [available Day3, Night3]
+
+region "Secret Shrine Floating Items"
+  locations
+    Secret Shrine Floating Item: always
+    Secret Shrine Floating Item 2: always
+    Secret Shrine Floating Item 3: always
+    Secret Shrine Floating Item 4: always
+    Secret Shrine Floating Item 5: always
+    Secret Shrine Floating Item 6: always
+    Secret Shrine Floating Item 7: always
+    Secret Shrine Floating Item 8: always
+    Secret Shrine Floating Item 9: always
+    Secret Shrine Floating Item 10: always
+    Secret Shrine Floating Item 11: always
+    Secret Shrine Floating Item 12: always
+    Secret Shrine Floating Item 13: always
+    Secret Shrine Floating Item 14: always
+    Secret Shrine Floating Item 15: always
+    Secret Shrine Floating Item 16: always
+    Secret Shrine Floating Item 17: always
+
+region "Snowhead"
+  exits
+    -> "Snowhead Temple": Goron Mask and Play Goron Lullaby
+    -> "Grotto Generic Path To Snowhead": OtherExplosive
+    -> "Interior Fairy Fountain Snowhead": Goron Mask and Play Goron Lullaby
+    -> "Play Goron Lullaby": Ocarina of Time and SongLullaby (progressive)
+  locations
+    Path to Snowhead Pillar: PTSH Invisible Platforms and (Scarecrow's Song or SettingHookshotAnySurface or Path to Snowhead Pillar as FD or Path to Snowhead Pillar as Giant Link or Path to Snowhead Pillar Long Jump Climb)
+    Snowhead Small Snowball: always
+    Snowhead Small Snowball 2: always
+    Snowhead Small Snowball 3: always
+    Path to Snowhead Large Snowball: Destroy Large Snowballs
+    Path to Snowhead Large Snowball 2: Destroy Large Snowballs
+    Path to Snowhead Large Snowball 3: Destroy Large Snowballs
+    Path to Snowhead Large Snowball 4: Destroy Large Snowballs
+    Snowhead Small Snowball 4: always
+
+region "Snowhead Temple"
+  exits
+    -> "Goht": Goht's Remains or (Snowhead Boss Key and SHT 4F and Goron Spikes) or (Snowhead Boss Key and SHT as Giant) or (Snowhead Boss Key and SettingClimbMostSurfaces) or (Snowhead Boss Key and SettingHookshotAnySurface)
+    -> "Snowhead Temple (Enter Snowhead Temple)": Goron Mask or Zora Mask
+    -> "Snowhead Temple: Compass Room": 1 Snowhead Key or (SHT Bridge Room and SHT Twin Block Room Climb) or (SHT Bridge Room and SHT Goron Bomb Jumps and Powder Kegs as Explosives and Powder Keg) or (SHT Twin Block Room Climb and SHT Long Jumps and Powder Kegs as Explosives and Powder Keg) or (SHT Long Jumps and SHT Goron Bomb Jumps and Powder Kegs as Explosives and Powder Keg and OtherArrow)
+    -> "Snowhead Temple: False Walls/Ceilings": Use Lens of Truth or SHT Lensless Walls/Ceilings
+    -> "Snowhead Temple: Icicle Room": (SHT Cracked Wall and 1 Snowhead Key) or (SHT Back Door Icicle Room and 1 Snowhead Key) or (SHT Bridge Room and SHT Twin Block Room Climb and SHT Cracked Wall) or (SHT Twin Block Room Climb and SHT Long Jumps and OtherArrow and Powder Kegs as Explosives and Powder Keg) or (SHT as Giant and SHT Goron Bomb Jumps and Powder Kegs as Explosives and Powder Keg and Any B Sword)
+  locations
+    Snowhead Temple Basement: Region: Snowhead Temple: Main Room and (Goron Mask or SettingGiantMaskAnywhere)
+    Snowhead Main Room Pot: Region: Snowhead Temple: Main Room
+
+region "Snowhead Temple (Enter Snowhead Temple)"
+  locations
+    Fire Arrow Chest: Region: Snowhead Temple: Main Room and ((2 Snowhead Keys and SHT Long Jumps and Powder Kegs as Explosives and Powder Keg) or (1 Snowhead Key and SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and SHT Twin Block Room Climb and OtherArrow) or (1 Snowhead Key and SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and SHT Twin Block Room Climb and SHT Bridge Room) or (SHT Elevator and SHT 2F Ramps) or (SHT Elevator and SHT Iced Stairwell and SHT 3F Jumps) or (SHT 2nd Locked Door and SHT 2F Ramps) or (SHT 2nd Locked Door and SHT Iced Stairwell and SHT 3F Jumps and Hookshot) or SHT as Giant or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Snowhead Map Chest: Region: Snowhead Temple: Main Room
+    Snowhead Compass Chest: SHT Compass Room Access
+    Snowhead Boss Key Chest: SHT 4F
+    Snowhead Block Room Chest: Region: Snowhead Temple: Main Room
+    Snowhead Icicle Room Chest: SHT Icicle Room Access and Destroy Large Snowballs and (SHT Gainers or Tall Character or OtherArrow or SHT False Walls/Ceilings or (SHT Goron Bomb Jumps and OtherAnyBombBag) or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Snowhead Bridge Room Chest: Use Fire Arrow or Hookshot or SHT Tall Jumps or (SHT Long Jumps and OtherAnyBombBag) or (SHT Long Jumps and Blast Mask) or (SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and Use Light Arrow) or (SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and SettingAllowFierceDeityAnywhere and Magic Meter) or (SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and SHT as Giant) or (SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and SHT Bridge Room With Bunny Hood) or SettingClimbMostSurfaces
+    Snowhead Temple Snow Room Bubble: Region: Snowhead Temple: Main Room and SHT False Walls/Ceilings and ((Great Fairy's Mask and SHT Elevator and SHT Iced Stairwell and SHT Jump to 3rd Locked Door and 1 Snowhead Key) or (Great Fairy's Mask and SHT Bridge Room and SHT Twin Block Room Climb and SHT Cracked Wall and SHT Pound Switch Puzzle and SHT 2F Ramps and SHT Iced Stairwell and SHT Jump to 3rd Locked Door and 2 Snowhead Keys) or (Great Fairy's Mask and SHT Cracked Wall and SHT Iced Stairwell and Hookshot and 2 Snowhead Keys) or (Great Fairy's Mask and SHT Cracked Wall and SHT Pound Switch Puzzle and SHT 2F Ramps and SHT Iced Stairwell and SHT Jump to 3rd Locked Door and 3 Snowhead Keys) or (Great Fairy's Mask and SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and SHT Iced Stairwell and SHT Jump to 3rd Locked Door and 3 Snowhead Keys) or (Great Fairy's Mask and SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and SHT Bridge Room and SHT Twin Block Room Climb and SHT Iced Stairwell and SHT Jump to 3rd Locked Door and 2 Snowhead Keys) or (Great Fairy's Mask and SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and SHT Twin Block Room Climb and SHT Iced Stairwell and SHT Jump to 3rd Locked Door and OtherArrow and 2 Snowhead Keys) or (Great Fairy's Mask and 1 Snowhead Key and SHT as Giant and Any B Sword) or (Great Fairy's Mask and 1 Snowhead Key and SHT as Giant and Short Ranged Weapon) or (Great Fairy's Mask and 1 Snowhead Key and SHT as Giant and SHT Fairy Bubbles With Explosives and OtherAnyBombBag and OtherAnyBombchuPack) or (Great Fairy's Mask and Use Fire Arrow and Goron Mask) or (Great Fairy's Mask and Use Fire Arrow and SHT as Giant) or (1 Snowhead Key and SettingClimbMostSurfaces) or (1 Snowhead Key and SettingHookshotAnySurface) or (Use Fire Arrow and SettingClimbMostSurfaces) or (Use Fire Arrow and SettingHookshotAnySurface))
+    Snowhead Temple Ceiling Bubble: SHT False Walls/Ceilings and SHT Pop Ceiling Bubble and Great Fairy's Mask and (SHT Back Door Icicle Room or (SHT Cracked Wall and 2 Snowhead Keys) or (SHT Cracked Wall and 1 Snowhead Key and SHT Bridge Room and SHT Twin Block Room Climb) or (SHT Long Jumps and SHT Twin Block Room Climb and 1 Snowhead Key and Powder Kegs as Explosives and Powder Keg and OtherArrow) or (SHT as Giant and 1 Snowhead Key and SHT Goron Bomb Jumps and Powder Kegs as Explosives and Powder Keg and Any B Sword))
+    Snowhead Temple Dinolfos 1: (Use Fire Arrow and 1 Snowhead Key and SHT Jump to 3rd Locked Door) or SHT 4F
+    Snowhead Temple Bridge Room Ledge Bubble: (Great Fairy's Mask and Long Ranged Weapon) or (Great Fairy's Mask and Region: Snowhead Temple: Main Room and Short Ranged Weapon) or (Great Fairy's Mask and Region: Snowhead Temple: Main Room and SHT Fairy Bubbles With Explosives and OtherAnyBombBag) or (Great Fairy's Mask and Step on Lava and SHT Fairy Bubbles With Explosives and OtherAnyBombBag and OtherAnyBombchuPack) or (Great Fairy's Mask and Step on Lava and SHT as Giant) or (Great Fairy's Mask and SHT Bridge Room and SHT Fairy Bubbles With Explosives and Powder Kegs as Explosives and Powder Keg) or (Great Fairy's Mask and 2 Snowhead Keys and SHT Fairy Bubbles With Explosives and Powder Kegs as Explosives and Powder Keg) or (Great Fairy's Mask and Region: Snowhead Temple: Main Room and SHT Fairy Bubbles With Explosives and Blast Mask and SettingDamageModeDefault) or (SHT Jump to Stray Fairies and SettingDamageModeDefault and Region: Snowhead Temple: Main Room and Short Ranged Weapon) or (SHT Jump to Stray Fairies and SettingDamageModeDefault and Region: Snowhead Temple: Main Room and SHT Fairy Bubbles With Explosives and OtherAnyBombBag) or (SHT Jump to Stray Fairies and SettingDamageModeDefault and Goron Spikes) or (SHT Jump to Stray Fairies and SettingDamageModeDefault and Hookshot) or (SHT Jump to Stray Fairies and SettingDamageModeDefault and SHT Tall Jumps) or (SHT Jump to Stray Fairies and SettingDamageModeDefault and SHT Long Jumps and OtherAnyBombBag) or (SHT Jump to Stray Fairies and SettingDamageModeDefault and SHT Long Jumps and Blast Mask) or (SHT Jump to Stray Fairies and SettingDamageModeDefault and SHT Bridge Room With Bunny Hood) or (SHT Jump to Stray Fairies and SettingDamageModeDefault and SHT as Giant) or (SHT Jump to Stray Fairies and SettingDamageModeDefault and Region: Snowhead Temple: Main Room and Great Fairy's Mask) or (SHT Jump to Stray Fairies and SettingDamageModeDefault and 2 Snowhead Keys and SHT Fairy Bubbles With Explosives and Powder Kegs as Explosives and Powder Keg) or SettingClimbMostSurfaces or SettingHookshotAnySurface
+    Snowhead Temple Bridge Room Pillar Bubble: SHT False Walls/Ceilings and ((Great Fairy's Mask and OtherArrow and Step on Lava) or (Great Fairy's Mask and OtherArrow and Region: Snowhead Temple: Main Room) or (Great Fairy's Mask and Hookshot) or (Great Fairy's Mask and SHT Fairy Bubbles With Explosives and Region: Snowhead Temple: Main Room and OtherAnyBombBag) or (Great Fairy's Mask and SHT Fairy Bubbles With Explosives and OtherAnyBombBag and OtherAnyBombchuPack) or (Great Fairy's Mask and SHT Fairy Bubbles With Explosives and Powder Kegs as Explosives and Powder Keg) or (Great Fairy's Mask and SHT as Giant and Any Sword) or (SHT Jump to Stray Fairies and Region: Snowhead Temple: Main Room))
+    Snowhead Temple Dinolfos 2: (Use Fire Arrow and 1 Snowhead Key and SHT Jump to 3rd Locked Door) or SHT 4F
+    Snowhead Temple Map Room Fairy: Region: Snowhead Temple: Main Room
+    Snowhead Temple Map Room Ledge: SHT Elevator Room Platforming and Region: Snowhead Temple: Main Room and (SHT Elevator or (SHT 2nd Locked Door and SHT 2F Ramps) or (SHT 2nd Locked Door and Hookshot) or (SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and 2 Snowhead Keys) or (SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and 1 Snowhead Key and SHT Twin Block Room Climb and OtherArrow) or (SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and 1 Snowhead Key and SHT Twin Block Room Climb and SHT Bridge Room) or SettingClimbMostSurfaces or SettingHookshotAnySurface or SHT as Giant)
+    Snowhead Temple Twin Block: Region: Snowhead Temple: Main Room and (SHT Twin Block Room Climb or SHT Compass Room to Twin Block Room or (SHT Long Jumps and SHT Goron Bomb Jumps and Powder Kegs as Explosives and Powder Keg and OtherArrow) or (SHT Goron Bomb Jumps and Powder Kegs as Explosives and Powder Keg and SHT Bridge Room))
+    Snowhead Temple Icicle Room Wall: SHT False Walls/Ceilings and SHT Icicle Room Access
+    Snowhead Temple Main Room Wall: SHT False Walls/Ceilings and Region: Snowhead Temple: Main Room and ((SHT Iced Stairwell and SHT Elevator) or (SHT Iced Stairwell and SHT 2nd Locked Door and SHT 2F Ramps) or (SHT Iced Stairwell and SHT 2nd Locked Door and Hookshot) or (SHT Iced Stairwell and SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and 2 Snowhead Keys) or (SHT Iced Stairwell and SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and 1 Snowhead Key and SHT Twin Block Room Climb and OtherArrow) or (SHT Iced Stairwell and SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and 1 Snowhead Key and SHT Twin Block Room Climb and SHT Bridge Room) or SHT as Giant or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Snowhead Temple Pillar Freezards: Use Fire Arrow or (SHT Fireless and Region: Snowhead Temple: Main Room and OtherArrow) or (SHT Fireless and Hookshot) or SHT as Giant or SettingClimbMostSurfaces or SettingHookshotAnySurface
+    Snowhead Temple Ice Puzzle: SHT Compass Room Access and (Use Fire Arrow or (SHT Frozen Switch Clip and Hookshot) or (SHT Frozen Switch Clip and SHT Gainers and Tall Character) or (SHT Frozen Switch Clip and SettingAllowFierceDeityAnywhere) or (SHT Frozen Switch Clip and SettingClimbMostSurfaces) or (SHT Frozen Switch Clip and SHT as Giant) or (SHT Frozen Switch Clip and SHT Bridge Room and SHT Twin Block Room Climb and SHT Fireless and OtherArrow) or (SHT Frozen Switch Clip and SHT Goron Bomb Jumps and OtherAnyBombBag) or (SHT Frozen Switch Clip and SHT Goron Bomb Jumps and Powder Kegs as Explosives and Powder Keg and 1 Snowhead Key) or (SHT Frozen Switch Clip and SHT Goron Bomb Jumps and Powder Kegs as Explosives and Powder Keg and SHT Long Jumps and SHT Fireless and OtherArrow))
+    Snowhead Temple Crate: SHT Compass Room Access and ((Use Fire Arrow and Goron Mask) or (Use Fire Arrow and OtherExplosive) or (Tall Character and SHT Gainers and Goron Mask) or (Tall Character and SHT Gainers and OtherExplosive) or (SettingAllowFierceDeityAnywhere and Goron Mask) or (SettingAllowFierceDeityAnywhere and OtherExplosive) or (SHT Tall Jumps and Goron Mask) or (SHT Tall Jumps and OtherExplosive) or (Great Fairy's Mask and OtherAnyBombBag) or (Great Fairy's Mask and Powder Kegs as Explosives and Powder Keg) or (SettingClimbMostSurfaces and OtherExplosive) or (SettingClimbMostSurfaces and Goron Mask) or (SHT Goron Bomb Jumps and OtherAnyBombBag) or (SHT Goron Bomb Jumps and Powder Kegs as Explosives and Powder Keg) or (Hookshot and Goron Mask) or (Hookshot and OtherExplosive) or (SettingGiantMaskAnywhere and Any B Sword))
+    Snowhead Temple Icicle Room Snowball: SHT Icicle Room Access
+    Snowhead Temple Icicle Room Snowball 2: SHT Icicle Room Access
+    Snowhead Temple Icicle Room Snowball 3: SHT Icicle Room Access and (SHT Gainers or Tall Character or OtherArrow or SHT False Walls/Ceilings or (SHT Goron Bomb Jumps and OtherAnyBombBag) or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Snowhead Temple Icicle Room Snowball 4: SHT Icicle Room Access and (SHT Gainers or Tall Character or OtherArrow or SHT False Walls/Ceilings or (SHT Goron Bomb Jumps and OtherAnyBombBag) or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Snowhead Temple Icicle Room Snowball 5: SHT Icicle Room Access and (SHT Gainers or Tall Character or OtherArrow or SHT False Walls/Ceilings or (SHT Goron Bomb Jumps and OtherAnyBombBag) or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Snowhead Temple Elevator Room Crate: Region: Snowhead Temple: Main Room
+    Snowhead Temple Elevator Room Crate 2: Region: Snowhead Temple: Main Room
+    Snowhead Temple Elevator Room Crate 3: Region: Snowhead Temple: Main Room
+    Snowhead Temple Elevator Room Crate 4: Region: Snowhead Temple: Main Room
+    Snowhead Temple Elevator Room Crate 5: Region: Snowhead Temple: Main Room
+    Snowhead Temple Safety Bridge Pot: Region: Snowhead Temple: Main Room and (SHT Elevator or (SHT 2nd Locked Door and SHT 2F Ramps) or (SHT 2nd Locked Door and Hookshot) or (SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and 2 Snowhead Keys) or (SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and 1 Snowhead Key and SHT Twin Block Room Climb and OtherArrow) or (SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and 1 Snowhead Key and SHT Twin Block Room Climb and SHT Bridge Room) or SHT as Giant or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Snowhead Temple Safety Bridge Pot 2: Region: Snowhead Temple: Main Room and (SHT Elevator or (SHT 2nd Locked Door and SHT 2F Ramps) or (SHT 2nd Locked Door and Hookshot) or (SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and 2 Snowhead Keys) or (SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and 1 Snowhead Key and SHT Twin Block Room Climb and OtherArrow) or (SHT Long Jumps and Powder Kegs as Explosives and Powder Keg and 1 Snowhead Key and SHT Twin Block Room Climb and SHT Bridge Room) or SHT as Giant or SettingClimbMostSurfaces or SettingHookshotAnySurface)
+    Snowhead Temple Icicle Room Frozen Item: SHT Icicle Room Access and (OtherArrow or SHT Icicle Room Rupees as Zora)
+    Snowhead Temple Icicle Room Frozen Item 2: SHT Icicle Room Access and (OtherArrow or SHT Icicle Room Rupees as Zora)
+    Snowhead Temple Icicle Room Frozen Item 3: SHT Icicle Room Access and (OtherArrow or SHT Icicle Room Rupees as Zora)
+
+region "Snowhead Temple Clear"
+  exits
+    -> "Grotto Generic Mountain Village Spring": always
+    -> "Keg Trial": always
+  locations
+    Goron Race: Goron Mask and Region: Interior Goron Racetrack and (Magic Meter or Goron Race Without Magic) [needed Day2, Night2]
+    Frog Choir: Don Gero's Mask and Cyan Frog and Pink Frog and Blue Frog and White Frog
+    Twin Islands Underwater Ramp Chest: Zora Mask or SettingIronGoron
+    Mountain Waterfall Chest: Lensless Chests or (Lens of Truth and Magic Meter)
+    Twin Islands Cave Chest: Zora Mask or SettingIronGoron
+    Mountain Village Spring Snowball: always
+    Twin Islands Item: (Region: Snowhead Temple Clear and Zora Mask) or (Region: Snowhead Temple Clear and Twin Islands FD Diving) or (Region: Snowhead Temple Clear and SettingGiantMaskAnywhere) or (Region: Mountain Village and Twin Islands Items in Winter and Any Shield and OtherExplosive)
+    Twin Islands Item 2: (Region: Snowhead Temple Clear and Zora Mask) or (Region: Snowhead Temple Clear and Twin Islands FD Diving) or (Region: Snowhead Temple Clear and SettingGiantMaskAnywhere) or (Region: Mountain Village and Twin Islands Items in Winter)
+    Twin Islands Item 3: (Region: Snowhead Temple Clear and Zora Mask) or (Region: Snowhead Temple Clear and Twin Islands FD Diving) or (Region: Snowhead Temple Clear and SettingGiantMaskAnywhere) or (Region: Mountain Village and Twin Islands Items in Winter)
+    Twin Islands Item 4: (Region: Snowhead Temple Clear and Zora Mask) or (Region: Snowhead Temple Clear and Twin Islands FD Diving) or (Region: Snowhead Temple Clear and SettingGiantMaskAnywhere) or (Region: Mountain Village and Twin Islands Items in Winter)
+    Mountain Village Spring Snowball 2: always
+    Mountain Village Spring Snowball 3: always
+    Mountain Village Spring Stair Item: always
+    Mountain Village Spring Keaton Grass: always
+    Mountain Village Spring Keaton Grass 2: Any Sword and Magic Meter
+    Mountain Village Spring Keaton Grass 3: Any Sword and Magic Meter
+    Mountain Village Spring Keaton Grass 4: Any Sword and Magic Meter
+    Mountain Village Spring Keaton Grass 5: Any Sword and Magic Meter
+    Mountain Village Spring Keaton Grass 6: Big Spin Attack or Keaton Grass Small Spin
+    Mountain Village Spring Keaton Grass 7: Big Spin Attack or Keaton Grass Small Spin
+    Mountain Village Spring Keaton Grass 8: Big Spin Attack or Keaton Grass Small Spin
+    Mountain Village Spring Keaton Grass 9: Big Spin Attack or Keaton Grass Small Spin
+    Path to Snowhead Spring Snowball: always
+    Path to Snowhead Spring Snowball 2: always
+    Path to Snowhead Spring Snowball 3: always
+    Path to Snowhead Spring Snowball 4: always
+    Path to Mountain Village Spring Snowball: always
+    Path to Mountain Village Spring Snowball 2: always
+    Path to Mountain Village Spring Snowball 3: always
+    Mountain Village Spring Pot: OtherArrow or Zora Mask or Hookshot or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or Smithy Fairy as FD or Smithy Fairy With Bombchu or Smithy Fairy With Powder Keg
+    Mountain Village Spring Snowball 4: always
+    Mountain Village Spring Path Gossip Fairy: Summon Fairy
+    Mountain Village Spring Frog Gossip Fairy: Summon Fairy
+    Mountain Village Spring Butterfly Fairy: always [set up Day1, Day2, Day3; available Day1, Day2, Day3]
+    Mountain Village Spring Butterfly Fairy 2: always [set up Day1, Day2, Day3; available Day1, Day2, Day3]
+
+region "Snowhead Temple: Compass Room"
+
+region "Snowhead Temple: False Walls/Ceilings"
+
+region "Snowhead Temple: Icicle Room"
+
+region "Snowhead Temple: Main Room"
+
+region "South Clock Town"
+  locations
+    Clock Town Scrub Trade: Moon's Tear
+    South Clock Town Straw Roof Chest: Hookshot or (Deku Mask and Moon's Tear) or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or Straw Roof With Jump Slash or Straw Roof as Goron or Straw Roof as FD
+    South Clock Town Final Day Chest: Hookshot or (Deku Mask and Moon's Tear) or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or South Clock Town Final Day Chest as FD [available Day3, Night3]
+    Clock Tower Entrance: always
+    Clock Tower Clock: Short Ranged Weapon or (SettingGiantMaskAnywhere and Any B Sword) or Clock Tower Clock With Sword Beams or Clock Tower Clock With Powder Keg or Clock Tower Clock With Bombchu
+    Clock Tower Clock 2: Short Ranged Weapon or (SettingGiantMaskAnywhere and Any B Sword) or Clock Tower Clock With Sword Beams or Clock Tower Clock With Powder Keg or Clock Tower Clock With Bombchu
+    Clock Tower Clock 3: Short Ranged Weapon or (SettingGiantMaskAnywhere and Any B Sword) or Clock Tower Clock With Sword Beams or Clock Tower Clock With Powder Keg or Clock Tower Clock With Bombchu
+
+region "Southern Swamp"
+  exits
+    -> "Interior Potion Shop": always
+
+region "Southern Swamp (area)"
+  exits
+    -> "Interior Woods Of Mystery": always
+  locations
+    Swamp Scrub Trade: Land Title Deed
+    Pictograph Contest Winner: Pictograph Box
+    Swamp Music Statue: (Region: Southern Swamp: Past Big Octo and Deku Mask) or (Region: Southern Swamp: Past Big Octo and SettingHookshotAnySurface) or (Region: Southern Swamp: Past Big Octo and Swamp Poison Water by Climbing) or (Region: Southern Swamp: Past Big Octo and FD Jump to Soaring Tablet) or (Region: Southern Swamp: Past Big Octo and Long Jump to Soaring Tablet) or (Big Octo Skip as Adult Link and Long Jump to Soaring Tablet and Dungeon Entrance Return) or (Big Octo Skip as FD and FD Jump to Soaring Tablet and Dungeon Entrance Return)
+    Swamp Tourist Center Roof: (Deku Mask and Land Title Deed) or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface or Tourist Center Roof as Goron or Tourist Center Roof as FD
+    Pictograph Contest Standard Photo: Pictograph Box
+    Pictograph Contest Good Photo: Pictograph Box
+    Swamp Near Frog Item: Deku Mask or Tall Character or SettingGiantMaskAnywhere or SettingHookshotAnySurface or Swamp Frog Item Long Jump or Swamp Frog Items as Goron
+    Swamp Near Frog Item 2: Deku Mask or Tall Character or SettingGiantMaskAnywhere or SettingHookshotAnySurface or Swamp Frog Item Long Jump or Swamp Frog Items as Goron
+    Potion Shop Pot: always
+    Southern Swamp Owl Grass: always
+    Potion Shop Pot 2: always
+    Swamp Near Frog Hive: Deku Bubbles or OtherArrow or Zora Mask or (Deku Mask and Hookshot) or (Deku Mask and Near Frog Hive With Bombchu) or (Near Frog Hive Flower as Human and Hookshot) or (Near Frog Hive Flower as Human and Near Frog Hive With Bombchu) or (Tall Character and Hookshot) or (Tall Character and Near Frog Hive With Bombchu) or (SettingGiantMaskAnywhere and Hookshot) or (SettingGiantMaskAnywhere and Near Frog Hive With Bombchu) or (SettingGiantMaskAnywhere and Any B Sword) or SettingHookshotAnySurface
+    Southern Swamp Owl Grass 2: always
+    Southern Swamp Gossip Fairy: Summon Fairy
+    Frog in the Swamp: Don Gero's Mask
+
+region "Southern Swamp: Past Big Octo"
+  exits
+    -> "Deku Palace": Deku Mask or Deku Guard Skip or SettingClimbMostSurfaces or SettingGiantMaskAnywhere
+    -> "Woodfall Temple": Deku Mask and Play Sonata of Awakening
+    -> "Grotto Generic Southern Swamp": SettingClimbMostSurfaces or SettingHookshotAnySurface
+    -> "Interior Fairy Fountain Woodfall": Deku Mask or (Woodfall as FD and SettingDamageModeDefault) or (Woodfall as FD and Play Song of Soaring) or SettingHookshotAnySurface or (Swamp Poison Water by Climbing and Woodfall Climbing and Swimming and Play Song of Soaring) or (Swamp Poison Water by Climbing and Run Through Poisoned Water) or (Swamp Poison Water by Climbing and Poisoned Water as Goron)
+    -> "Interior Swamp Spider House": SettingHookshotAnySurface
+  locations
+    Woodfall Bridge Chest: Deku Mask or SettingHookshotAnySurface or (Woodfall as FD and SettingDamageModeDefault) or (Swamp Poison Water by Climbing and Woodfall Climbing and Swimming and Dungeon Entrance Return) or (Swamp Poison Water by Climbing and Run Through Poisoned Water) or (Swamp Poison Water by Climbing and Poisoned Water as Goron) or (Swamp Poison Water by Climbing and Hookshot)
+    Behind Woodfall Owl Chest: Deku Mask or (Woodfall as FD and SettingDamageModeDefault) or (Woodfall as FD and Play Song of Soaring) or SettingHookshotAnySurface or (Swamp Poison Water by Climbing and Woodfall Climbing and Swimming and Hookshot) or (Swamp Poison Water by Climbing and Run Through Poisoned Water and Hookshot) or (Swamp Poison Water by Climbing and Poisoned Water as Goron and Hookshot)
+    Entrance to Woodfall Chest: Deku Mask or Woodfall as FD or SettingHookshotAnySurface or Swamp Poison Water by Climbing
+    Woodfall Item: Deku Mask or Woodfall as FD or SettingHookshotAnySurface or (Swamp Poison Water by Climbing and Woodfall Blue Rupee Without Deku Mask and Woodfall Climbing and Swimming) or (Swamp Poison Water by Climbing and Woodfall Blue Rupee Without Deku Mask and Run Through Poisoned Water) or (Swamp Poison Water by Climbing and Woodfall Blue Rupee Without Deku Mask and Poisoned Water as Goron) or (Swamp Poison Water by Climbing and Run Through Poisoned Water and Zora Mask)
+    Woodfall Pot: Deku Mask or (Woodfall as FD and SettingDamageModeDefault) or (Woodfall as FD and Play Song of Soaring) or (Swamp Poison Water by Climbing and Woodfall Climbing and Swimming and Dungeon Entrance Return) or (Swamp Poison Water by Climbing and Run Through Poisoned Water) or (Swamp Poison Water by Climbing and Poisoned Water as Goron) or SettingHookshotAnySurface
+    Woodfall Pot 2: Deku Mask or (Woodfall as FD and SettingDamageModeDefault) or (Woodfall as FD and Play Song of Soaring) or (Swamp Poison Water by Climbing and Woodfall Climbing and Swimming and Dungeon Entrance Return) or (Swamp Poison Water by Climbing and Run Through Poisoned Water) or (Swamp Poison Water by Climbing and Poisoned Water as Goron) or SettingHookshotAnySurface
+    Deku Palace Soft Soil: Bottle: Bug and (Deku Mask or SettingClimbMostSurfaces or Deku Palace Poison Water Without Deku Mask or Lilypad Parkour as FD or (Deku Guard Skip and SettingHookshotAnySurface))
+    Woodfall Pot 3: Deku Mask or (Woodfall as FD and SettingDamageModeDefault) or (Woodfall as FD and Play Song of Soaring) or (Swamp Poison Water by Climbing and Woodfall Climbing and Swimming and Dungeon Entrance Return) or (Swamp Poison Water by Climbing and Run Through Poisoned Water) or (Swamp Poison Water by Climbing and Poisoned Water as Goron) or SettingHookshotAnySurface
+
+region "Stock Pot Inn"
+  locations
+    Inn Reservation: always [set up Day1; available Day1; needed Day1, Night1]
+    Toilet Hand: Land Title Deed or Swamp Title Deed or Mountain Title Deed or Ocean Title Deed or Letter to Kafei or Letter to Mama [available Night3]
+    Grandma Short Story: All-Night Mask [set up Day1, Night1, Day2; available Day1, Day2]
+    Grandma Long Story: All-Night Mask [set up Day1, Night1, Day2; available Day2, Day3]
+    Inn Staff Room Chest: always [available Night3]
+    Inn Guest Room Chest: Room Key
+    Stock Pot Inn Mask: Zora Mask and Magic Meter [available Day1, Day2, Day3, Night3]
+    Stock Pot Inn Mask 2: Zora Mask and Magic Meter [available Day1, Day2, Day3, Night3]
+    Stock Pot Inn Mask 3: Zora Mask and Magic Meter [available Day1, Day2, Day3, Night3]
+    Notebook Meeting: The Toilet Hand: Bombers' Notebook [set up Day1, Night1, Day2, Night2, Day3; available Night1, Night2, Night3]
+    Inn Reservation: always [set up Day1; available Day1; needed Night1]
+    Setting up Midnight Meeting: Kafei's Mask [set up Day1; available Day1, Night1]
+    Toilet Hand: Land Title Deed or Swamp Title Deed or Mountain Title Deed or Ocean Title Deed or Letter to Kafei or Letter to Mama [available Night3]
+    Grandma Short Story: All-Night Mask [set up Day1, Night1, Day2; available Day1, Day2]
+    Grandma Long Story: All-Night Mask [set up Day1, Night1, Day2; available Day2, Day3]
+
+region "Stone Tower Clear"
+  locations
+    Ikana Canyon Cleared Grass: always
+    Ikana Canyon Cleared Grass 2: always
+    Ikana Canyon Cleared Grass 3: always
+    Ikana Canyon Cleared Grass 4: always
+
+region "Stone Tower Temple"
+  exits
+    -> "Stone Tower Temple: Eyegore Key Chest": (STT Elegy Maze and 1 Stone Tower Key) or (STT Compass Chest Sun Block and STT Water Tunnel)
+    -> "Stone Tower Temple: Mirror Puzzle": (STT Elegy Maze and STT Water Tunnel and 2 Stone Tower Keys) or (Use Light Arrow and 1 Stone Tower Key) or (STT Compass Chest Sun Block Skip and 1 Stone Tower Key)
+    -> "Stone Tower Temple: Mirror Puzzle Room": (Goron Mask and Mirror Shield) or Use Light Arrow or (STT as Giant and Dungeon Entrance Return) or (STT as Giant and Kill Eyegore) or SettingClimbMostSurfaces or SettingHookshotAnySurface
+  locations
+    Stone Tower Map Chest: STT Courtyard and ((Use Light Arrow and Step on Lava) or (STT Basement Ceiling and Mirror Shield and Step on Lava) or (STT Map Chest Exit and STT Map Chest Recoil Flip) or (STT Map Chest Exit and STT Map Chest as Zora) or (STT Map Chest Exit and STT Map Chest as FD) or (SettingClimbMostSurfaces and Step on Lava) or SettingHookshotAnySurface)
+    Stone Tower Compass Chest: Use Light Arrow or (STT Elegy Maze and STT Water Tunnel and Mirror Shield and 1 Stone Tower Key) or (STT Compass Chest Sun Block Skip and Mirror Shield)
+    Stone Tower Armos Room Chest: STT Courtyard and Kill Armos and Step on Lava and ((STT Basement Ceiling and Mirror Shield) or Use Light Arrow or (STT Map Chest as FD and STT Gainers) or STT Map Chest as Zora or STT Armos With Bombchu or STT Armos With Nuts)
+    Stone Tower Temple Eyegore: Kill Eyegore and ((Region: Stone Tower Temple: Garo Master and STT Garo Master Fight) or (STT Elegy Maze and STT Eyegore Room Key to Bridge and 1 Stone Tower Key) or (STT Compass Chest Sun Block and STT Water Tunnel and STT Eyegore Room Key to Bridge))
+    Inverted Stone Tower Temple Updraft Fire Ring: Region: Inverted Stone Tower Temple and Play Elegy of Emptiness and Underwater Stuff and ((STT Compass Chest Sun Block and Deku Mask) or (STT Compass Chest Sun Block and ISTT Updraft Recoil Flips) or (STT Compass Chest Sun Block and SettingClimbMostSurfaces) or (STT Elegy Maze and ISTT 2nd Locked Door and ISTT Eyegore Bridge to Dexihand and Deku Mask and 2 Stone Tower Keys) or (STT Elegy Maze and ISTT 2nd Locked Door and ISTT Eyegore Bridge to Dexihand and ISTT Updraft Recoil Flips and 2 Stone Tower Keys) or (STT Elegy Maze and ISTT Reverse 2F and Deku Mask and 2 Stone Tower Keys) or (STT Elegy Maze and ISTT Reverse 2F and ISTT Updraft Recoil Flips and 2 Stone Tower Keys) or (STT Elegy Maze and SettingClimbMostSurfaces and 1 Stone Tower Key))
+    Inverted Stone Tower Temple Death Armos: Region: Inverted Stone Tower Temple and ((ISTT 2nd Floor Puzzles and ISTT Cross Poe Gap) or (ISTT Forward Updraft Room and ISTT Early Boss Key and ISTT Cross Under Eyegore Bridge) or (ISTT Forward Updraft Room and ISTT Early Boss Key and ISTT Hookshot to Eyegore and ISTT Eyegore Bridge to Maze) or (ISTT Forward Updraft Room and ISTT Recoil Flip to Eyegore Bridge and ISTT Eyegore Bridge to Maze) or ISTT Lightless or (ISTT Lobby Long Jump and Powder Kegs as Explosives and Powder Keg))
+    Stone Tower Temple Basement Ledge: STT Courtyard and (Hookshot or STT Basement Ledge Jump Slash Recoil or SettingClimbMostSurfaces)
+    Stone Tower Temple Statue Eye: OtherArrow
+    Stone Tower Temple Underwater: Use Light Arrow and Underwater Stuff and ((Region: Inverted Stone Tower Temple and Deku Mask) or (Region: Inverted Stone Tower Temple and ISTT Updrafts Without Deku Mask) or (Region: Inverted Stone Tower Temple and Dungeon Entrance Return) or (Region: Inverted Stone Tower Temple and SettingClimbMostSurfaces) or (Region: Inverted Stone Tower Temple and SettingHookshotAnySurface) or STT Underwater Sun Switch With Ice Arrows or STT Underwater Sun Switch Snipe)
+    Stone Tower Temple Bridge Crystal: STT Courtyard Locked Door and STT Bridge Crystal and STT Bridge Crystal Chest
+    Stone Tower Temple Eyegore Room Item: STT Courtyard Locked Door and STT Bridge Crystal Chest
+
+region "Stone Tower Temple: Courtyard"
+
+region "Stone Tower Temple: Eyegore Key Chest"
+  locations
+    Stone Tower Eyegore Room Chest: always
+    Stone Tower Temple Eyegore Room Item 2: (Use Light Arrow and Zora Mask) or (Use Light Arrow and Deku Mask) or STT Eyegore Bridge as FD or STT Bridge Crystal as Zora or STT Bridge Crystal With Ice Arrows or (STT Goron Bomb Jumps and OtherAnyBombBag) or (STT Goron Bomb Jumps and Powder Kegs as Explosives and Powder Keg and Use Light Arrow) or (STT Goron Bomb Jumps and Powder Kegs as Explosives and Powder Keg and STT Gainers and Tall Character) or (STT Goron Bomb Jumps and Powder Kegs as Explosives and Powder Keg and Dungeon Entrance Return) or SettingClimbMostSurfaces or SettingHookshotAnySurface
+
+region "Stone Tower Temple: Garo Master"
+
+region "Stone Tower Temple: Lava Room Ledge"
+  locations
+    Stone Tower Temple Lava Room Ledge: always
+    Stone Tower Temple Lava Room Item: always
+    Stone Tower Temple Lava Room Item 2: always
+    Stone Tower Temple Lava Room Item 3: always
+    Stone Tower Temple Lava Room Item 4: always
+    Stone Tower Temple Lava Room Item 5: always
+    Stone Tower Temple Lava Room Item 6: always
+
+region "Stone Tower Temple: Mirror Puzzle"
+  exits
+    -> "Stone Tower Temple: Lava Room Ledge": STT Mirror Puzzle Room and (Deku Mask or STT Updraft Room With Explosives or STT Updraft Room as FD or STT Lava Room Ledge as Goron or STT Lava Room Ledge as Zora or (STT as Giant and SettingDamageModeDefault) or (SettingClimbMostSurfaces and SettingDamageModeDefault) or SettingHookshotAnySurface)
+  locations
+    Light Arrow Chest: Region: Stone Tower Temple: Garo Master and STT Garo Master Fight
+    Stone Tower Temple Mirror Sun Block: STT Mirror Puzzle Room
+    Stone Tower Temple Lava Room Fire Ring: STT Mirror Puzzle Room and STT Updraft Room and Goron Mask
+    Stone Tower Temple Mirror Sun Switch: Use Light Arrow or (Mirror Shield and Goron Mask) or (Mirror Shield and STT as Giant and Any B Sword)
+    Stone Tower Temple Thin Bridge: Region: Stone Tower Temple: Garo Master and STT Thin Bridge Exit and ((Region: Inverted Stone Tower Temple and ISTT 2nd Floor Puzzles and ISTT Cross Poe Gap and Hookshot and 3 Stone Tower Keys) or STT Thin Bridge Crystal With Explosives or STT Thin Bridge Crystal as Zora or STT Thin Bridge Crystal as FD or STT Thin Bridge Crystal With Nothing)
+    Stone Tower Temple Thin Bridge Item: Region: Stone Tower Temple: Garo Master and (STT Thin Bridge Exit or (STT Gainers and Tall Character) or SettingAllowFierceDeityAnywhere)
+    Stone Tower Temple Thin Bridge Item 2: Region: Stone Tower Temple: Garo Master and (STT Thin Bridge Exit or (STT Gainers and Tall Character) or SettingAllowFierceDeityAnywhere)
+    Stone Tower Temple Thin Bridge Item 3: Region: Stone Tower Temple: Garo Master and (STT Thin Bridge Exit or (STT Gainers and Tall Character) or SettingAllowFierceDeityAnywhere)
+    Stone Tower Temple Thin Bridge Item 4: Region: Stone Tower Temple: Garo Master and (STT Thin Bridge Exit or (STT Gainers and Tall Character) or SettingAllowFierceDeityAnywhere)
+    Stone Tower Temple Thin Bridge Item 5: Region: Stone Tower Temple: Garo Master and (STT Thin Bridge Exit or (STT Gainers and Tall Character) or SettingAllowFierceDeityAnywhere)
+    Stone Tower Temple Thin Bridge Item 6: Region: Stone Tower Temple: Garo Master and (STT Thin Bridge Exit or (STT Gainers and Tall Character) or SettingAllowFierceDeityAnywhere)
+    Stone Tower Temple Thin Bridge Item 7: Region: Stone Tower Temple: Garo Master and (STT Thin Bridge Exit or (STT Gainers and Tall Character) or SettingAllowFierceDeityAnywhere)
+    Stone Tower Temple Thin Bridge Item 8: Region: Stone Tower Temple: Garo Master and (STT Thin Bridge Exit or (STT Gainers and Tall Character) or SettingAllowFierceDeityAnywhere)
+    Stone Tower Temple Mirror Room Crate: STT Mirror Puzzle Room
+    Stone Tower Temple Mirror Room Crate 2: STT Mirror Puzzle Room
+
+region "Stone Tower Temple: Mirror Puzzle Room"
+  exits
+    -> "Stone Tower Temple: Courtyard": (STT Compass Chest Sun Block and STT Updraft Room and STT Eyegore Bridge to Courtyard and 2 Stone Tower Keys) or (STT Compass Chest Sun Block and STT Updraft Room and Kill Eyegore and SettingClimbMostSurfaces and 2 Stone Tower Keys)
+
+region "Swamp Spider"
+  locations
+    Swamp Spider House Reward: Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit and Swamp Skulltula Spirit
+    Swamp Skulltula Main Room Near Ceiling: Hookshot or Zora Mask or (Deku Mask and OtherArrow) or (Deku Mask and Magic Meter) or (Deku Mask and SSH With Explosives) or SSH Main Room Ceiling Skull as FD or (SettingClimbMostSurfaces and OtherArrow) or (SettingClimbMostSurfaces and SSH With Explosives) or (SettingGiantMaskAnywhere and OtherArrow) or (SettingGiantMaskAnywhere and SSH With Explosives) or (SettingGiantMaskAnywhere and Any B Sword) or SSH With Blast Mask and Climbing
+    Swamp Skulltula Gold Room Near Ceiling: Hookshot or Zora Mask or (Two Magic Beans and Water for Magic Bean) or SSH Gold Room as FD or (SettingClimbMostSurfaces and OtherArrow) or (SettingClimbMostSurfaces and SSH With Explosives) or (SettingGiantMaskAnywhere and OtherArrow) or (SettingGiantMaskAnywhere and SSH With Explosives) or (SettingGiantMaskAnywhere and Any B Sword) or SSH With Blast Mask and Climbing
+    Swamp Skulltula Monument Room Torch: always
+    Swamp Skulltula Gold Room Pillar: always
+    Swamp Skulltula Pot Room Jar: always
+    Swamp Skulltula Tree Room Grass 1: always
+    Swamp Skulltula Tree Room Grass 2: always
+    Swamp Skulltula Main Room Water: always
+    Swamp Skulltula Main Room Lower Left Soft Soil: Bottle: Bug
+    Swamp Skulltula Monument Room Crate 1: always
+    Swamp Skulltula Main Room Upper Soft Soil: Bottle: Bug
+    Swamp Skulltula Main Room Lower Right Soft Soil: Bottle: Bug
+    Swamp Skulltula Monument Room Lower Wall: Hookshot or Zora Mask or (Two Magic Beans and Water for Magic Bean and Goron Mask) or (Two Magic Beans and Water for Magic Bean and OtherExplosive) or SSH Monument Room Lower Wall Skull as FD or SSH Monument Room Lower Wall Skull With Nothing or (SettingClimbMostSurfaces and Short Ranged Weapon) or (SettingClimbMostSurfaces and SSH With Explosives) or (SettingGiantMaskAnywhere and Short Ranged Weapon) or (SettingGiantMaskAnywhere and SSH With Explosives) or (SettingGiantMaskAnywhere and Any B Sword) or SSH With Blast Mask and Climbing
+    Swamp Skulltula Monument Room On Monument: always
+    Swamp Skulltula Main Room Pillar: always
+    Swamp Skulltula Pot Room Pot 1: always
+    Swamp Skulltula Pot Room Pot 2: always
+    Swamp Skulltula Gold Room Hive: Short Ranged Weapon or SSH With Bombchu or (SSH With Explosives and Powder Kegs as Explosives and Powder Keg) or SSH With Blast Mask and Climbing or (SettingGiantMaskAnywhere and Any B Sword) or SSH Gold Room as FD
+    Swamp Skulltula Main Room Upper Pillar: always
+    Swamp Skulltula Pot Room Behind Vines: Any Sword or SettingAllowFierceDeityAnywhere or SSH Vine Skull as Zora
+    Swamp Skulltula Tree Room Tree 1: always
+    Swamp Skulltula Pot Room Wall: always
+    Swamp Skulltula Pot Room Hive 1: Short Ranged Weapon or SSH With Bombchu or (SSH With Explosives and Powder Kegs as Explosives and Powder Keg) or SSH With Blast Mask and Climbing or (SettingGiantMaskAnywhere and Any B Sword)
+    Swamp Skulltula Tree Room Tree 2: always
+    Swamp Skulltula Gold Room Wall: always
+    Swamp Skulltula Tree Room Hive: Short Ranged Weapon or SSH With Bombchu or (SSH With Explosives and Powder Kegs as Explosives and Powder Keg) or SSH Tree Room Beehive as FD or (SettingGiantMaskAnywhere and Any B Sword)
+    Swamp Skulltula Monument Room Crate 2: always
+    Swamp Skulltula Pot Room Hive 2: Short Ranged Weapon or SSH With Bombchu or (SSH With Explosives and Powder Kegs as Explosives and Powder Keg) or (SettingGiantMaskAnywhere and Any B Sword)
+    Swamp Skulltula Tree Room Tree 3: always
+    Swamp Skulltula Main Room Jar: always
+    Swamp Spider House Invisible Item: always
+    Swamp Spider House Invisible Item 2: always
+    Swamp Spider House Invisible Item 3: always
+    Swamp Spider House Invisible Item 4: always
+    Swamp Spider House Invisible Item 5: always
+    Swamp Spider House Rock Soft Soil: Bottle: Bug and (Destroy Normal Boulders or SSH Boulderless-less)
+    Swamp Spider House Gold Room Soft Soil: Bottle: Bug
+    Swamp Spider House Blue Gem: always
+    Swamp Spider House Blue Gem 2: always
+    Swamp Spider House Blue Gem 3: always
+    Swamp Spider House Blue Gem 4: always
+    Swamp Spider House Blue Gem 5: always
+    Swamp Spider House Blue Gem 6: always
+    Swamp Spider House Blue Gem 7: always
+    Swamp Spider House Blue Gem 8: always
+    Swamp Spider House Blue Gem 9: always
+    Swamp Spider House Blue Gem 10: always
+    Swamp Spider House Blue Gem 11: always
+    Swamp Spider House Blue Gem 12: always
+    Swamp Spider House Gossip Fairy: Summon Fairy
+
+region "Termina Field"
+  exits
+    -> "Grotto Bio Baba": Destroy Normal Boulders
+
+region "Termina Field (area)"
+  exits
+    -> "Grotto Cow Termina Field": OtherExplosive
+    -> "Grotto Dodongo": always
+    -> "Grotto Generic Termina Field Grass": always
+    -> "Grotto Generic Termina Field Pillar": always
+    -> "Grotto Gossip Canyon": always
+    -> "Grotto Gossip Mountain": always
+    -> "Grotto Gossip Ocean": Destroy Normal Boulders
+    -> "Grotto Gossip Swamp": always
+    -> "Grotto Peahat": always
+  locations
+    Kamaro: Play Song of Healing [available Night1, Night2, Night3]
+    Termina Field Underwater Chest: Underwater Stuff or Underwater Chest as Giant
+    Termina Field Grass Chest: always
+    Termina Field Stump Chest: Hookshot or (OtherMagicBean and Water for Magic Bean) or Termina Stump with No Items or Stump Chest With Goron Bomb Jump or Stump Chest With Goron Spikes or Stump Chest With Bats or SettingGiantMaskAnywhere
+    Termina Field Pillar Item: always
+    Termina Field Above Cow Grotto Invisible Item: (Goron Mask and Magic Meter) or Deku Mask or Termina Field Log Climb or SettingGiantMaskAnywhere or SettingHookshotAnySurface
+    Termina Field Invisible Item 2: always
+    Termina Field Invisible Item 3: always
+    Termina Field Invisible Item 4: always
+    Termina Field Invisible Item 5: always
+    Termina Field Invisible Item 6: always
+    Termina Field Invisible Item 7: always
+    Termina Field Invisible Item 8: always
+    Termina Field Northern Ramp Invisible Item: (Goron Mask and Magic Meter) or North Ramp Jump or SettingGiantMaskAnywhere
+    Termina Field Invisible Item 10: always
+    Termina Field Invisible Item 11: always
+    Termina Field Tree Item: always
+    Termina Field Pillar Spawned Item: always
+    Termina Field Stump Soft Soil: Bottle: Bug
+    Termina Field South Wall Soft Soil: Bottle: Bug
+    Termina Field Pillar Soft Soil: Bottle: Bug
+    Termina Field Guay #1: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #2: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #3: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #4: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #5: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #6: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #7: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #8: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #9: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #10: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #11: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #12: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #13: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #14: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #15: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #16: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #17: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #18: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #19: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #20: Play Sonata of Awakening or Play Goron Lullaby or Play New Wave Bossa Nova
+    Termina Field Guay #5a: (Play Sonata of Awakening and Goron Mask) or (Play Sonata of Awakening and Play Epona's Song) or (Play Goron Lullaby and Goron Mask) or (Play Goron Lullaby and Play Epona's Song) or (Play New Wave Bossa Nova and Goron Mask) or (Play New Wave Bossa Nova and Play Epona's Song)
+    Termina Field Guay #10a: (Play Sonata of Awakening and Goron Mask) or (Play Sonata of Awakening and Play Epona's Song) or (Play Goron Lullaby and Goron Mask) or (Play Goron Lullaby and Play Epona's Song) or (Play New Wave Bossa Nova and Goron Mask) or (Play New Wave Bossa Nova and Play Epona's Song)
+    Termina Field Guay #15a: (Play Sonata of Awakening and Goron Mask) or (Play Sonata of Awakening and Play Epona's Song) or (Play Goron Lullaby and Goron Mask) or (Play Goron Lullaby and Play Epona's Song) or (Play New Wave Bossa Nova and Goron Mask) or (Play New Wave Bossa Nova and Play Epona's Song)
+    Termina Field Song Wall Dawn: Ocarina of Time [set up Day1, Night1, Day2; available Day1, Day2]
+    Termina Field Song Wall Dawn 2: Ocarina of Time [set up Day1, Night1, Day2; available Day1, Day2]
+    Termina Field Song Wall Dawn 3: Ocarina of Time [set up Day1, Night1, Day2; available Day1, Day2]
+    Termina Field Song Wall 0 / 8 / 12 / 16: Ocarina of Time [set up Day1, Night1, Day2, Night2, Day3]
+    Termina Field Song Wall 0 / 8 / 12 / 16 2: Ocarina of Time [set up Day1, Night1, Day2, Night2, Day3]
+    Termina Field Song Wall 0 / 8 / 12 / 16 3: Ocarina of Time [set up Day1, Night1, Day2, Night2, Day3]
+    Termina Field Song Wall 2 / 10 / 14 / 18 / 22: Ocarina of Time [set up Day1, Night1, Day2, Night2, Day3]
+    Termina Field Song Wall 2 / 10 / 14 / 18 / 22 2: Ocarina of Time [set up Day1, Night1, Day2, Night2, Day3]
+    Termina Field Song Wall 2 / 10 / 14 / 18 / 22 3: Ocarina of Time [set up Day1, Night1, Day2, Night2, Day3]
+    Termina Field Song Wall 4 / 20: Ocarina of Time [set up Day1, Night1, Day2, Night2, Day3]
+    Termina Field Song Wall 4 / 20 2: Ocarina of Time [set up Day1, Night1, Day2, Night2, Day3]
+    Termina Field Song Wall 4 / 20 3: Ocarina of Time [set up Day1, Night1, Day2, Night2, Day3]
+    Termina Field Song Wall Odd Hours: Ocarina of Time
+    Termina Field Song Wall Odd Hours 2: Ocarina of Time
+    Termina Field Song Wall Odd Hours 3: Ocarina of Time
+    Termina Field Clam: Short Ranged Weapon or (SettingGiantMaskAnywhere and Any B Sword) or Termina Field Clam With Explosives or Termina Field Clam With Sword Beams
+    Termina Field Clam 2: Short Ranged Weapon or (SettingGiantMaskAnywhere and Any B Sword) or Termina Field Clam With Explosives or Termina Field Clam With Sword Beams
+    Termina Field Clam 3: Short Ranged Weapon or (SettingGiantMaskAnywhere and Any B Sword) or Termina Field Clam With Explosives or Termina Field Clam With Sword Beams
+    Termina Field Wall: always
+    Termina Field Wall 2: always
+    Termina Field Wall 3: always
+    Termina Field Skull Kid Drawing: always
+    Termina Field Skull Kid Drawing 2: always
+    Termina Field Skull Kid Drawing 3: always
+    Takkuri: Kill Takkuri
+    Notebook Meeting: Kamaro: Bombers' Notebook [available Night1, Night2, Night3]
+    Kamaro: Play Song of Healing [available Night1, Night2, Night3]
+    Termina Field Pillar Pot: (OtherMagicBean and Water for Magic Bean) or OtherArrow or Hookshot or Zora Mask or Pillar Pot as FD or Pillar Pot With Bombchu or Pillar Pot With Explosives or Pillar Pot With Nothing or SettingClimbMostSurfaces or (SettingGiantMaskAnywhere and Any B Sword)
+    Termina Field East Gossip Fairy: Summon Fairy
+    Termina Field South Gossip Fairy: Summon Fairy
+    Termina Field North Gossip Fairy: Summon Fairy
+    Termina Field West Gossip Fairy: Summon Fairy
+    Termina Field Milk Gossip Fairy: Summon Fairy
+    Near Peahat Grotto Butterfly Fairy: always
+
+region "The Moon"
+  locations
+    Deku Trial Bonus: OtherOneMask and (Deku Mask or Deku Trial as FD or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or Deku Trial With Hookshot Most Surfaces) [no return]
+    Goron Trial Bonus: OtherTwoMasks and ((Goron Mask and Magic Meter) or SettingGiantMaskAnywhere or (Goron Trial as FD and OtherAnyBombBag) or (Goron Trial as FD and Powder Kegs as Explosives and Powder Keg) or SettingHookshotAnySurface) [no return]
+    Zora Trial Bonus: OtherThreeMasks and (Zora Mask or (Zora Trial as Human and Play Song of Time) or (Zora Trial as Human and Goron Mask) or (Zora Trial as Human and SettingDamageModeDefault and OtherAnyBombBag) or (Zora Trial as Human and SettingDamageModeDefault and Blast Mask) or SettingIronGoron) [no return]
+    Link Trial Bonus: OtherFourMasks and Region: Defeat Garo Master and Kill Iron Knuckle and ((OtherArrow and Hookshot and OtherAnyBombBag and Link Trial: 10 Bombchu) or (OtherArrow and SettingAllowFierceDeityAnywhere and OtherAnyBombBag and Link Trial: 10 Bombchu) or (Link Trial With Songs and Hookshot) or (Link Trial With Songs and SettingAllowFierceDeityAnywhere) or Link Trial as FD or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface) [no return]
+    Majora Child: Complete Deku Trial and Complete Goron Trial and Complete Zora Trial and Complete Link Trial and All Masks [no return]
+    Link Trial Garo Master Chest: OtherFourMasks and Region: Defeat Garo Master and (Hookshot or SettingAllowFierceDeityAnywhere or SettingClimbMostSurfaces or SettingGiantMaskAnywhere) [no return]
+    Link Trial Iron Knuckle Chest: OtherFourMasks and Region: Defeat Garo Master and Kill Iron Knuckle and (Hookshot or SettingAllowFierceDeityAnywhere or SettingClimbMostSurfaces or SettingGiantMaskAnywhere) [no return]
+    Link Trial Pot: OtherFourMasks [no return]
+    Link Trial Pot 2: OtherFourMasks [no return]
+    Link Trial Pot 3: OtherFourMasks [no return]
+    Link Trial Pot 4: OtherFourMasks [no return]
+    Deku Trial Left Closer Gossip Fairy: OtherOneMask and Summon Fairy and (Deku Mask or Deku Trial as FD or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface) [no return]
+    Deku Trial Right Closer Gossip Fairy: OtherOneMask and Summon Fairy and (Deku Mask or Deku Trial as FD or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface) [no return]
+    Deku Trial Left Middle Gossip Fairy: OtherOneMask and Summon Fairy and (Deku Mask or Deku Trial as FD or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface) [no return]
+    Deku Trial Right Middle Gossip Fairy: OtherOneMask and Summon Fairy and (Deku Mask or Deku Trial as FD or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface) [no return]
+    Deku Trial Right Further Gossip Fairy: OtherOneMask and Summon Fairy and (Deku Mask or Deku Trial as FD or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface) [no return]
+    Goron Trial End Gossip Fairy: OtherTwoMasks and Summon Fairy and ((Goron Mask and Magic Meter) or SettingGiantMaskAnywhere or (Goron Trial as FD and OtherAnyBombBag) or (Goron Trial as FD and Powder Kegs as Explosives and Powder Keg) or SettingHookshotAnySurface) [no return]
+    Goron Trial Second Set Gossip Fairy: OtherTwoMasks and Summon Fairy and ((Goron Mask and Magic Meter) or SettingGiantMaskAnywhere or (Goron Trial as FD and OtherAnyBombBag) or (Goron Trial as FD and Powder Kegs as Explosives and Powder Keg) or SettingHookshotAnySurface) [no return]
+    Goron Trial Second Set Gossip Fairy 2: OtherTwoMasks and Summon Fairy and ((Goron Mask and Magic Meter) or SettingGiantMaskAnywhere or (Goron Trial as FD and OtherAnyBombBag) or (Goron Trial as FD and Powder Kegs as Explosives and Powder Keg) or SettingHookshotAnySurface) [no return]
+    Goron Trial First Set Gossip Fairy: OtherTwoMasks and Summon Fairy and ((Goron Mask and Magic Meter) or SettingGiantMaskAnywhere or (Goron Trial as FD and OtherAnyBombBag) or (Goron Trial as FD and Powder Kegs as Explosives and Powder Keg) or SettingHookshotAnySurface) [no return]
+    Goron Trial First Set Gossip Fairy 2: OtherTwoMasks and Summon Fairy and ((Goron Mask and Magic Meter) or SettingGiantMaskAnywhere or (Goron Trial as FD and OtherAnyBombBag) or (Goron Trial as FD and Powder Kegs as Explosives and Powder Keg) or SettingHookshotAnySurface) [no return]
+    Link Trial First Gossip Fairy: OtherFourMasks and Summon Fairy and (Any Sword or OtherArrow or Deku Bubbles or Goron Mask or Zora Mask or SettingAllowFierceDeityAnywhere or Link Trial With Sticks) [no return]
+    Link Trial Second Gossip Fairy: OtherFourMasks and Region: Defeat Garo Master and Summon Fairy and (Hookshot or SettingAllowFierceDeityAnywhere or SettingClimbMostSurfaces or SettingGiantMaskAnywhere) [no return]
+    Link Trial Iron Knuckle Fairy: OtherFourMasks and Region: Defeat Garo Master and Summon Fairy and ((OtherArrow and Hookshot and OtherAnyBombBag and OtherAnyBombchuPack) or (OtherArrow and SettingAllowFierceDeityAnywhere and OtherAnyBombBag and OtherAnyBombchuPack) or (Link Trial With Songs and Hookshot) or (Link Trial With Songs and SettingAllowFierceDeityAnywhere) or Link Trial as FD or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface) [no return]
+    Link Trial Iron Knuckle Fairy 2: OtherFourMasks and Region: Defeat Garo Master and Summon Fairy and ((OtherArrow and Hookshot and OtherAnyBombBag and OtherAnyBombchuPack) or (OtherArrow and SettingAllowFierceDeityAnywhere and OtherAnyBombBag and OtherAnyBombchuPack) or (Link Trial With Songs and Hookshot) or (Link Trial With Songs and SettingAllowFierceDeityAnywhere) or Link Trial as FD or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface) [no return]
+    Link Trial Last Gossip Fairy: OtherFourMasks and Region: Defeat Garo Master and Kill Iron Knuckle and Summon Fairy and ((OtherArrow and Hookshot and OtherAnyBombBag and OtherAnyBombchuPack) or (OtherArrow and SettingAllowFierceDeityAnywhere and OtherAnyBombBag and OtherAnyBombchuPack) or (Link Trial With Songs and Hookshot) or (Link Trial With Songs and SettingAllowFierceDeityAnywhere) or Link Trial as FD or SettingClimbMostSurfaces or SettingGiantMaskAnywhere or SettingHookshotAnySurface) [no return]
+    Zora Trial Gossip Fairy: OtherThreeMasks and Summon Fairy and (Zora Mask or (Zora Trial as Human and Play Song of Time) or (Zora Trial as Human and Goron Mask) or (Zora Trial as Human and SettingDamageModeDefault and OtherAnyBombBag) or (Zora Trial as Human and SettingDamageModeDefault and Blast Mask) or SettingIronGoron) [no return]
+    Zora Trial Gossip Fairy 2: OtherThreeMasks and Summon Fairy and (Zora Mask or (Zora Trial as Human and Play Song of Time) or (Zora Trial as Human and Goron Mask) or (Zora Trial as Human and SettingDamageModeDefault and OtherAnyBombBag) or (Zora Trial as Human and SettingDamageModeDefault and Blast Mask) or SettingIronGoron) [no return]
+    Zora Trial Gossip Fairy 3: OtherThreeMasks and Summon Fairy and (Zora Mask or (Zora Trial as Human and Play Song of Time) or (Zora Trial as Human and Goron Mask) or (Zora Trial as Human and SettingDamageModeDefault and OtherAnyBombBag) or (Zora Trial as Human and SettingDamageModeDefault and Blast Mask) or SettingIronGoron) [no return]
+    Zora Trial Gossip Fairy 4: OtherThreeMasks and Summon Fairy and (Zora Mask or (Zora Trial as Human and Play Song of Time) or (Zora Trial as Human and Goron Mask) or (Zora Trial as Human and SettingDamageModeDefault and OtherAnyBombBag) or (Zora Trial as Human and SettingDamageModeDefault and Blast Mask) or SettingIronGoron) [no return]
+    Zora Trial Gossip Fairy 5: OtherThreeMasks and Summon Fairy and (Zora Mask or (Zora Trial as Human and Play Song of Time) or (Zora Trial as Human and Goron Mask) or (Zora Trial as Human and SettingDamageModeDefault and OtherAnyBombBag) or (Zora Trial as Human and SettingDamageModeDefault and Blast Mask) or SettingIronGoron) [no return]
+    Moon Butterfly Fairy 1: always [no return]
+    Moon Butterfly Fairy 2: always [no return]
+    Moon Butterfly Fairy 3: always [no return]
+    Moon Butterfly Fairy 4: always [no return]
+    Moon Butterfly Fairy 5: always [no return]
+    Moon Butterfly Fairy 6: always [no return]
+    Moon Butterfly Fairy 7: always [no return]
+    Moon Butterfly Fairy 8: always [no return]
+    Moon Butterfly Fairy 9: always [no return]
+    Moon Butterfly Fairy 10: always [no return]
+    Moon Butterfly Fairy 11: always [no return]
+    Moon Butterfly Fairy 12: always [no return]
+
+region "Twinmold"
+  exits
+    -> "Twinmolds Lair": always
+
+region "Twinmolds Lair"
+  exits
+    -> "Stone Tower Clear": Kill Twinmold
+  locations
+    Heart Container: Kill Twinmold
+    Warp: Kill Twinmold
+
+region "West Clock Town"
+  exits
+    -> "Interior Bomb Shop": always
+
+region "West Clock Town (area)"
+  exits
+    -> "Interior Curiosity Shop": always
+    -> "Interior Lottery Shop": always
+    -> "Interior Post Office": OtherPostOfficeNormal or OtherPostOfficeDay2
+    -> "Interior Swordsman School": always
+    -> "Interior Trading Post": always
+  locations
+    Bank Reward #1: always
+    Rosa Sisters: Kamaro's Mask [set up Day1, Night1, Day2, Night2; available Night1, Night2]
+    Bank Reward #3: Wallet (500) or Bank #3 Without Wallets
+    Bank Reward #2: Any Wallet or Bank #2 Without Wallets
+    Rosa Sisters: Kamaro's Mask [set up Day1, Night1, Day2, Night2; available Night1, Night2]
+
+region "Woodfall Temple"
+  exits
+    -> "Odolwa": Odolwa's Remains or (WFT Pre-Boss Room Access and Woodfall Boss Key and Deku Mask) or (WFT Pre-Boss Room Access and Woodfall Boss Key and Hookshot) or (WFT Pre-Boss Room Access and Woodfall Boss Key and Odolwa Long Jump and OtherArrow) or (WFT Pre-Boss Room Access and Woodfall Boss Key and WFT as Giant Link) or (WFT Pre-Boss Room Access and Woodfall Boss Key and SettingClimbMostSurfaces)
+    -> "Woodfall Temple: Main Room": Deku Mask or Hookshot or WFT Entrance as FD or WFT as Giant Link or WFT Twisted Recoil Flip or SettingClimbMostSurfaces
+  locations
+    Woodfall Temple Entrance Fairy: always
+    Woodfall Temple Main Room Bubble: WFT 2nd Floor Access or (WFT Main Room Access and Great Fairy's Mask and Long Ranged Weapon) or (WFT Main Room Access and Great Fairy's Mask and SettingAllowFierceDeityAnywhere and Magic Meter) or (WFT Main Room Access and WFT Stray Fairy Bubbles With Explosives and OtherAnyBombBag and OtherAnyBombchuPack)
+    Woodfall Temple Entrance Platform: Deku Mask or Hookshot or WFT Entrance Platform With Explosives or WFT Entrance as FD or WFT as Giant Link
+    Woodfall Temple Entrance Hive: Short Ranged Weapon or (WFT Entrance Hive With Jump Slash and Deku Mask) or (WFT Entrance Hive With Jump Slash and WFT Entrance as FD) or (WFT Entrance Hive With Jump Slash and WFT Entrance Hive Jumps and OtherExplosive and SettingDamageModeDefault) or (WFT Entrance Hive With Jump Slash and WFT Entrance Hive Jumps and SettingCharacterAdultLink) or (WFT Hives With Explosives and OtherAnyBombBag and OtherAnyBombchuPack) or (WFT Hives With Explosives and OtherExplosive and Deku Mask) or (WFT Hives With Explosives and WFT Entrance Hive Jumps and SettingDamageModeDefault and OtherAnyBombBag) or (WFT Hives With Explosives and WFT Entrance Hive Jumps and Blast Mask and SettingDamageModeDefault)
+    Woodfall Temple Entrance Pot: always
+
+region "Woodfall Temple Clear"
+  locations
+    Boat Archery: Any Healing Potion
+    Bottle: Deku Princess: OtherAnyBottle and (Any Sword or SettingAllowFierceDeityAnywhere)
+    Cleared Swamp Potion Shop Pot: always
+    Cleared Swamp Owl Grass: always
+    Cleared Swamp Potion Shop Pot 2: always
+    Cleared Swamp Owl Grass 2: always
+
+region "Woodfall Temple: 2nd Floor"
+  exits
+    -> "Defeat WFT Gekko": (Deku Mask and OtherArrow) or (Kill Snapper and Kill Gekko and WFT Elevator Room as FD) or (Kill Snapper and Kill Gekko and WFT as Giant Link) or (Kill Snapper and Kill Gekko and SettingClimbMostSurfaces and SettingDamageModeDefault) or (Kill Snapper and Kill Gekko and SettingHookshotAnySurface) or (WFT as Giant Link and Any Sword)
+    -> "Woodfall Temple: Pre-Boss Room": OtherArrow or WFT Bow Skip
+  locations
+    Hero's Bow Chest: Any Sword or OtherArrow or (Deku Mask and Magic Meter) or Goron Mask or Zora Mask or Dinolfos With Sticks or SettingAllowFierceDeityAnywhere
+    Woodfall Temple Main Room Switch: Deku Mask or WFT Main Room Switch Jump or SettingHookshotAnySurface or SettingClimbMostSurfaces
+
+region "Woodfall Temple: Main Room"
+  exits
+    -> "Woodfall Temple: 2nd Floor": (Woodfall Small Key and Deku Mask) or (Woodfall Small Key and WFT Jump Slash to 2nd Floor) or (OtherArrow and Deku Mask) or Use Fire Arrow or WFT 2nd Floor With Hookshot or WFT 2nd Floor as FD or WFT Elevator Jump or WFT as Giant Link or SettingClimbMostSurfaces or SettingHookshotAnySurface
+    -> "Woodfall Temple: Past Locked Door": WFT 2nd Floor Access or Woodfall Small Key
+  locations
+    Woodfall Map Chest: Kill Snapper and ((WFT 2nd Floor Access and OtherArrow) or Deku Mask or (Hookshot and SettingDamageModeDefault) or WFT Carnivorous Flower Jump or WFT Elevator Room as FD or (WFT Elevator Room Long Jumps and Tall Character and OtherAnyBombBag) or (WFT Elevator Room Long Jumps and Tall Character and Blast Mask Long Jumps As Zora/FD) or (WFT Elevator Room Long Jumps and SettingCharacterAdultLink and Blast Mask) or WFT as Giant Link or (SettingClimbMostSurfaces and SettingDamageModeDefault) or SettingHookshotAnySurface)
+    Woodfall Small Key Chest: Deku Mask or (Hookshot and SettingDamageModeDefault) or (Hookshot and Use Fire Arrow) or WFT Elevator Room as FD or WFT as Giant Link or (WFT Carnivorous Flower Jump and WFT Elevator Room Long Jumps) or (WFT Carnivorous Flower Jump and Tall Character) or (WFT 2nd Floor Access and WFT Elevator Room Long Jumps and OtherArrow) or (WFT 2nd Floor Access and OtherArrow and Tall Character) or (SettingClimbMostSurfaces and SettingDamageModeDefault) or SettingHookshotAnySurface
+    Woodfall Temple Deku Baba: always
+    Woodfall Temple Jar Fairy: SettingDeathModeDefault or Deku Mask or SettingClimbMostSurfaces or SettingHookshotAnySurface or WFT as Giant Link
+    Woodfall Temple Platform Room Hive: WFT Elevator Room Hive Fairy Collection and ((WFT 2nd Floor Access and OtherArrow) or (OtherArrow and SettingDamageModeDefault and SettingDeathModeDefault) or Deku Bubbles or (Hookshot and Deku Mask) or (Hookshot and SettingDamageModeDefault and SettingDeathModeDefault) or (Zora Mask and Deku Mask) or (Zora Mask and WFT Carnivorous Flower Jump and SettingDamageModeDefault and SettingDeathModeDefault) or (WFT Elevator Room as FD and Zora Mask) or (WFT Elevator Room as FD and WFT 2nd Floor Access) or (WFT Hives With Explosives and OtherAnyBombBag and OtherAnyBombchuPack) or (WFT Hives With Explosives and Deku Mask and OtherAnyBombBag) or (WFT Hives With Explosives and WFT Elevator Room as FD and OtherAnyBombBag) or (WFT Hives With Explosives and WFT Carnivorous Flower Jump and SettingDamageModeDefault and SettingDeathModeDefault and OtherAnyBombBag) or (WFT Hives With Explosives and Powder Kegs as Explosives and Powder Keg and Deku Mask) or (WFT Hives With Explosives and Powder Kegs as Explosives and Powder Keg and WFT Entrance as FD and WFT Elevator Room as FD) or (WFT as Giant Link and Any Sword) or (WFT as Giant Link and WFT Hives With Explosives and OtherExplosive))
+
+region "Woodfall Temple: Past Locked Door"
+  locations
+    Woodfall Compass Chest: always
+    Woodfall Temple Poison Water Bubble: (WFT 2nd Floor Access and OtherArrow) or (Great Fairy's Mask and Long Ranged Weapon) or (Great Fairy's Mask and WFT Stray Fairy Bubbles With Explosives and OtherAnyBombBag) or (Great Fairy's Mask and WFT Stray Fairy Bubbles With Explosives and Powder Kegs as Explosives and Powder Keg) or WFT Poison Water Bubble With Nothing
+    Woodfall Temple Skulltula: Any Sword or OtherArrow or Hookshot or Goron Mask or Zora Mask or SettingAllowFierceDeityAnywhere or OtherExplosive or WFT Skulltula With Stick
+    Woodfall Temple Dark Room: always
+    Woodfall Temple Bridge Room Hive: Short Ranged Weapon or (WFT Hives With Explosives and OtherAnyBombBag) or (WFT Hives With Explosives and Blast Mask and Any Shield) or (WFT Hives With Explosives and Blast Mask and SettingDamageModeDefault) or (WFT Hives With Explosives and Powder Kegs as Explosives and Powder Keg and Deku Mask) or (WFT Hives With Explosives and Powder Kegs as Explosives and Powder Keg and WFT Entrance as FD) or (WFT Hives With Explosives and Powder Kegs as Explosives and Powder Keg and WFT as Giant Link) or (WFT as Giant Link and Any Sword)
+
+region "Woodfall Temple: Pre-Boss Room"
+  locations
+    Woodfall Temple Pre-Boss Lower Right Bubble: always
+    Woodfall Temple Pre-Boss Upper Left Bubble: Deku Mask or (Great Fairy's Mask and OtherArrow) or WFT Pre-Boss Jumps to Upper Left or (WFT Stray Fairy Bubbles With Explosives and OtherAnyBombBag and OtherAnyBombchuPack) or WFT as Giant Link or SettingHookshotAnySurface or SettingClimbMostSurfaces
+    Woodfall Temple Pre-Boss Pillar Bubble: Deku Mask or (Great Fairy's Mask and OtherArrow) or (Great Fairy's Mask and Hookshot) or (Great Fairy's Mask and Zora Mask) or (WFT Stray Fairy Bubbles With Explosives and OtherAnyBombBag and OtherAnyBombchuPack) or WFT Long Jump to Odolwa as FD or (WFT Pre-Boss Jumps to Upper Left and OtherArrow) or (WFT Pre-Boss Jumps to Upper Left and Hookshot) or (WFT Pre-Boss Jumps to Upper Left and Zora Mask) or (WFT Pre-Boss Jumps to Upper Left and SettingDamageModeDefault and OtherAnyBombBag) or WFT as Giant Link or SettingHookshotAnySurface or SettingClimbMostSurfaces
+    Woodfall Temple Pre-Boss Upper Right Bubble: always
+    Woodfall Temple Pre-Boss Platform Item: always
+    Woodfall Temple Pre-Boss Platform Item 2: always
+    Woodfall Temple Pre-Boss Platform Item 3: always
+    Woodfall Temple Pre-Boss Platform Item 4: always
+    Woodfall Temple Pre-Boss Left Pillar Item: (Woodfall Temple Boss Door and Zora Mask) or WFT Red Rupee Jumps or WFT Red Rupees as Goron or (WFT Pre-Boss Jumps to Upper Left and Zora Mask) or Odolwa Long Jump or SettingClimbMostSurfaces or SettingHookshotAnySurface
+    Woodfall Temple Pre-Boss Right Pillar Item: Deku Mask or (Woodfall Temple Boss Door and Zora Mask) or WFT Red Rupee Jumps or WFT Red Rupees as Goron or WFT Crystal Long Jump or Odolwa Long Jump or SettingClimbMostSurfaces or SettingHookshotAnySurface
+

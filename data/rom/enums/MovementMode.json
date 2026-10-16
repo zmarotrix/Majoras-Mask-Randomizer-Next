@@ -1,0 +1,7 @@
+[
+{"name":"Default","value":0,"attributes":[]},
+{"name":"HighSpeed","value":1,"attributes":[]},
+{"name":"SuperLowGravity","value":2,"attributes":[]},
+{"name":"LowGravity","value":3,"attributes":[]},
+{"name":"HighGravity","value":4,"attributes":[]}
+]

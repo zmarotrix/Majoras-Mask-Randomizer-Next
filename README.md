@@ -28,12 +28,12 @@ Download the latest release from the [Releases page](https://github.com/zmarotri
 
 | File | What |
 | --- | --- |
-| `…setup.exe` / `….msi` | Windows installer |
-| `MMRNext-portable.exe` | Windows, no install needed |
-| `….dmg` | macOS |
-| `….AppImage` / `….deb` | Linux |
-| `mmrn-web.zip` | The browser version (static files; host them on any web server) |
-| `mmr-cli-…` | The command-line tool |
+| `MMRNext-<version>-windows-x64-setup.exe` | Windows installer (or the `.msi`) |
+| `MMRNext-<version>-windows-x64-portable.exe` | Windows, no install needed |
+| `MMRNext-<version>-macos-universal.dmg` | macOS (Intel and Apple Silicon) |
+| `MMRNext-<version>-linux-x64.AppImage` / `.deb` / `.rpm` | Linux |
+| `MMRNext-<version>-web.zip` | The browser version (static files; host them at the root of any web server) |
+| `mmr-cli-<version>-<system>` | The command-line tool |
 
 The apps aren't code-signed yet. On **macOS**, the first time: right-click
 the app, choose **Open**, then **Open** again (or run
@@ -49,7 +49,7 @@ You need [Rust](https://rustup.rs) and [Node.js](https://nodejs.org).
 | --- | --- | --- |
 | `Launch MMR Next.bat` | `./launch.sh` | run the desktop app in development mode |
 | `Launch MMR Next (Web).bat` | `./launch-web.sh` | build the browser version and open it at `localhost:4173` |
-| `Build Release.bat` | `./build-release.sh` | build the installers into `release/` |
+| `Build Release.bat` | `./build-release.sh` | build everything this system can into `releases/` |
 
 Each system builds its own installers (Tauri can't cross-compile them); the
 Release workflow builds all three on GitHub. `./build-release.sh --universal`
@@ -73,9 +73,11 @@ Tests that need a ROM look for `../Zelda - Majora's Mask.z64` or the path in
 
 ### Releasing
 
-Push a version tag (`git tag v3.0.0 && git push --tags`). The Release
-workflow builds every platform, the browser version and the command-line
-tool, and creates a draft release on GitHub to check and publish.
+Write the release notes in `docs/releases/<tag>.md`, then either push a
+version tag (e.g. `v3.0.0`) or run **Actions → Release → Run workflow** on
+GitHub. GitHub's servers build Windows, macOS and Linux with the same script
+as `Build Release.bat`, and put everything in a draft release to check and
+publish.
 
 ## Command line
 

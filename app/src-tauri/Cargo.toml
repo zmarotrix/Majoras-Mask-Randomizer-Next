@@ -1,0 +1,26 @@
+[package]
+name = "mmr-app"
+description = "Majora's Mask Randomizer desktop app."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+name = "mmr_app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.7", features = [] }
+
+[dependencies]
+mmr-data.workspace = true
+mmr-logic.workspace = true
+mmr-settings.workspace = true
+mmr-rom.workspace = true
+mmr-build.workspace = true
+mmr-randomizer.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tauri = { version = "2.12", features = [] }
+tauri-plugin-dialog = "2.8"
+tauri-plugin-opener = "2.7"

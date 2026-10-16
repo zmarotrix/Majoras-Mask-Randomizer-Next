@@ -1,0 +1,14 @@
+[package]
+name = "mmr-randomizer"
+description = "Item placement for the Majora's Mask Randomizer: seeds, RNG, assumed fill."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+mmr-data.workspace = true
+mmr-logic.workspace = true
+mmr-settings.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true

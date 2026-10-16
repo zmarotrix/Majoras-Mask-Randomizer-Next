@@ -1,0 +1,9 @@
+[
+{"name":"None","value":0,"attributes":[]},
+{"name":"Town","value":1,"attributes":[]},
+{"name":"Swamp","value":2,"attributes":[]},
+{"name":"Mountain","value":4,"attributes":[]},
+{"name":"Ranch","value":8,"attributes":[]},
+{"name":"Ocean","value":16,"attributes":[]},
+{"name":"Canyon","value":32,"attributes":[]}
+]

@@ -1,0 +1,131 @@
+{
+  "All-Night Mask Purchase": [
+    "MaskAllNight",
+    "NotebookPurchaseCuriosityShopItem"
+  ],
+  "Anju and Kafei": [
+    "MaskCouple",
+    "NotebookUniteAnjuAndKafei"
+  ],
+  "Beaver Races": [
+    "ItemBottleBeavers",
+    "HeartPieceBeaverRace"
+  ],
+  "Bombers\u0027 Hide and Seek": [
+    "ItemNotebook",
+    "NotebookMeetBombers",
+    "NotebookLearnBombersCode"
+  ],
+  "Deku Playground": [
+    "MundaneItemDekuPlaygroundPurpleRupee",
+    "HeartPieceDekuPlayground"
+  ],
+  "Gorman": [
+    "MaskCircusLeader",
+    "NotebookMovingGorman"
+  ],
+  "Gorman Bros Race": [
+    "MaskGaro",
+    "NotebookDefeatGormanBrothers"
+  ],
+  "Grandma Stories": [
+    "HeartPieceNotebookGran1",
+    "NotebookGrandmaShortStory",
+    "HeartPieceNotebookGran2",
+    "NotebookGrandmaLongStory"
+  ],
+  "Grog": [
+    "MaskBunnyHood",
+    "NotebookGrogsThanks"
+  ],
+  "Guru-Guru": [
+    "MaskBremen",
+    "NotebookGuruGuru"
+  ],
+  "Honey and Darling": [
+    "MundaneItemHoneyAndDarlingPurpleRupee",
+    "HeartPieceHoneyAndDarling"
+  ],
+  "Inn Reservation": [
+    "TradeItemRoomKey",
+    "NotebookInnReservation"
+  ],
+  "Invisible Soldier": [
+    "MaskStone",
+    "NotebookMeetShiro",
+    "NotebookSaveInvisibleSoldier"
+  ],
+  "Kamaro": [
+    "MaskKamaro",
+    "NotebookPromiseKamaro"
+  ],
+  "Letter to Kafei Delivery": [
+    "NotebookDepositLetterToKafei",
+    "TradeItemPendant",
+    "NotebookMeetKafei",
+    "NotebookPromiseKafei",
+    "MaskKeaton",
+    "TradeItemMamaLetter",
+    "NotebookCuriosityShopManSGift",
+    "NotebookPromiseCuriosityShopMan"
+  ],
+  "Madame Aroma in Bar": [
+    "ItemBottleMadameAroma",
+    "NotebookDeliverLetterToMama"
+  ],
+  "Madame Aroma in Office": [
+    "MaskKafei",
+    "NotebookPromiseMadameAroma"
+  ],
+  "Mayor": [
+    "HeartPieceNotebookMayor",
+    "NotebookDotoursThanks"
+  ],
+  "Midnight Meeting": [
+    "TradeItemKafeiLetter",
+    "NotebookPromiseAnjuDelivery"
+  ],
+  "Ocean Spider House": [
+    "UpgradeGiantWallet",
+    "MundaneItemOceanSpiderHouseDay2PurpleRupee",
+    "MundaneItemOceanSpiderHouseDay3RedRupee"
+  ],
+  "Old Lady": [
+    "MaskBlast",
+    "NotebookSaveOldLady"
+  ],
+  "Postman\u0027s Freedom": [
+    "MaskPostmanHat",
+    "NotebookPostmansFreedom"
+  ],
+  "Postman\u0027s Game": [
+    "HeartPieceNotebookPostman",
+    "NotebookPostmansGame"
+  ],
+  "Ranch Sisters Defense": [
+    "ItemBottleAliens",
+    "NotebookSaveTheCows",
+    "MaskRomani",
+    "NotebookProtectMilkDelivery"
+  ],
+  "Romani\u0027s Game": [
+    "SongEpona",
+    "NotebookPromiseRomani"
+  ],
+  "Rosa Sisters": [
+    "HeartPieceNotebookRosa",
+    "NotebookRosaSistersThanks"
+  ],
+  "Swamp Archery": [
+    "UpgradeBiggestQuiver",
+    "HeartPieceSwampArchery"
+  ],
+  "Toilet Hand": [
+    "HeartPieceNotebookHand",
+    "NotebookToiletHandSThanks"
+  ],
+  "Town Archery": [
+    "UpgradeBigQuiver",
+    "HeartPieceTownArchery"
+  ]
+}

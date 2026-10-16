@@ -1,0 +1,6 @@
+[
+{"name":"LinkMM","value":0,"attributes":[{"type":"SettingName","args":["Link (MM)"],"values":{"Name":"Link (MM)"}}]},
+{"name":"LinkOOT","value":1,"attributes":[{"type":"SettingName","args":["Link (OoT)"],"values":{"Name":"Link (OoT)"}}]},
+{"name":"AdultLink","value":2,"attributes":[]},
+{"name":"Kafei","value":3,"attributes":[]}
+]

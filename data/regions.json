@@ -1,0 +1,296 @@
+[
+ {
+  "id": "Misc",
+  "name": "Misc",
+  "preposition": null,
+  "area": "None"
+ },
+ {
+  "id": "BottleCatch",
+  "name": "Bottle Catch",
+  "preposition": null,
+  "area": "None"
+ },
+ {
+  "id": "BeneathClocktown",
+  "name": "Beneath Clocktown",
+  "preposition": "",
+  "area": "Town"
+ },
+ {
+  "id": "ClockTowerRoof",
+  "name": "Clock Tower Roof",
+  "preposition": "on the",
+  "area": "Town"
+ },
+ {
+  "id": "SouthClockTown",
+  "name": "South Clock Town",
+  "preposition": "in",
+  "area": "Town"
+ },
+ {
+  "id": "NorthClockTown",
+  "name": "North Clock Town",
+  "preposition": "in",
+  "area": "Town"
+ },
+ {
+  "id": "DekuPlaygroundItems",
+  "name": "Deku Playground Items",
+  "preposition": "among the",
+  "area": "Town"
+ },
+ {
+  "id": "EastClockTown",
+  "name": "East Clock Town",
+  "preposition": "in",
+  "area": "Town"
+ },
+ {
+  "id": "StockPotInn",
+  "name": "Stock Pot Inn",
+  "preposition": "in the",
+  "area": "Town"
+ },
+ {
+  "id": "WestClockTown",
+  "name": "West Clock Town",
+  "preposition": "in",
+  "area": "Town"
+ },
+ {
+  "id": "LaundryPool",
+  "name": "Laundry Pool",
+  "preposition": "in the",
+  "area": "Town"
+ },
+ {
+  "id": "TerminaField",
+  "name": "Termina Field",
+  "preposition": "in",
+  "area": "Town"
+ },
+ {
+  "id": "RoadToSouthernSwamp",
+  "name": "Road to Southern Swamp",
+  "preposition": "on the",
+  "area": "Town"
+ },
+ {
+  "id": "SouthernSwamp",
+  "name": "Southern Swamp",
+  "preposition": "in",
+  "area": "Swamp"
+ },
+ {
+  "id": "SwampSpiderHouseItems",
+  "name": "Swamp Spider House Items",
+  "preposition": "among the",
+  "area": "Swamp"
+ },
+ {
+  "id": "DekuPalace",
+  "name": "Deku Palace",
+  "preposition": "in the",
+  "area": "Swamp"
+ },
+ {
+  "id": "ButlerRaceItems",
+  "name": "Butler Race Items",
+  "preposition": "among the",
+  "area": "Swamp"
+ },
+ {
+  "id": "Woodfall",
+  "name": "Woodfall",
+  "preposition": "in",
+  "area": "Swamp"
+ },
+ {
+  "id": "WoodfallTemple",
+  "name": "Woodfall Temple",
+  "preposition": "in",
+  "area": "Swamp"
+ },
+ {
+  "id": "PathToMountainVillage",
+  "name": "Path to Mountain Village",
+  "preposition": "on the",
+  "area": "Town"
+ },
+ {
+  "id": "MountainVillage",
+  "name": "Mountain Village",
+  "preposition": "in the",
+  "area": "Mountain"
+ },
+ {
+  "id": "TwinIslands",
+  "name": "Twin Islands",
+  "preposition": "in the",
+  "area": "Mountain"
+ },
+ {
+  "id": "GoronRaceItems",
+  "name": "Goron Race Items",
+  "preposition": "among the",
+  "area": "Mountain"
+ },
+ {
+  "id": "GoronVillage",
+  "name": "Goron Village",
+  "preposition": "in the",
+  "area": "Mountain"
+ },
+ {
+  "id": "PathToSnowhead",
+  "name": "Path to Snowhead",
+  "preposition": "on the",
+  "area": "Mountain"
+ },
+ {
+  "id": "Snowhead",
+  "name": "Snowhead",
+  "preposition": "in",
+  "area": "Mountain"
+ },
+ {
+  "id": "SnowheadTemple",
+  "name": "Snowhead Temple",
+  "preposition": "in",
+  "area": "Mountain"
+ },
+ {
+  "id": "MilkRoad",
+  "name": "Milk Road",
+  "preposition": "on",
+  "area": "Ranch"
+ },
+ {
+  "id": "RomaniRanch",
+  "name": "Romani Ranch",
+  "preposition": "in",
+  "area": "Ranch"
+ },
+ {
+  "id": "GreatBayCoast",
+  "name": "Great Bay Coast",
+  "preposition": "in",
+  "area": "Ocean"
+ },
+ {
+  "id": "OceanSpiderHouseItems",
+  "name": "Ocean Spider House Items",
+  "preposition": "among the",
+  "area": "Ocean"
+ },
+ {
+  "id": "ZoraCape",
+  "name": "Zora Cape",
+  "preposition": "in",
+  "area": "Ocean"
+ },
+ {
+  "id": "ZoraHall",
+  "name": "Zora Hall",
+  "preposition": "in",
+  "area": "Ocean"
+ },
+ {
+  "id": "PiratesFortressExterior",
+  "name": "Pirates' Fortress Exterior",
+  "preposition": "in",
+  "area": "Ocean"
+ },
+ {
+  "id": "PiratesFortressSewer",
+  "name": "Pirates' Fortress Sewer",
+  "preposition": "in",
+  "area": "Ocean"
+ },
+ {
+  "id": "PiratesFortressInterior",
+  "name": "Pirates' Fortress Interior",
+  "preposition": "in",
+  "area": "Ocean"
+ },
+ {
+  "id": "PinnacleRock",
+  "name": "Pinnacle Rock",
+  "preposition": "in",
+  "area": "Ocean"
+ },
+ {
+  "id": "GreatBayTemple",
+  "name": "Great Bay Temple",
+  "preposition": "in",
+  "area": "Ocean"
+ },
+ {
+  "id": "RoadToIkana",
+  "name": "Road to Ikana",
+  "preposition": "on the",
+  "area": "Town"
+ },
+ {
+  "id": "IkanaGraveyard",
+  "name": "Ikana Graveyard",
+  "preposition": "in the",
+  "area": "Town"
+ },
+ {
+  "id": "IkanaCanyon",
+  "name": "Ikana Canyon",
+  "preposition": "in",
+  "area": "Canyon"
+ },
+ {
+  "id": "BeneathTheWell",
+  "name": "Beneath the Well",
+  "preposition": "",
+  "area": "Canyon"
+ },
+ {
+  "id": "IkanaCastle",
+  "name": "Ikana Castle",
+  "preposition": "in",
+  "area": "Canyon"
+ },
+ {
+  "id": "StoneTower",
+  "name": "Stone Tower",
+  "preposition": "in",
+  "area": "Canyon"
+ },
+ {
+  "id": "StoneTowerTemple",
+  "name": "Stone Tower Temple",
+  "preposition": "in",
+  "area": "Canyon"
+ },
+ {
+  "id": "SecretShrine",
+  "name": "Secret Shrine",
+  "preposition": "in the",
+  "area": "Canyon"
+ },
+ {
+  "id": "TheMoon",
+  "name": "The Moon",
+  "preposition": "on",
+  "area": "None"
+ },
+ {
+  "id": "VariousPlaces",
+  "name": "Various places",
+  "preposition": "in",
+  "area": "None"
+ },
+ {
+  "id": "BombersNotebook",
+  "name": "Bombers' Notebook meetings",
+  "preposition": "in",
+  "area": "None"
+ }
+]

@@ -1,0 +1,498 @@
+{
+ "ItemCategory": [
+  {
+   "id": "Fake",
+   "value": -1,
+   "description": null
+  },
+  {
+   "id": "None",
+   "value": 0,
+   "description": null
+  },
+  {
+   "id": "MainInventory",
+   "value": 1,
+   "description": "Randomize items on the main inventory screen other than trade items. Also includes Bombers' Notebook, Swords, Mirror Shield and Wallets."
+  },
+  {
+   "id": "Songs",
+   "value": 2,
+   "description": "Randomize songs except Song of Soaring."
+  },
+  {
+   "id": "SongOfSoaring",
+   "value": 3,
+   "description": "Randomize the Song of Soaring."
+  },
+  {
+   "id": "HeartContainers",
+   "value": 4,
+   "description": "Randomize Heart Containers."
+  },
+  {
+   "id": "BossRemains",
+   "value": 5,
+   "description": "Randomize Boss Remains."
+  },
+  {
+   "id": "PiecesOfHeart",
+   "value": 6,
+   "description": "Randomize Pieces of Heart."
+  },
+  {
+   "id": "Masks",
+   "value": 7,
+   "description": "Randomize Masks."
+  },
+  {
+   "id": "TradeItems",
+   "value": 8,
+   "description": "Randomize Moon's Tear, Title Deeds, Letter to Kafei, Pendant of Memories, Room Key and Letter to Mama."
+  },
+  {
+   "id": "Navigation",
+   "value": 9,
+   "description": "Randomize Dungeon Maps/Compasses and overworld maps."
+  },
+  {
+   "id": "MagicPowers",
+   "value": 10,
+   "description": "Randomize non-item Great Fairy rewards including Magic Power, Great Spin Attack, Extended Magic Power and Double Defense."
+  },
+  {
+   "id": "SkulltulaTokens",
+   "value": 11,
+   "description": "Randomize golden skulltula tokens. Tokens will not reset to 0 after Song of Time."
+  },
+  {
+   "id": "StrayFairies",
+   "value": 12,
+   "description": "Randomize stray fairies including the Clock Town stray fairy. Stray fairies will not reset to 0 after Song of Time."
+  },
+  {
+   "id": "DungeonKeys",
+   "value": 13,
+   "description": "Randomize small keys and boss keys."
+  },
+  {
+   "id": "GoldRupees",
+   "value": 14,
+   "description": "Randomize Gold Rupees."
+  },
+  {
+   "id": "SilverRupees",
+   "value": 15,
+   "description": "Randomize Silver Rupees."
+  },
+  {
+   "id": "PurpleRupees",
+   "value": 16,
+   "description": "Randomize Purple Rupees."
+  },
+  {
+   "id": "RedRupees",
+   "value": 17,
+   "description": "Randomize Red Rupees."
+  },
+  {
+   "id": "BlueRupees",
+   "value": 18,
+   "description": "Randomize Blue Rupees."
+  },
+  {
+   "id": "GreenRupees",
+   "value": 19,
+   "description": "Randomize Green Rupees."
+  },
+  {
+   "id": "RecoveryHearts",
+   "value": 20,
+   "description": "Randomize the recovery hearts in Pirates' Fortress."
+  },
+  {
+   "id": "MagicJars",
+   "value": 21,
+   "description": "Randomize large and small magic jars."
+  },
+  {
+   "id": "Shields",
+   "value": 22,
+   "description": "Randomize Hero's Shields."
+  },
+  {
+   "id": "Bombchu",
+   "value": 23,
+   "description": "Randomize Bombchu."
+  },
+  {
+   "id": "Arrows",
+   "value": 24,
+   "description": "Randomize Arrows."
+  },
+  {
+   "id": "Bombs",
+   "value": 25,
+   "description": "Randomize Bombs."
+  },
+  {
+   "id": "DekuNuts",
+   "value": 26,
+   "description": "Randomize Deku Nuts."
+  },
+  {
+   "id": "DekuSticks",
+   "value": 27,
+   "description": "Randomize Deku Sticks."
+  },
+  {
+   "id": "Milk",
+   "value": 28,
+   "description": "Randomize Milk."
+  },
+  {
+   "id": "RedPotions",
+   "value": 29,
+   "description": "Randomize Red Potions."
+  },
+  {
+   "id": "GreenPotions",
+   "value": 30,
+   "description": "Randomize Green Potions."
+  },
+  {
+   "id": "BluePotions",
+   "value": 31,
+   "description": "Randomize Blue Potions."
+  },
+  {
+   "id": "Chateau",
+   "value": 32,
+   "description": "Randomize the Chateau refill. Bottle with Chateau Romani is part of Main Inventory"
+  },
+  {
+   "id": "Seahorse",
+   "value": 33,
+   "description": "Randomize the Seahorse."
+  },
+  {
+   "id": "Fairy",
+   "value": 34,
+   "description": "Randomize the Fairy purchase in the Trading Post."
+  },
+  {
+   "id": "ScoopedItems",
+   "value": 35,
+   "description": "Randomize bottle scoops."
+  },
+  {
+   "id": "NotebookEntries",
+   "value": 36,
+   "description": "Randomize Bombers' Notebook entries."
+  },
+  {
+   "id": "Frogs",
+   "value": 37,
+   "description": "Randomize the frog choir members."
+  },
+  {
+   "id": "TimeTravel",
+   "value": 38,
+   "description": "Randomize Ocarina and Song of Time."
+  },
+  {
+   "id": "RoyalWallet",
+   "value": 39,
+   "description": "Add the Royal Wallet to the item pool."
+  }
+ ],
+ "LocationCategory": [
+  {
+   "id": "Fake",
+   "value": -1,
+   "description": null
+  },
+  {
+   "id": "None",
+   "value": 0,
+   "description": null
+  },
+  {
+   "id": "Chests",
+   "value": 1,
+   "description": "Randomize chests that don't fit into the other categories."
+  },
+  {
+   "id": "NpcRewards",
+   "value": 2,
+   "description": "Randomize items rewarded by NPCs except Minigames."
+  },
+  {
+   "id": "Freestanding",
+   "value": 3,
+   "description": "Randomize freestanding items."
+  },
+  {
+   "id": "Purchases",
+   "value": 4,
+   "description": "Randomize purchases including shops, scrubs, tingle, bean man, milk bar and Gorman Bros."
+  },
+  {
+   "id": "StartingItems",
+   "value": 5,
+   "description": "Randomize starting items."
+  },
+  {
+   "id": "Minigames",
+   "value": 6,
+   "description": "Randomize items rewarded from minigames."
+  },
+  {
+   "id": "BossFights",
+   "value": 7,
+   "description": "Randomize items earned by fighting bosses/minibosses."
+  },
+  {
+   "id": "MoonItems",
+   "value": 8,
+   "description": "Randomize items on The Moon."
+  },
+  {
+   "id": "EnemySpawn",
+   "value": 9,
+   "description": "Randomize items spawned by enemies including freestanding Golden Skulltulas, enemies that normally spawn Stray Fairies and Takkuri."
+  },
+  {
+   "id": "Grass",
+   "value": 10,
+   "description": "Randomize fixed dropped from grass. Only Keaton Grass and grass such as that near owl statues drop fixed items."
+  },
+  {
+   "id": "Jars",
+   "value": 11,
+   "description": "Randomize fixed drops from jars including small jars and green jars."
+  },
+  {
+   "id": "Crates",
+   "value": 12,
+   "description": "Randomize fixed drops from small and large crates."
+  },
+  {
+   "id": "SmallSnowballs",
+   "value": 13,
+   "description": "Randomize fixed drops from small snowballs."
+  },
+  {
+   "id": "LargeSnowballs",
+   "value": 14,
+   "description": "Randomize fixed drops from large snowballs."
+  },
+  {
+   "id": "Barrels",
+   "value": 15,
+   "description": "Randomize fixed drops from barrels. This includes items that already exist within barrels before they're destroyed."
+  },
+  {
+   "id": "Beehives",
+   "value": 16,
+   "description": "Randomize fixed drops from beehives."
+  },
+  {
+   "id": "InvisibleItems",
+   "value": 17,
+   "description": "Randomize invisible items."
+  },
+  {
+   "id": "Events",
+   "value": 18,
+   "description": "Randomize items spawned by events including the Moon's Tear, the Sword School Gong, the Song Wall in Termina Field, the Telescope Guay and the Termina Field circling Guay."
+  },
+  {
+   "id": "SoftSoil",
+   "value": 19,
+   "description": "Randomize items from soft soil."
+  },
+  {
+   "id": "HitSpots",
+   "value": 20,
+   "description": "Randomize items dropped by hitting specific spots in the game."
+  },
+  {
+   "id": "Rocks",
+   "value": 21,
+   "description": "Randomize fixed drops from rocks. Only rocks on walls drop fixed items. Also includes the item within the Red Rock in Mountain Village spring time."
+  },
+  {
+   "id": "Scoops",
+   "value": 22,
+   "description": "Randomize bottle scoops."
+  },
+  {
+   "id": "NotebookEntries",
+   "value": 23,
+   "description": "Randomize Bombers' Notebook entries."
+  },
+  {
+   "id": "Fairies",
+   "value": 24,
+   "description": "Randomize fairies summoned at Gossip Stones and free floating fairies."
+  },
+  {
+   "id": "Butterflies",
+   "value": 25,
+   "description": "Randomize fairies that transform from butterflies."
+  },
+  {
+   "id": "Frogs",
+   "value": 26,
+   "description": "Randomize the frog choir members."
+  },
+  {
+   "id": "Trees",
+   "value": 27,
+   "description": "Randomize the items dropped from palm trees."
+  },
+  {
+   "id": "GlitchesRequired",
+   "value": 28,
+   "description": "Randomize items that require glitches to collect."
+  }
+ ],
+ "ClassicCategory": [
+  {
+   "id": "Fake",
+   "value": -1,
+   "description": null
+  },
+  {
+   "id": "None",
+   "value": 0,
+   "description": null
+  },
+  {
+   "id": "BaseItemPool",
+   "value": 1,
+   "description": "Randomize the base set of items."
+  },
+  {
+   "id": "SongOfSoaring",
+   "value": 2,
+   "description": "Randomize the Song of Soaring."
+  },
+  {
+   "id": "DungeonItems",
+   "value": 3,
+   "description": "Enable keys, boss keys, maps and compasses being placed in the randomization pool."
+  },
+  {
+   "id": "ShopItems",
+   "value": 4,
+   "description": "Enable shop items being placed in the randomization pool."
+  },
+  {
+   "id": "CaughtBottleContents",
+   "value": 5,
+   "description": "Enable captured bottle contents being randomized."
+  },
+  {
+   "id": "CowMilk",
+   "value": 6,
+   "description": "Enable randomization of cow milk."
+  },
+  {
+   "id": "MoonItems",
+   "value": 7,
+   "description": "Enable moon items being placed in the randomization pool.\n\nIncludes the four Moon Trial Heart Pieces, Fierce Deity's Mask and the two Link Trial chests."
+  },
+  {
+   "id": "GreatFairyRewards",
+   "value": 8,
+   "description": "Enable great fairy rewards being placed in the randomization pool.\n\nIncludes Magic Power, Great Spin Attack, Extended Magic Power, Double Defense, Great Fairy's Sword and Great Fairy's Mask."
+  },
+  {
+   "id": "MundaneRewards",
+   "value": 9,
+   "description": "Enable randomization of mundane rewards. See Help > Manual (F1) > Shuffles for details."
+  },
+  {
+   "id": "SkulltulaTokens",
+   "value": 10,
+   "description": "Enable randomization of golden skulltula tokens. Tokens will not reset to 0 after Song of Time."
+  },
+  {
+   "id": "StrayFairies",
+   "value": 11,
+   "description": "Enable randomization of stray fairies. Stray fairies will not reset to 0 after Song of Time."
+  },
+  {
+   "id": "CrazyStartingItems",
+   "value": 12,
+   "description": "Enable randomization of starting Sword, Shield, and two Heart Containers."
+  },
+  {
+   "id": "EverythingElse",
+   "value": 13,
+   "description": "Enable miscellaneous items being placed in the randomization pool.\n\nAmong the miscellaneous items are:\nFreestanding heartpieces, overworld chests, (hidden) grotto chests, Tingle's maps and bank heartpiece."
+  },
+  {
+   "id": "GlitchesRequired",
+   "value": 14,
+   "description": "Enable randomization of locations that require glitches, such as the pre-clocktown deku nut chest and the out of bounds deku palace rupee."
+  },
+  {
+   "id": "FreestandingRupees",
+   "value": 15,
+   "description": "Randomize freestanding rupees."
+  },
+  {
+   "id": "FixedMinorItemDrops",
+   "value": 16,
+   "description": "Randomize fixed minor item drops."
+  },
+  {
+   "id": "HiddenRupees",
+   "value": 17,
+   "description": "Randomize invisible rupees and hit tags."
+  },
+  {
+   "id": "SoftSoil",
+   "value": 18,
+   "description": "Randomize items from soft soil."
+  },
+  {
+   "id": "BossRemains",
+   "value": 19,
+   "description": "Randomize the boss remains."
+  },
+  {
+   "id": "NotebookEntries",
+   "value": 20,
+   "description": "Randomize Bombers' Notebook entries."
+  },
+  {
+   "id": "Fairies",
+   "value": 21,
+   "description": "Randomize fairies summoned at Gossip Stones and free floating fairies."
+  },
+  {
+   "id": "Butterflies",
+   "value": 22,
+   "description": "Randomize fairies that transform from butterflies."
+  },
+  {
+   "id": "Frogs",
+   "value": 23,
+   "description": "Randomize the frog choir members."
+  },
+  {
+   "id": "RoyalWallet",
+   "value": 24,
+   "description": "Add the Royal Wallet (999 capacity) to the item pool."
+  },
+  {
+   "id": "OcarinaAndSongOfTime",
+   "value": 25,
+   "description": "Randomize the Ocarina of Time and the Song of Time."
+  }
+ ]
+}

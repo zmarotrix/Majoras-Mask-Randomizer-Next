@@ -1,0 +1,21 @@
+[package]
+name = "mmr-cli"
+description = "Command-line interface for the Majora's Mask Randomizer."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "mmr"
+path = "src/main.rs"
+
+[dependencies]
+mmr-data.workspace = true
+mmr-logic.workspace = true
+mmr-settings.workspace = true
+mmr-rom.workspace = true
+mmr-randomizer.workspace = true
+mmr-build.workspace = true
+serde_json.workspace = true
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"

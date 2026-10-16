@@ -1,0 +1,21 @@
+[package]
+name = "mmr-web"
+description = "The randomizer for the browser: a plain WebAssembly interface (JSON and bytes in and out)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+mmr-data.workspace = true
+mmr-logic.workspace = true
+mmr-settings.workspace = true
+mmr-rom.workspace = true
+mmr-randomizer.workspace = true
+mmr-build.workspace = true
+serde_json.workspace = true
+
+[dev-dependencies]
+sha2 = "0.10"
