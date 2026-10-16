@@ -9,6 +9,8 @@ your web browser.
 You need your own Majora's Mask (USA) ROM (`.z64`, `.n64` or `.v64`). It is
 never uploaded anywhere: in the browser version too, it stays on your device.
 
+<img width="1182" height="932" alt="image" src="https://github.com/user-attachments/assets/57587755-1348-433f-a225-d6c784517611" />
+
 ## What you get with each seed
 
 - **The randomized ROM**, or a small **patch** (`.mmrn`) others can apply to
